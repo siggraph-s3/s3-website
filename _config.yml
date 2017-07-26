@@ -23,7 +23,7 @@ permalink:          pretty
 
 port:               9002
 url: http://www.s3.siggraph.org # the base hostname & protocol for your site
-baseurl: "/jekyll"
+baseurl: "/s3-website"
 
 # exclude this stuff when building the static site
 exclude:            [
@@ -40,14 +40,14 @@ exclude:            [
 site_name:          S3
 site_description :  
 site_copyright:     Copyright (c) 2017
-site_url:           http://www.s3.siggraph.org/jekyll
+site_url:           http://www.s3.siggraph.org/s3-website
 site_email:         
 site_phone:         
 
 
 
 # Assets
-# We specify the directory for Jekyll so we can use @imports.
+# We specify the directory for s3-website so we can use @imports.
 sass:
   sass_dir:          ./assets/stylesheets
   style:            :compressed
@@ -69,15 +69,15 @@ collections:
 
 #Navigation
 menuitems:
-  - url: /jekyll/
+  - url: /s3-website/
     title: About
-  - url: /jekyll/programs/
+  - url: /s3-website/programs/
     title: Programs
-  - url: /jekyll/events/
+  - url: /s3-website/events/
     title: Events
-  - url: /jekyll/team/
+  - url: /s3-website/team/
     title: Team
-  - url: /jekyll/resources/
+  - url: /s3-website/resources/
     title: Resources
-  - url: /jekyll/contact/
+  - url: /s3-website/contact/
     title: Contact Us

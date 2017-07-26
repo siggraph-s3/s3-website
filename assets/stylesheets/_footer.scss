@@ -1,0 +1,20 @@
+// Colors
+$btn-color-1:#fff; //white
+
+.footer {
+	background-color: #607D8B;
+	color:#efefef;
+	padding-top:12vh;
+	padding-bottom:12vh;
+
+	a.expanded.button {
+		    background-color: transparent;
+    		border: 2px solid $btn-color-1;
+    		border-radius: 5px;
+
+    	&:hover, &:focus {
+    		background-color: $btn-color-1;
+    		color:#333;
+    	}
+	}
+}

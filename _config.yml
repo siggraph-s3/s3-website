@@ -1,0 +1,83 @@
+title:              SIGGRAPH Student Services
+# Versioning
+current_version: 1.5.0
+foundation_version: 6.0.0
+
+author:
+  name:             username
+  email:            user@domain.com
+  github:           username
+  twitter:          username
+
+# Dependencies
+markdown:           kramdown
+#Syntax Highlighter
+#highlighter:        pygments
+
+# Permalinks
+permalink:          pretty
+
+# Server
+# source:             ./source Git Pages overrides this variable
+# destination:        ./static
+
+port:               9002
+url: http://www.s3.siggraph.org # the base hostname & protocol for your site
+baseurl: "/jekyll"
+
+# exclude this stuff when building the static site
+exclude:            [
+                      '.gitignore',
+                      'README.md',
+                      'Gemfile',
+                      'Gemfile.lock',
+                    ]
+
+## CUSTOM VARS
+
+
+#ga_id:             ##-########-###
+site_name:          S3
+site_description :  
+site_copyright:     Copyright (c) 2017
+site_url:           http://www.s3.siggraph.org/jekyll
+site_email:         
+site_phone:         
+
+
+
+# Assets
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          ./assets/stylesheets
+  style:            :compressed
+
+# Collections 
+collections:
+  programs:
+    output: true
+  events:
+    output: true
+  team:
+    output: true
+ #  _   _     __      _______ _____       _______ _____ ____  _   _ 
+ # | \ | |   /\ \    / /_   _/ ____|   /w\|__   __|_   _/ __ \| \ | |
+ # |  \| |  /  \ \  / /  | || |  __   /  \  | |    | || |  | |  \| |
+ # | . ` | / /\ \ \/ /   | || | |_ | / /\ \ | |    | || |  | | . ` |
+ # | |\  |/ ____ \  /   _| || |__| |/ ____ \| |   _| || |__| | |\  |
+ # |_| \_/_/    \_\/   |_____\_____/_/    \_\_|  |_____\____/|_| \_|
+
+#Navigation
+menuitems:
+  - url: /jekyll/
+    title: About
+  - url: /jekyll/programs/
+    title: Programs
+  - url: /jekyll/events/
+    title: Events
+  - url: /jekyll/team/
+    title: Team
+  - url: /jekyll/resources/
+    title: Resources
+  - url: /jekyll/contact/
+    title: Contact Us

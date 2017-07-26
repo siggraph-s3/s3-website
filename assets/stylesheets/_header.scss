@@ -1,0 +1,207 @@
+// Helpers
+.dark {
+  background:#333333;
+}
+.center-align {
+  text-align: center;
+  margin: 0 auto;
+}
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+//Math
+.header-bg {
+  background-color: #ccc;
+}
+$header-height: 90vh;
+$main-accent-color:#ff5722;
+.top-bar{
+  @media #{$small-only}{
+    width: 100% !important;
+  }
+  background: transparent;
+  width: 100%;
+  #responsive-menu{
+    @media #{$small-only}{
+      width: 90%;
+      padding: 1rem;
+      background: #333333;
+      // Z-INDEX FIX
+      right: 5% !important;
+      position: absolute !important;
+      top: 100px !important;
+      z-index: 100 !important;
+      .top-bar-right{
+        width: 100%;
+        .menu{
+          display: block !important;
+        }
+      }
+    }
+  }
+  .top-bar-title{
+
+    @media #{$small-only}{
+      width: 100% !important;
+    }
+
+    a.shield{
+      img{
+        max-width: rem-calc(56);
+        height: rem-calc(61.813);
+        @media #{$medium-only}{
+
+        }
+      }
+    }
+    a.masthead{
+      @media #{$small-only}{
+        display: block;
+        float: left;
+      }
+      img{
+        max-width: 8rem;
+        height: 3rem;
+        @media #{$medium-only}{
+
+        }
+      }
+    }
+    span.menu-button {
+      @media #{$small-only}{
+        color: $white;
+        display: block;
+        float: right;
+      }
+    }
+
+      @media #{$small-only} {
+        // margin: 0 auto;
+      }
+    }
+    .nav-container{
+      @media #{$small-only}, #{$medium-only} {
+        // margin: 0 auto;
+        padding-top: 1rem;
+      }
+    }
+
+  ul{
+    background: transparent;
+  }
+  .menu>li>a{
+    color: $white;
+  }
+  li.apply-topbar-button a {
+    background: $main-accent-color;
+    @include border-radius(3px);
+    font-weight: 700;
+  }
+
+}
+
+
+svg {
+  //mix-blend-mode:multiply;
+  // opacity:0.7;
+  width:45%;
+  text-align:right;
+  margin-right:2rem;
+  
+  .a {
+    fill:none;
+    stroke:$black;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+  }
+}  
+.isolate {
+  isolation:isolate;
+} /* without isolation, the background color will be taken into account */
+
+.svg-header {
+  text-align:center;
+  background: linear-gradient(33deg, rgba(255, 255, 255, 0.95), rgba(0,0,0,0.25)), url('../../assets/img/dmd-website-banner.jpg') center center/cover no-repeat;
+  background-size:cover;
+  background-position:bottom;
+//   background-color: $blue;
+// background-blend-mode: luminosity;
+
+h1 {
+  font-family: 'Exo 2', sans-serif;
+  text-align:left;
+  font-weight: 600;
+  line-height:2.8rem;
+  @media #{$small-only} {
+    line-height: 1;
+  }
+  span {
+    display:table;
+  }
+}
+
+}
+
+.header-content {
+  padding-top:20vh;
+  padding-bottom:20vh;
+}
+
+// flex stuff
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  // height:$header-height;
+  // margin-top: 20vh;
+  resize: vertical;
+  .right-justify {
+    align-self:flex-end;
+  }
+}
+// End flex stuff
+
+.apply-button-row{
+  margin-top: 2rem;
+  
+}
+
+
+// PROGRAM HEADER
+.programs-header {
+  text-align: center;
+  min-height: 56vh;
+  background: linear-gradient(33deg, rgba(132, 211, 255, 0.25), rgba(0, 0, 0, 0.5)), 
+  url('../../assets/img/program-header.jpg') center center/cover no-repeat;
+  // background-size: cover;
+  // background-position: center;
+}
+
+// ABOUT HEADER
+
+.about-header {
+  text-align: center;
+  min-height: 56vh;
+  background: linear-gradient(33deg, rgba(132, 211, 255, 0.25), rgba(0, 0, 0, 0.50)), 
+  url('../../assets/img/about-header.jpg') center center/cover no-repeat;
+  // background-size: cover;
+  // background-position: center;
+}
+
+.community-header {
+  text-align: center;
+  min-height: 56vh;
+  background: linear-gradient(33deg, rgba(132, 211, 255, 0.25), rgba(0, 0, 0, 0.50)), 
+  url('../../assets/img/community-header.jpg') center center/cover no-repeat;
+  // background-size: cover;
+  // background-position: center;
+}
+
+

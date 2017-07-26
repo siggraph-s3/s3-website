@@ -1,0 +1,8 @@
+---
+layout: collection-item
+title: Michael Collins
+member-order: 5
+role: Communications
+img: michaelcollins.jpg
+---
+Michael Collins in an Assistant Professor at the School of Visual Arts in the College of Arts and Architecture at Penn State University, where he received his M.F.A. in New Media Art. He has been teaching 3D animation and design since 2011 and has been innovating online learning technology for almost a decade. His work spans a variety of disciplines including digital fabrication, 3D animation, and open-source software design. He is the UX Design Lead on the ELMS Learning Network project which aims to bring powerful open-source online learning technology to teachers and learners around the world. Michael was a long-time SIGGRAPH Student Volunteer and served on a variety of conference sub-committees since 2006. He is an avid conference presenter, world traveler, and latte drinker.

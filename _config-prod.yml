@@ -1,0 +1,35 @@
+url: dmd.psu.edu # the base hostname & protocol for your site
+baseurl: ""
+
+#ga_id:             ##-########-###
+site_name:          DMD
+site_description :  
+site_copyright:     Copyright (c) 2016
+site_url:           dmd.psu.edu
+site_email:         dmd@psu.edu
+site_phone:         
+
+# Collections 
+collections:
+  courses:
+  pathways:
+  polygons:
+    output: true
+  faculty:
+  sorts:
+# Assets
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          assets/stylesheets
+  style:            :compressed
+
+#Navigation
+menuitems:
+  - url: /
+    title: Home
+  - url: /program/
+    title: Program
+  - url: /about/
+    title: About
+  - url: /community/
+    title: Community

@@ -1,0 +1,47 @@
+//
+// Foundation-Jekyll - Style Variables
+// Author: @aaronkwhite
+//
+
+
+// FOUNDATION OVERRIDES
+
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+// 1. Global
+// ---------
+
+$black:#000;
+$soft-grey:#999;
+$dark-grey:#111;
+$blue: #1e407c;
+$light-blue: #1e587d;
+$red: #e33232;
+$green:#31bf9c;
+$orange:#F7941E;
+
+$foundation-palette: (
+  primary: #1e407c,
+  secondary: #777,
+  success: #3adb76,
+  warning: #ffae00,
+  alert: #ec5840,
+);
+// $light-gray: #e6e6e6;
+// $medium-gray: #cacaca;
+// $dark-gray: #8a8a8a;
+// $body-background: $white;
+// $body-font-color: $black;
+$body-font-family: 'Lato', Helvetica, Roboto, Arial, sans-serif;
+
+
+
+// Colors
+$black:                     #000000;
+$white:                     #ffffff;

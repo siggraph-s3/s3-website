@@ -1,0 +1,28 @@
+---
+layout: collection-list
+title: Team
+enable-header: true
+---
+
+<!-- END HEADER -->
+<!-- PATHWAYS -->
+<div class="row head-spacing foot-spacing">
+    <div class="small-12 columns">
+        {% assign items = site.team | sort: 'member-order'%}
+        {% for member in items %}
+        <div class="row head-spacing foot-spacing">
+            
+            <div class="column small-12 medium-4 center">
+	            <a  class="center-align profile-link" href="{{ member.url | prepend: site.baseurl }}"><img class="profile-img" src="{{site.baseurl}}/assets/img/team/{{ member.img }}" /></a>      
+            </div>
+            <div class="column small-12 medium-8">
+                <h3 class="show-for-medium"><a href="{{ member.url | prepend: site.baseurl }}"> {{ member.title }}</a></h3>
+                <h3 class="show-for-small-only center-align"><a href="{{ member.url | prepend: site.baseurl }}"> {{ member.title }}</a></h3>
+                <p class="member-role">{{ member.role }}</p>
+                <p> {{ member.content }}</p>
+            </div>
+        </div>
+        <hr>
+        {% endfor %}
+    </div>
+</div>

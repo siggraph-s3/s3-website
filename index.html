@@ -1,0 +1,51 @@
+---
+layout: default
+title: SIGGRAPH S3 Test Site
+program_heading: S3 Info
+future_heading: Here's what we can do for you.
+---
+
+<!-- Learn about this code on MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode -->
+<div class="svg-header isolate">
+  <!-- TOP BAR -->
+  
+  {% include top-bar.html %}
+  <!-- END TOP BAR -->
+  <!-- PROGRAM MARK -->
+  <div class="row header-content">
+      <div class="small-6 small-push-6 columns center">
+        <h1><span>SIGGRAPH</span> <span>Student</span> <span>Services</span></h1>
+      </div>
+      <div class="small-6 small-pull-6 center columns">
+        LOGO
+      </div>
+  </div>
+  <!-- END ROW -->
+</div>
+<!-- END SVG HEADER -->
+
+<!-- REQUEST ROW -->
+<div class="graph-texture">
+  <div class="row request-callout" id="program">
+    <div class="small-12 medium-6 large-7 columns">
+      <h2 class="callout-heading">{{ page.program_heading }}</h2>
+      <blockquote>SIGGRAPH Student Services, colloquially known as S3, is an ACM SIGGRAPH committee whose primary mission is to bring additional value to the student members of SIGGRAPH.</blockquote>
+        <p>Established in 2007, the SIGGRAPH Student Services, colloquially known as S3 is an ACM SIGGRAPH committee whose primary mission is to bring additional value to the student members of SIGGRAPH. The Student Services Committee also provides continuity and institutional memory for the student volunteer and intern programs at SIGGRAPH and SIGGRAPH Asia and collaborates with other SIGGRAPH entities (conferences, committees, etc.) on issues that affect student members. S3 currently maintains and is in the process of expanding three key programs - resume and reel reviews, mentoring for ACM SIGGRAPH student members known as Mentor Me, and a series of webinars and talks.</p>
+    </div>
+  </div>
+</div> 
+<div class="paths-callout" id="future">
+  <div class="row">
+    <div class="small-12 columns">
+      <h2 class="callout-heading">{{ page.future_heading }}</h2>
+    </div>
+    <div class="small-12 medium-6 large-5 columns">
+      <p>SIGGRAPH S3 Information.</p>
+    </div>
+  
+    <div class="small-12 columns design-your-path">
+      <h3>Register today</h3>
+      <a href="{{ site.baseurl }}/programs" class="button">See our programs <i class="fa fa-random" aria-hidden="true"></i></a>
+    </div>
+</div>
+</div>

@@ -2,6 +2,9 @@
 .dark {
   background:#333333;
 }
+.white {
+  background: #fff;
+}
 .center-align {
   text-align: center;
   margin: 0 auto;
@@ -74,9 +77,13 @@ $main-accent-color:#ff5722;
         }
       }
     }
+    .menu-icon::after {
+      box-shadow: 0 7px 0 #333, 0 14px 0 #333;
+      background: #333;
+    }
     span.menu-button {
       @media #{$small-only}{
-        color: $white;
+        color: $black;
         display: block;
         float: right;
       }
@@ -97,7 +104,7 @@ $main-accent-color:#ff5722;
     background: transparent;
   }
   .menu>li>a{
-    color: $white;
+    color: $black;
   }
   li.apply-topbar-button a {
     background: $main-accent-color;
@@ -128,7 +135,8 @@ svg {
 
 .svg-header {
   text-align:center;
-  background: linear-gradient(33deg, rgba(255, 255, 255, 0.95), rgba(0,0,0,0.25)), url('../../assets/img/dmd-website-banner.jpg') center center/cover no-repeat;
+  // background: linear-gradient(33deg, rgba(255, 255, 255, 0.95), rgba(0,0,0,0.25)), url('../../assets/img/dmd-website-banner.jpg') center center/cover no-repeat;
+  background: linear-gradient(33deg, rgba(255, 255, 255, 0.95), rgba(0,0,0,0.25));
   background-size:cover;
   background-position:bottom;
 //   background-color: $blue;
@@ -179,7 +187,16 @@ h1 {
   text-align: center;
   min-height: 56vh;
   background: linear-gradient(33deg, rgba(132, 211, 255, 0.25), rgba(0, 0, 0, 0.5)), 
-  url('../../assets/img/program-header.jpg') center center/cover no-repeat;
+  url('../../assets/img/programs-header.jpg') center center/cover no-repeat;
+  // background-size: cover;
+  // background-position: center;
+}
+
+.events-header {
+  text-align: center;
+  min-height: 56vh;
+  background: linear-gradient(33deg, rgba(132, 211, 255, 0.25), rgba(0, 0, 0, 0.5)), 
+  url('../../assets/img/events-header.jpg') center center/cover no-repeat;
   // background-size: cover;
   // background-position: center;
 }
@@ -193,6 +210,12 @@ h1 {
   url('../../assets/img/about-header.jpg') center center/cover no-repeat;
   // background-size: cover;
   // background-position: center;
+}
+.contact-us {
+  text-align: center;
+  min-height: 56vh;
+  background: linear-gradient(33deg, rgba(132, 211, 255, 0.25), rgba(0, 0, 0, 0.50)), 
+  url('../../assets/img/contact-us-banner.jpg') center center/cover no-repeat;
 }
 
 .community-header {

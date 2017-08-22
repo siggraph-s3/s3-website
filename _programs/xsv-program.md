@@ -1,12 +1,13 @@
 ---
 layout: collection-item
 title: XSV Program
+enable-header: true
 ---
 Are you no longer qualified to be a SIGGRAPH Student Volunteer? Want to become more involved with ACM SIGGRAPH and the computer graphics community? Thinking about someday applying to be on an ACM SIGGRAPH committee or SIGGRAPH conference subcommittee? If you answered “Yes!” to these questions, then the Ex-Student Volunteer (XSV) Program is for YOU! This program is a unique opportunity to get a behind-the-scenes perspective on everything involved with an ACM SIGGRAPH committee or a specific SIGGRAPH 2017 conference program.
 
 As an XSV, you will contribute to a specific project to enhance the mission of an ACM SIGGRAPH committee or support a specific conference program in a role designed just for you. You will be mentored by an ACM SIGGRAPH or SIGGRAPH 2017 Committee member and have the opportunity to build your SIGGRAPH network by meeting and learning from the professionals, creators, educators, and visionaries who make SIGGRAPH possible. Former Student Volunteers who demonstrate leadership and a passion for volunteering for SIGGRAPH are encouraged to apply!
 
-This experience is available to those who are no longer eligible for the SIGGRAPH 2017 conference as a Student Volunteer or Team Leader and are at least 18 years old. High school, undergraduate, or graduate students enrolled full time for at least one semester during the 2016-2017 academic year (Summer 2016 – Spring 2017) are NOT eligible. Applicants also must have volunteered for ACM SIGGRAPH or the SIGGRAPH conference for at least two years.
+This experience is available to those who are no longer eligible for the SIGGRAPH 2017 conference as a Student Volunteer or Team Leader and are at least 18 years old. High school, undergraduate, or graduate students enrolled full time for at least one semester during the 2016-2017 academic year (Summer 2016 – Spring 2017) are NOT eligible. Applicants also must have volunteered for ACM SIGGRAPH or the SIGGRAPH conference for at least one years.
 
 Don’t miss out on the opportunity to expand your knowledge of what goes into putting this awesome conference together each year and get involved with the SIGGRPH community!
 

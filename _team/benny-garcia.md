@@ -1,6 +1,6 @@
 ---
 layout: collection-item
-title: Benny Garcia
+name: Benny Garcia
 member-order: 4
 role: SIGGRAPH Asia Coordinator
 img: bennygarcia.jpg

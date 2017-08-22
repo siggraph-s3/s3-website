@@ -1,7 +1,7 @@
 //
 // Foundation-Jekyll - Custom Theme Styles
 //
-$main-accent-color:#ff5722;
+$main-accent-color:#A80532;
 $heading-color:#333333;
 // input.button, .top-bar li.apply-topbar-button a, {
 // 	background-color:$main-accent-color;
@@ -10,14 +10,17 @@ $heading-color:#333333;
 
 h1, h2, h3, h4, h5, h6{
 	font-weight: 500;
-	font-family: 'Roboto Mono', Helvetica, Roboto, Arial, sans-serif;
+	// font-family: 'Roboto Mono', Helvetica, Roboto, Arial, sans-serif;
+	font-family: "Oswald","Impact","Tahoma",sans-serif;
 	color:$heading-color;
+	text-transform: uppercase;
+	color:#4683BA;
 }
 p {
 	font-weight: 300;
 	a {
 		font-weight: 500;
-		color: #ff5722;
+		color: #A80532;
 		text-decoration: underline;
 	}
 }
@@ -330,24 +333,7 @@ svg#lattice-paths {
 }
 
 // FACULTY CALLOUT
-.row.faculty {
-    margin-bottom: 2rem;
-    img{
-			width: 100%;
-			margin-bottom: 2rem;
-			-webkit-filter: grayscale(1);
-  			filter: grayscale(1);
-		}
-		h3{
-			text-align: left;
-			font-size: 2rem;
-		}
-		.faculty-info {
-			border-bottom: 1px solid;
-    		padding-bottom: 2rem;
-    		font-weight: 500;
-		}
-}
+
 
 .faculty-callout{
 	padding: 3rem 1rem;
@@ -441,13 +427,6 @@ svg#lattice-paths {
 				}
 			}
 		}
-	}
-}
-
-#meet-panel{
-	.thumbnail{
-		max-width: rem-calc(297);
-		width: 100%;
 	}
 }
 
@@ -554,17 +533,17 @@ li#courseFilter {
 		display: flex;
 	}
 	a.current {
-    	background: #ff5722;
+    	background: #A80532;
     	color: #fff;
 	}
 	a {
 	    background: #fff;
-	    color:#ff5722;
+	    color:#A80532;
 	    font-size: 0.75rem;
 	    padding: 1rem 2rem;
 	    font-weight: 600;
-	    border-bottom: 2px solid #ff5722;
-	    border-top: 2px solid #ff5722;
+	    border-bottom: 2px solid #A80532;
+	    border-top: 2px solid #A80532;
 	    @media #{$small-only} {
 			padding: 1rem 0.75rem;
 			justify-content: center;
@@ -575,13 +554,13 @@ li#courseFilter {
 	    	border-radius: 0px 4px 4px 0px;
 	    	-webkit-border-radius: 0px 4px 4px 0px; 
 				-moz-border-radius: 0px 4px 4px 0px; 
-				border-right: 2px solid #ff5722;
+				border-right: 2px solid #A80532;
 	    }
 	    &:first-of-type{
 	    	border-radius: 4px 0px 0px 4px;
 	    	-webkit-border-radius: 4px 0px 0px 4px; 
 				-moz-border-radius: 4px 0px 0px 4px; 
-				border-left: 2px solid #ff5722;
+				border-left: 2px solid #A80532;
 	    }
 	}
 }

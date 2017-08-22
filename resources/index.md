@@ -1,6 +1,7 @@
 ---
-layout: collection-list
+layout: page
 title: Resources
+tagline: resources tagline
 enable-header: true
 ---
 ## FAQ

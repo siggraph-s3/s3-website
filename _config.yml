@@ -3,11 +3,11 @@ title:              SIGGRAPH Student Services
 current_version: 1.5.0
 foundation_version: 6.0.0
 
-author:
-  name:             username
-  email:            user@domain.com
-  github:           username
-  twitter:          username
+
+social:
+  email: s3@siggraph.org
+  facebook: pages/S3-ACM-SIGGRAPH-Student-Services/113401685341913
+  twitter: siggraphs3
 
 # Dependencies
 markdown:           kramdown

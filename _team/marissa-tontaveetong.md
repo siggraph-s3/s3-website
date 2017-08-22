@@ -1,6 +1,6 @@
 ---
 layout: collection-item
-title: Marissa Tontaveetong
+name: Marissa Tontaveetong
 member-order: 2
 role: S3R3 Coordinator
 img: gingertontaveetong.jpg

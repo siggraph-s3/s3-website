@@ -1,6 +1,6 @@
 ---
 layout: collection-item
-title: Corinne Price
+name: Corinne Price
 member-order: 0
 role: chair
 img: corinneprice.jpg

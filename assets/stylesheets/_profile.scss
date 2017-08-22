@@ -9,3 +9,27 @@ p.member-role {
 	font-weight: 400;
 	text-transform: uppercase;
 }
+.row.team-member {
+    margin-bottom: 5rem;
+    img{
+			width: 100%;
+			margin-bottom: 2rem;
+			-webkit-filter: grayscale(1);
+  			filter: grayscale(1);
+		}
+		h3{
+			text-align: left;
+			font-size: 2rem;
+		}
+		.member-info {
+			border-bottom: 1px solid;
+    		padding-bottom: 2rem;
+    		font-weight: 500;
+		}
+}
+#team-panel{
+	.thumbnail{
+		max-width: rem-calc(297);
+		width: 100%;
+	}
+}

@@ -2,10 +2,14 @@
 $btn-color-1:#fff; //white
 
 .footer {
-	background-color: #607D8B;
+	background-color: #efefef;
 	color:#efefef;
 	padding-top:12vh;
 	padding-bottom:12vh;
+	p a {
+		text-align: center;
+		color:#333;
+	}
 
 	a.expanded.button {
 		    background-color: transparent;

@@ -1,14 +1,23 @@
 ---
 layout: default
 ---
-<div class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
-
-  <article class="post-content">
-    {{ content }}
-  </article>
-
+{% if page.enable-header == true %}
+<div class="{{ page.title | slugify }}-header header-bg">
+    <!-- TOP BAR -->
+    {% include top-bar.html %}
+    <!-- END TOP BAR -->
+    <div class="row quote-row">
+        <div class="small-12 columns">
+            <h1 class="secondary-page-heading">{{ page.title }}</h1>
+        </div>
+        <div class="small-12 columns">
+            <h2 class="quote">{{page.tagline}}</h2>
+        </div>
+    </div>
+</div>
+{% endif %}
+<div class="row head-spacing foot-spacing">
+	<div class="small-12 medium-10 medium-push-1 large-8 large-push-2 columns">
+      {{ content }}
+    </div>
 </div>

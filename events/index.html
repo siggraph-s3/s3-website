@@ -2,8 +2,9 @@
 layout: collection-list
 title: Events
 enable-header: true
+enable-banner: true
 ---
-		{% assign items = site.events %}
+		{% assign items = site.events | reverse %}
 		{% for event in items %}
 		<div class="row head-spacing foot-spacing">
 		    
@@ -14,7 +15,7 @@ enable-header: true
 		        <h3 class="show-for-medium"><a href="{{ event.url | prepend: site.baseurl }}"> {{ event.title }}</a></h3>
 		        <h3 class="show-for-small-only center-align"><a href="{{ event.url | prepend: site.baseurl }}"> {{ event.title }}</a></h3>
 		        <p> {{ event.content | truncate: 140 }}</p>
-                <a href="{{ program.url | prepend: site.baseurl }}"> Read More</a>
+                <a href="{{ event.url | prepend: site.baseurl }}"> Read More</a>
 		    </div>
 		</div>
 		<hr>

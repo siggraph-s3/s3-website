@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Resources
-tagline: resources tagline
 enable-header: true
+enable-banner: true
 ---
 ## FAQ
 
@@ -16,11 +16,11 @@ Great question! You can obtain benefit from S3 by becoming an ACM SIGGRAPH Stude
 
 ### How do I get involved with the SIGGRAPH Student Volunteer Program?
 
-Apply for the SIGGRAPH Student Volunteer Program here.
+Apply for the SIGGRAPH Student Volunteer Program [here](http://s{{ 'now' | date: "%Y" }}.siggraph.org/student-volunteers).
 
 ### I am no longer a student but would like to get involved. How do I do so?
 
-We are always looking for speakers, reviewers, and mentors. If you would like more information, please email us at s3-committee@siggraph.org.
+We are always looking for speakers, reviewers, and mentors. If you would like more information, please email us at s3@siggraph.org.
 
 ## USEFUL LINKS
 
@@ -31,7 +31,5 @@ We are always looking for speakers, reviewers, and mentors. If you would like mo
 [Game Design Portfolio Advice \(6 part series\)](http://www.lizengland.com/blog/2014/05/from-student-to-designer-part-1/)
 
 ### General Resources:
-
-http://www.schoolcraft.edu/a-z-index/learning-support-services/library/resources/webliography/25#.VXCeI89VhBd
 
 [Information on Computer Science Programs from Affordable Colleges Foundation](http://www.affordablecollegesonline.org/online-colleges/computer-science-programs/)

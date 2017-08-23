@@ -2,19 +2,26 @@
 // Foundation-Jekyll - Custom Theme Styles
 //
 $main-accent-color:#A80532;
-$heading-color:#333333;
+$heading-color:#fff;
 // input.button, .top-bar li.apply-topbar-button a, {
 // 	background-color:$main-accent-color;
 // }
 
 
 h1, h2, h3, h4, h5, h6{
-	font-weight: 500;
+	font-weight: 100;
 	// font-family: 'Roboto Mono', Helvetica, Roboto, Arial, sans-serif;
 	font-family: "Oswald","Impact","Tahoma",sans-serif;
 	color:$heading-color;
 	text-transform: uppercase;
 	color:#4683BA;
+	a {
+		text-decoration: underline;
+	}
+}
+h3 {
+	text-transform: none;
+	color: #333;
 }
 p {
 	font-weight: 300;
@@ -34,6 +41,9 @@ h1{
 	@media #{$medium-only} {
 		font-size: 2.25rem;
 	}
+}
+h1 {
+	
 }
 h2{
 	@media #{$medium-only} {
@@ -122,7 +132,12 @@ span.highlight{
 .top-bar .menu>li>a {
   text-transform: uppercase;
 }
-
+.menu .active>a {
+    color: #fff !important;
+    background: #A80532;
+    border-radius: 6px;
+    margin-right:0.25rem;
+}
 // Headings
 .callout-heading{
 	font-weight: 500;
@@ -360,22 +375,46 @@ svg#lattice-paths {
 
 
 // SECONDARY PAGES
-.quote-row h1{
-	@media #{$small-only} {
-		margin-top: 1rem;
-	}
-}
+// .quote-row h1{
+// 	@media #{$small-only} {
+// 		margin-top: 1rem;
+// 	}
+// }
 .secondary-page-heading,
 .quote{
 	text-align: center;
 	color: $white;
 
 }
+.button {
+	background-color:#A80532;
+}
+.center-align {
+	text-align: center;
+}
+.right-align {
+	text-align: right;
+}
 .secondary-page-heading{
 	margin-top: 3.5rem;
-	margin-bottom: 1.5rem;
+	margin-bottom: 3.5rem;
+	font-size: 5rem;
+    font-family: "Source code pro", monospace;
+    font-weight: 400;
+    line-height: 5rem;
+    padding: 0 3rem;
+	@media #{$medium-only} {
+		font-size: 3rem;
+		line-height: 3rem;
+		margin-top: 3rem;
+		margin-bottom: 3rem;
+		padding: 0 2rem;
+	}
 	@media #{$small-only} {
-		margin-bottom: 0.5rem;
+		font-size: 2rem;
+		line-height: 2rem;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
 	}
 }
 .quote{

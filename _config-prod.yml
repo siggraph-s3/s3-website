@@ -1,35 +1,81 @@
-url: dmd.psu.edu # the base hostname & protocol for your site
+title:              SIGGRAPH Student Services
+# Versioning
+current_version: 1.5.0
+foundation_version: 6.0.0
+
+
+social:
+  email: s3@siggraph.org
+  facebook: pages/S3-ACM-SIGGRAPH-Student-Services/113401685341913
+  twitter: siggraphs3
+
+# Dependencies
+markdown:           kramdown
+#Syntax Highlighter
+#highlighter:        pygments
+
+# Permalinks
+permalink:          pretty
+
+# Server
+# source:             ./source Git Pages overrides this variable
+# destination:        ./static
+
+port:               9002
+url: http://www.s3.siggraph.org # the base hostname & protocol for your site
 baseurl: ""
 
+# exclude this stuff when building the static site
+exclude:            [
+                      '.gitignore',
+                      'README.md',
+                      'Gemfile',
+                      'Gemfile.lock',
+                    ]
+
+## CUSTOM VARS
+
+
 #ga_id:             ##-########-###
-site_name:          DMD
+site_name:          S3
 site_description :  
-site_copyright:     Copyright (c) 2016
-site_url:           dmd.psu.edu
-site_email:         dmd@psu.edu
+site_copyright:     Copyright (c) 2017
+site_url:           http://www.s3.siggraph.org/
+site_email:         
 site_phone:         
+
+
+
+# Assets
+# We specify the directory for s3-website so we can use @imports.
+sass:
+  sass_dir:          ./assets/stylesheets
+  style:            :compressed
 
 # Collections 
 collections:
-  courses:
-  pathways:
-  polygons:
+  programs:
     output: true
-  faculty:
-  sorts:
-# Assets
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          assets/stylesheets
-  style:            :compressed
+  events:
+    output: true
+  team:
+    output: true
+ #  _   _     __      _______ _____       _______ _____ ____  _   _ 
+ # | \ | |   /\ \    / /_   _/ ____|   /w\|__   __|_   _/ __ \| \ | |
+ # |  \| |  /  \ \  / /  | || |  __   /  \  | |    | || |  | |  \| |
+ # | . ` | / /\ \ \/ /   | || | |_ | / /\ \ | |    | || |  | | . ` |
+ # | |\  |/ ____ \  /   _| || |__| |/ ____ \| |   _| || |__| | |\  |
+ # |_| \_/_/    \_\/   |_____\_____/_/    \_\_|  |_____\____/|_| \_|
 
 #Navigation
 menuitems:
   - url: /
-    title: Home
-  - url: /program/
-    title: Program
-  - url: /about/
     title: About
-  - url: /community/
-    title: Community
+  - url: /programs/
+    title: Programs
+  - url: /events/
+    title: Events
+  - url: /team/
+    title: Team
+  - url: /resources/
+    title: Resources

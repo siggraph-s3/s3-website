@@ -14,6 +14,7 @@ program-duration: 8 January – 31 August 2018
 siggraph-dates: 12-16 August
 arrival-date: Thursday, 9 August
 departure-date: 16 August
+city: Vancouver
 venue: Vancouver Convention Center
 application-pairing-date: 8 January 2018
 ---
@@ -39,7 +40,7 @@ Applicants must no longer be eligible for the SIGGRAPH {{page.siggraph-year}} co
 
 ### Experience
 
-Applicants must have volunteered for ACM SIGGRAPH or the SIGGRAPH conference for at least two years.
+Applicants must have volunteered for ACM SIGGRAPH or the SIGGRAPH conference for at least one year.
 
 ### Deadlines & Important Dates
 
@@ -96,7 +97,7 @@ Be prepared to handle expenses including, but not limited to:
 
 - Meals
 - Parking (if you drive to the conference)
-- Travel to and from Anaheim
+- Travel to and from {{page.city}}
 - Hotel and other lodging expenses*
 
 _*S3 cannot guarantee any financial assistance, but are willing to work with XSVs to help secure lodging._

@@ -8,6 +8,6 @@ To develop locally: ```jekyll serve```
 Follow instructions in terminal
 
 ## Production deployment
-To build for production: ```jekyll build --config=_config.yml,_config-prod.yml```
+To build for production: ```bundle exec jekyll build --config=_config.yml,_config-prod.yml```
 
 Note: ```jekyll serve``` fails to include both config files.

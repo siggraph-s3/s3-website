@@ -1,0 +1,25 @@
+---
+layout: default
+---
+{% if page.enable-header == true %}
+<div class="{{ page.title | slugify }}-header header-bg">
+    <!-- TOP BAR -->
+    {% include top-bar.html %}
+    <!-- END TOP BAR -->
+    {% if page.enable-banner == true %}
+    <div class="row quote-row">
+        <div class="small-12 columns">
+            <h1 class="secondary-page-heading">{{ page.title }}</h1>
+        </div>
+        <div class="small-12 columns">
+            <h2 class="quote">{{page.tagline}}</h2>
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% endif %}
+<div class="row head-spacing foot-spacing">
+	<div class="small-12 medium-10 medium-push-1 large-8 large-push-2 columns">
+      {{ content }}
+    </div>
+</div>

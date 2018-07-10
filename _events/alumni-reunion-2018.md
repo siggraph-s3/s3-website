@@ -14,4 +14,8 @@ TBD
 
 **Details:**
 
-TBD
+Small bites
+
+Cash bar
+
+18+ to attend

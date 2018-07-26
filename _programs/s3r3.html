@@ -1,0 +1,30 @@
+---
+layout: collection-item
+title: S3 Resume and Reel Review (S3R3)
+enable-header: true
+reviewer-signups: true
+student-signup-form: https://airtable.com/shrzdPESZZfEMpmgD
+reviewer-signup-form: https://airtable.com/shrmePsR34FmJs72N
+close-date: April 16th, 2018
+---
+<p>S3’s flagship program is their resume and reel review offerings colloquially known as S3R3. S3 understands that resumes and reels are a constant source of confusion and frustration for students and new graduates. As such, S3R3 aims to remove some of the guesswork by providing professional advice and opinions to ACM SIGGRAPH student members. Students are matched to industry professionals based on their desired work field and job skills and provide the resume and/or reel for review and expert advice. S3R3 is offered on-site during both the SIGGRAPH and SIGGRAPH Asia conferences, as well as being offered virtually during the year.</p>
+
+<!-- tabs -->
+<div class="row secondary-tabs-row">
+    <div class="small-9 medium-8 large-6 small-centered columns">
+      <ul class="tabs" data-tabs id="about-tabs">
+        <li class="tabs-title tabs-first is-active"><a href="#students-panel">Students</a></li>
+        <li class="tabs-title tabs-second"><a href="#reviewers-panel" aria-selected="true">Reviewers</a></li>
+      </ul>
+    </div>
+</div>
+<div class="row head-spacing foot-spacing">
+  <div class="tabs-content small-12  large-push-1 large-10 columns" data-tabs-content="about-tabs">
+    <div class="tabs-panel is-active" id="students-panel">
+      {% include s3r3-student.html %}
+    </div>
+    <div class="tabs-panel" id="reviewers-panel">
+      {% include s3r3-reviewer.html %}
+    </div>
+  </div>
+</div>

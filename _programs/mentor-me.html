@@ -5,6 +5,7 @@ enable-header: true
 enable-banner: false
 mentor-airtable: shrtoBuvOZPuaCh8Q
 student-airtable: shriWuvxYVnlCgKgs
+mentorme-tabs: false
 ---
 <p>MentorMe aims to match students ACM Student Members and Student Chapters’ members with
   industry professionals that have agreed to give their time to offer guidance and insight into their chosen
@@ -17,27 +18,12 @@ student-airtable: shriWuvxYVnlCgKgs
   professional discussions. All meeting requests are coordinated directly between mentors and mentees.
   We hope that mentors and mentees can meet at least one or two times per month for approximately 1
   hour total per month.</p>
+  <hr>
   <p>The MentorMe program is currently conducting is Summer-Fall cohort. The next cohort will open in
   Spring 2019.</p>
 <!-- <a class="button expand" href="https://docs.google.com/forms/d/e/1FAIpQLSd7_lLJ_oBiFILQej85A554EhBLcSwDb65L5zPcKU3Kn4OGEw/viewform">Student Application Form</a>
 <a class="button expand" href="https://docs.google.com/forms/d/e/1FAIpQLSf4dVnUNb8CLknIPc2c3MWIiILD-lbc1k8OEKWx-fchhu7V1w/viewform">Mentor Application Form</a> -->
-<hr>
-<!-- tabs -->
-<div class="row secondary-tabs-row">
-    <div class="small-9 medium-8 large-6 small-centered columns">
-      <ul class="tabs" data-tabs id="about-tabs">
-        <li class="tabs-title tabs-first is-active"><a href="#students-panel">Students</a></li>
-        <li class="tabs-title tabs-second"><a href="#mentors-panel" aria-selected="true">Mentors</a></li>
-      </ul>
-    </div>
-</div>
-<div class="row head-spacing foot-spacing">
-  <div class="tabs-content small-12  large-push-1 large-10 columns" data-tabs-content="about-tabs">
-    <div class="tabs-panel is-active" id="students-panel">
-      {% include mentorme-student.html %}
-    </div>
-    <div class="tabs-panel" id="mentors-panel">
-      {% include mentorme-mentor.html %}
-    </div>
-  </div>
-</div>
+
+{% if page.mentorme-tabs == true %}
+  {% include mentorme-tabs.html %}
+{% endif%}

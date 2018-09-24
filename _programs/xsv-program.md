@@ -19,15 +19,15 @@ venue: Los Angeles Convention Center
 application-pairing-date: 8 January 2018
 mentorship-agreement-link: /assets/downloads/xsv-mentoring-agreement-2019.docx
 ---
-Are you no longer qualified to be a SIGGRAPH Student Volunteer? Want to become more involved with ACM SIGGRAPH and the computer graphics community? Thinking about someday applying to be on an ACM SIGGRAPH committee or SIGGRAPH conference subcommittee? If you answered “Yes!” to these questions, then the Ex-Student Volunteer (XSV) Program is for YOU! This program is a unique opportunity to get a behind-the-scenes perspective on everything involved with an ACM SIGGRAPH committee or a specific SIGGRAPH {{page.siggraph-year}} conference program.
+Are you no longer qualified to be a SIGGRAPH Student Volunteer? Want to become more involved with ACM SIGGRAPH and the computer graphics community? Thinking about someday applying to be on an ACM SIGGRAPH committee or SIGGRAPH conference subcommittee? If you answered “Yes!” to these questions, then the Ex-Student Volunteer (XSV) Program is for YOU! This program is a unique opportunity to get a behind-the-scenes perspective on everything involved with an ACM SIGGRAPH Executive Committee or a specific SIGGRAPH Conference program.
 
-As an XSV, you will contribute to a specific project to enhance the mission of an ACM SIGGRAPH committee or support a specific conference program in a role designed just for you. You will be mentored by an ACM SIGGRAPH or SIGGRAPH {{page.siggraph-year}} Committee member and have the opportunity to build your SIGGRAPH network by meeting and learning from the professionals, creators, educators, and visionaries who make SIGGRAPH possible. Former Student Volunteers who demonstrate leadership and a passion for volunteering for SIGGRAPH are encouraged to apply!
+As an XSV, you will either take on a specific role on an ACM SIGGRAPH Executive or SIGGRAPH Conference Committee or contribute to a specific project. You will be mentored by an ACM SIGGRAPH or SIGGRAPH {{page.siggraph-year}} Committee member and have the opportunity to build your SIGGRAPH network by meeting and learning from the professionals, creators, educators, and visionaries who make SIGGRAPH possible. Former Student Volunteers who demonstrate leadership and a passion for volunteering for SIGGRAPH are encouraged to apply!
 
-This experience is available to those who are no longer eligible for the SIGGRAPH {{page.siggraph-year}} conference as a Student Volunteer or Team Leader and are at least 18 years old. High school, undergraduate, or graduate students enrolled full time for at least one semester during the {{page.academic-year}} academic year ({{page.academic-year-not-eligible}}) are NOT eligible. Applicants also must have volunteered for ACM SIGGRAPH or the SIGGRAPH conference for at least one year.
+This experience is available to those who are no longer eligible to serve as a SIGGRAPH Conference
+Student Volunteer or Team Leader and are at least 18 years old. High school, undergraduate, or graduate students enrolled full time for at least one semester during the {{page.academic-year}} academic year ({{page.academic-year-not-eligible}}) are NOT eligible. Applicants must have attended the SIGGRAPH
+Conference at least once in the last 3 years.
 
 Don’t miss out on the opportunity to expand your knowledge of what goes into putting this awesome conference together each year and get involved with the SIGGRPH community!
-<hr>
-<a class="button expand" href="{{page.application-link}}">XSV Application</a> (Deadline: {{page.application-deadline}})
 <hr>
 
 ## Eligibility requirements
@@ -107,6 +107,8 @@ Review the [mentorship agreement]({{site.baseurl}}{{page.mentorship-agreement-li
 
 ### Application
 Coming Soon!
+
+<a class="button expand" href="{{page.application-link}}">XSV Application</a>
 
 ### Questions
 Still have questions? Please contact SIGGRAPH Student Services at s3@siggraph.org.

@@ -39,7 +39,7 @@ exclude:            [
 #ga_id:             ##-########-###
 site_name:          S3
 site_description :  
-site_copyright:     Copyright (c) 2017
+site_copyright:     Copyright (c) 2018
 site_url:           http://www.s3.siggraph.org/
 site_email:         
 site_phone:         

@@ -1,0 +1,23 @@
+<!-- tabs -->
+<div class="row secondary-tabs-row">
+  <div class="small-12 medium-12 large-12 small-centered columns">
+    <ul class="tabs" data-tabs id="about-tabs">
+      <li class="tabs-title thirds tabs-first is-active"><a href="#panel-1">Onsite Review at SIGGRAPH Asia 2018</a></li>
+      <li class="tabs-title thirds "><a href="#panel-2">Fall 2018 Virtual Review</a></li>
+      <li class="tabs-title thirds "><a href="#reviewers-panel" aria-selected="true">Reviewers</a></li>
+    </ul>
+  </div>
+</div>
+<div class="row head-spacing foot-spacing">
+  <div class="tabs-content small-12  large-push-1 large-10 columns" data-tabs-content="about-tabs">
+    <div class="tabs-panel is-active" id="panel-1">
+      {% include s3r3-onsite-student.html %}
+    </div>
+    <div class="tabs-panel is-active" id="panel-2">
+      {% include s3r3-online-student.html %}
+    </div>
+    <div class="tabs-panel" id="reviewers-panel">
+      {% include s3r3-reviewer.html %}
+    </div>
+  </div>
+</div>

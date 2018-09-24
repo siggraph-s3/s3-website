@@ -6,33 +6,31 @@ reviewer-signups: true
 student-signup-form: https://airtable.com/shrzdPESZZfEMpmgD
 reviewer-signup-form: https://airtable.com/shrmePsR34FmJs72N
 close-date: April 16th, 2018
+signup-tabs: false
 ---
-<p>S3R3 is the S3 Resume and Reel Review program where industry professionals will sit down with you in 20-minute sessions to look over your work and offer tips to improve your chances finding work within the computer graphics industry. As such, S3R3 aims to remove some of the guesswork by providing professional advice and opinions to ACM SIGGRAPH student members. Students are matched to industry professionals based on their desired work field and job skills and provide the resume and/or reel for review and expert advice. S3R3 is offered on-site during both the SIGGRAPH and SIGGRAPH Asia conferences, as well as being offered virtually during the year. Some example categories for students to choose from to have their work/resumes reviewed are not limited to but include the following:</p>
+<p>S3R3 is the S3 Resume and Reel Review program where ACM Student Members and Student Chapters’
+  members have their resume or reel reviewed by industry professionals. This is conducted either virtually
+  or in-person at the SIGGRAPH and SIGGRAPH Asia Conferences in 20-minute sessions. Reviewers review
+  students’ work and offer tips to improve the chances of finding work within the computer graphics
+  industry. Students are matched to industry professionals based on their desired work field and job skills
+  and provide their resume and/or reel for review and expert advice. S3 provides four S3R3 sessions
+  throughout the year during the Winter (virtual), Spring (virtual), Summer (at SIGGRAPH), and Fall (at
+  SIGGRAPH Asia and virtual). Some example categories for students to choose from to have their
+  work/resumes reviewed are not limited to but include the following:</p>
 
 <ul>
     <li>Art/Animation (experience in modeling, texturing, compositing, animation, etc.)</li>
     <li>Production/Design (experience brainstorming ideas and transforming creative vision into reality)</li>
-    <li>Technical Art (experience in hybrid/ equal parts programming and art: rigging, scripting, shader writing, etc.)</li>
-    <li>Technical Development (experience in strictly technical aspects such as programming, rendering, robotics, engineering, etc.)</li>
-    <li>Management (experience in producing, production assistant coordinating production and managerial aspects</li>
+    <li>Technical Art (experience in hybrid/ equal parts programming and art: rigging, scripting, shader
+      writing, etc.)</li>
+    <li>Technical Development (experience in strictly technical aspects such as programming,
+      rendering, robotics, engineering, etc.)</li>
+    <li>Management (experience in producing, production assistant coordinating production and
+      managerial aspects)</li>
 </ul>
 <hr>
-<!-- tabs -->
-<div class="row secondary-tabs-row">
-    <div class="small-9 medium-8 large-6 small-centered columns">
-      <ul class="tabs" data-tabs id="about-tabs">
-        <li class="tabs-title tabs-first is-active"><a href="#students-panel">Students</a></li>
-        <li class="tabs-title tabs-second"><a href="#reviewers-panel" aria-selected="true">Reviewers</a></li>
-      </ul>
-    </div>
-</div>
-<div class="row head-spacing foot-spacing">
-  <div class="tabs-content small-12  large-push-1 large-10 columns" data-tabs-content="about-tabs">
-    <div class="tabs-panel is-active" id="students-panel">
-      {% include s3r3-student.html %}
-    </div>
-    <div class="tabs-panel" id="reviewers-panel">
-      {% include s3r3-reviewer.html %}
-    </div>
-  </div>
-</div>
+<h2>Sign-ups opening October 2018!</h2>
+<p>Check back soon.</p>
+{% if page.signup-tabs == true %}
+  {% include s3r3-tabs.html %}
+{% endif%}

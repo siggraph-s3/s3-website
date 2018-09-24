@@ -639,3 +639,12 @@ div.accordion-content{
 	border: 1px solid #ccc;
 	padding: 1rem 1rem 0 1rem;
 }
+.thirds {
+	width: 33% !important;
+}
+.thirds a {
+    height: 6.5rem;
+}
+.thirds a:hover {
+	background-color: #e6e6e6 !important;
+}

@@ -5,4 +5,14 @@ member-order: 0
 role: chair
 img: corinneprice.jpg
 ---
-Corinne Price is a Project Manager with ICF International located in Fairfax, Virginia. Previously with KPMG LLP and Accenture LLC, she has worked in the fields of IT project management, technical cost estimating, business case analysis development, and portfolio management, primarily for clients in the Federal government. She is certified as a Certified Cost Estimator/Analyst (CCEA) with the International Cost Estimating and Analysis Association, a Project Management Professional (PMP) with the Project Management Institute, and has obtained her ITIL Foundations certificate. She has been volunteering with SIGGRAPH since 2002 when she joined on as a Student Volunteer. Since then, she has held a variety of roles including serving as a Team Leader with the SV Program, as a member of the ACM SIGGRAPH Communications Committee, and as a SCOOP team member. Corinne earned a a B.S. in Biological Engineering with a Biomedical Engineering minor and a Masters of Engineering in Biological Engineering from Cornell University.
+Corinne Price is a Senior Manager supporting Federal clients at ICF located in Fairfax, Virginia. Corinne previously worked with Northrop Grumman IT, KPMG LLP, and Accenture LLC supporting clients with IT project management, acquisition strategy, technical cost estimating, and portfolio management. Her current efforts focus on technology modernization strategy and implementation, in particular migrating from legacy systems to a cloud-based offering.
+
+She is a Certified Technology Business Management (TBM) Executive, a Certified Cost Estimator/Analyst (CCEA), a
+Project Management Professional (PMP), and has obtained her ITIL Foundations certificate. She received her
+Masters of Engineering in Biological Engineering and her B.S. in Biological Engineering with a Biomedical
+Engineering minor from Cornell University. Corinne supported the SIGGRAPH Student Volunteer Program as a
+Student Volunteer and Team Leader from 2002 to 2008. She then joined the ACM SIGGRAPH SCOOP team and the
+ACM SIGGRAPH Communications team, helping to produce content for the official SIGGRAPH YouTube channel and
+manage SIGGRAPH’s online social media channels. Since 2014, Corinne has served as Chair of the ACM SIGGRAPH
+Student Services (S3) Committee. In 2019, Corinne will also be serving as the Student Volunteer Chair for the
+SIGGRAPH Conference in Los Angeles.

@@ -106,7 +106,7 @@ _*S3 cannot guarantee any financial assistance, but are willing to work with XSV
 Review the [mentorship agreement]({{site.baseurl}}{{page.mentorship-agreement-link}}) and be prepared to discuss with your mentor during your first session.
 
 ### Application
-Coming Soon!
+Now accepting applications!
 
 <a class="button expand" href="{{page.application-link}}">XSV Application</a>
 

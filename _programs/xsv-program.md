@@ -52,8 +52,6 @@ Due to the high volume of applicants, we regret that we cannot accept any late a
 
 Please complete the application on the S3 website by {{page.application-timezone}} on {{page.application-deadline}}. (Convert to your time zone.) Application results and pairings will be sent on a rolling basis throughout the {{page.siggraph-year}} cycle.
 
-Application results and pairings will be sent on or before {{page.application-pairing-date}}.
-
 You will receive email notification at the same address you provided in your application. Please adjust your spam filter so that messages from siggraph.org email addresses will not be placed in your junk-mail folder.
 
 ### Responsibilities

@@ -3,21 +3,30 @@
   <div class="small-12 medium-12 large-12 small-centered columns">
     <ul class="tabs" data-tabs id="about-tabs">
       <li class="tabs-title thirds tabs-first is-active"><a href="#panel-1">SIGGRAPH Asia 2018 Onsite Review</a></li>
-      <li class="tabs-title thirds "><a href="#panel-2">Fall 2018 Virtual Review</a></li>
-      <li class="tabs-title thirds "><a href="#reviewers-panel" aria-selected="true">Reviewer Sign-up for Onsite & Virtual</a></li>
+      <li class="tabs-title thirds "><a href="#panel-2">{{- include.onlinestudent-tab -}}</a></li>
+      <li class="tabs-title thirds "><a href="#reviewers-panel" aria-selected="true">{{- include.reviewer-tab -}}</a></li>
     </ul>
   </div>
 </div>
 <div class="row head-spacing foot-spacing">
   <div class="tabs-content small-12  large-push-1 large-10 columns" data-tabs-content="about-tabs">
     <div class="tabs-panel is-active" id="panel-1">
-      {% include s3r3-onsite-student.html %}
+        {%- capture student-signup -%}
+        {{- include.student-signup -}}
+        {%- endcapture -%}
+      {%- include s3r3-onsite-student.html student-signup=student-signup -%}
     </div>
     <div class="tabs-panel" id="panel-2">
-      {% include s3r3-online-student.html %}
+        {%- capture onlinestudent-signup -%}
+        {{- include.onlinestudent-signup -}}
+        {%- endcapture -%}
+      {%- include s3r3-online-student.html onlinestudent-signup=onlinestudent-signup -%}
     </div>
     <div class="tabs-panel" id="reviewers-panel">
-      {% include s3r3-reviewer.html %}
+        {%- capture reviewer-signup -%}
+        {{- include.reviewer-signup -}}
+        {%- endcapture -%}
+      {%- include s3r3-reviewer.html reviewer-signup=reviewer-signup -%}
     </div>
   </div>
 </div>

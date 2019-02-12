@@ -3,8 +3,12 @@ layout: collection-item
 title: S3 Resume and Reel Review (S3R3)
 enable-header: true
 reviewer-signups: true
-student-signup-form: https://airtable.com/shrzdPESZZfEMpmgD
-reviewer-signup-form: https://airtable.com/shrmePsR34FmJs72N
+onlinestudent-signup-tab: "Winter 2019 Online Review Signup"
+onlinestudent-signup-form: https://airtable.com/embed/shrT8sczrtFFcig2s?backgroundColor=blue
+student-signup-form: 
+reviewer-signup-tab: "REVIEWERS – Winter 2019 Online Review Sign-up"
+# Reviewer Sign-up for Onsite & Virtual
+reviewer-signup-form: https://airtable.com/embed/shrgKvGBtrNEDMxY0?backgroundColor=green
 close-date: April 16th, 2018
 signup-tabs: true
 ---
@@ -31,5 +35,20 @@ signup-tabs: true
 <hr>
 <h2>Sign-ups open!</h2>
 {% if page.signup-tabs == true %}
-  {% include s3r3-tabs.html %}
+  {%- capture onlinestudent-signup-form -%}
+  {{- page.onlinestudent-signup-form -}}
+  {%- endcapture -%}
+  {%- capture student-signup-form -%}
+  {{- page.onlinestudent-signup-form -}}
+  {%- endcapture -%}
+  {%- capture reviewer-signup-form -%}
+  {{- page.reviewer-signup-form -}}
+  {%- endcapture -%}
+  {%- capture onlinestudent-signup-tab -%}
+  {{- page.onlinestudent-signup-tab -}}
+  {%- endcapture -%}
+  {%- capture reviewer-signup-tab -%}
+  {{- page.reviewer-signup-tab -}}
+  {%- endcapture -%}
+  {%- include s3r3-tabs.html reviewer-tab=reviewer-signup-tab onlinestudent-tab=onlinestudent-signup-tab onlinestudent-signup=onlinestudent-signup-form student-signup=student-signup-form reviewer-signup=reviewer-signup-form -%}
 {% endif%}

@@ -6,6 +6,8 @@ enable-header: true
 close-date: April 16th, 2018
 ### Eable all signup tabs
 signup-tabs: true
+### Tab size class: (set to thirds if three tabs are enabled, nothing)
+tab-size: #thirds
 ### Form links
 student-signup-form: 
 onlinestudent-signup-form: https://airtable.com/embed/shrT8sczrtFFcig2s?backgroundColor=blue
@@ -82,7 +84,10 @@ reviewer-tab-active: false
   {%- capture reviewer-tab-active -%}
   {{- page.reviewer-tab-active -}}
   {%- endcapture -%}
-  {%- include s3r3-tabs.html reviewer-tab-active=reviewer-tab-active onsite-tab-active=onsite-tab-active onlinestudent-tab-active=onlinestudent-tab-active onlinestudent-tab-enabled=onlinestudent-tab-enabled reviewer-tab-enabled=reviewer-tab-enabled onsite-tab-enabled=onsite-tab-enabled onsite-tab=onsite-signup-tab reviewer-tab=reviewer-signup-tab onlinestudent-tab=onlinestudent-signup-tab onlinestudent-signup=onlinestudent-signup-form student-signup=student-signup-form reviewer-signup=reviewer-signup-form -%}
+  {%- capture tab-size -%}
+  {{- page.tab-size -}}
+  {%- endcapture -%}
+  {%- include s3r3-tabs.html tab-size=tab-size reviewer-tab-active=reviewer-tab-active onsite-tab-active=onsite-tab-active onlinestudent-tab-active=onlinestudent-tab-active onlinestudent-tab-enabled=onlinestudent-tab-enabled reviewer-tab-enabled=reviewer-tab-enabled onsite-tab-enabled=onsite-tab-enabled onsite-tab=onsite-signup-tab reviewer-tab=reviewer-signup-tab onlinestudent-tab=onlinestudent-signup-tab onlinestudent-signup=onlinestudent-signup-form student-signup=student-signup-form reviewer-signup=reviewer-signup-form -%}
 {% else %}
 <h2>Sign-ups are closed. Check back soon!</h2>
   {% endif%}

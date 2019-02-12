@@ -4,23 +4,23 @@
     <ul class="tabs" data-tabs id="about-tabs">
       {%- if include.onsite-tab-enabled == "true" -%}
         {%- if include.onsite-tab-active == "true" -%}
-        <li class="tabs-title thirds tabs-first is-active"><a href="#panel-1">{{- include.onsite-tab -}}</a></li>
+        <li class="tabs-title {{ include.tab-size }} is-active"><a href="#panel-1">{{- include.onsite-tab -}}</a></li>
         {%- else -%}
-        <li class="tabs-title thirds tabs-first"><a href="#panel-1">{{- include.onsite-tab -}}</a></li>
+        <li class="tabs-title {{ include.tab-size }}"><a href="#panel-1">{{- include.onsite-tab -}}</a></li>
         {%- endif -%}
       {%- endif -%}
       {%- if include.onlinestudent-tab-enabled == "true" -%}
         {%- if include.onlinestudent-tab-active == "true" -%}
-        <li class="tabs-title thirds is-active"><a href="#panel-2">{{- include.onlinestudent-tab -}}</a></li>
+        <li class="tabs-title {{ include.tab-size }} is-active"><a href="#panel-2">{{- include.onlinestudent-tab -}}</a></li>
         {%- else -%}
-        <li class="tabs-title thirds"><a href="#panel-2">{{- include.onlinestudent-tab -}}</a></li>
+        <li class="tabs-title {{ include.tab-size }}"><a href="#panel-2">{{- include.onlinestudent-tab -}}</a></li>
         {%- endif -%}
       {%- endif -%}
       {%- if include.reviewer-tab-enabled == "true" -%}
         {%- if include.reviewer-tab-active == "true" -%}
-        <li class="tabs-title thirds is-active"><a href="#reviewers-panel" aria-selected="true">{{- include.reviewer-tab -}}</a></li>
+        <li class="tabs-title {{ include.tab-size }} is-active"><a href="#reviewers-panel" aria-selected="true">{{- include.reviewer-tab -}}</a></li>
         {%- else -%}
-        <li class="tabs-title thirds"><a href="#reviewers-panel" aria-selected="true">{{- include.reviewer-tab -}}</a></li>
+        <li class="tabs-title {{ include.tab-size }}"><a href="#reviewers-panel" aria-selected="true">{{- include.reviewer-tab -}}</a></li>
         {%- endif -%}
         {%- endif -%}
     </ul>

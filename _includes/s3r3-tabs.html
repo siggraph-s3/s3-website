@@ -2,31 +2,67 @@
 <div class="row secondary-tabs-row">
   <div class="small-12 medium-12 large-12 small-centered columns">
     <ul class="tabs" data-tabs id="about-tabs">
-      <li class="tabs-title thirds tabs-first is-active"><a href="#panel-1">SIGGRAPH Asia 2018 Onsite Review</a></li>
-      <li class="tabs-title thirds "><a href="#panel-2">{{- include.onlinestudent-tab -}}</a></li>
-      <li class="tabs-title thirds "><a href="#reviewers-panel" aria-selected="true">{{- include.reviewer-tab -}}</a></li>
+      {%- if include.onsite-tab-enabled == "true" -%}
+        {%- if include.onsite-tab-active == "true" -%}
+        <li class="tabs-title thirds tabs-first is-active"><a href="#panel-1">{{- include.onsite-tab -}}</a></li>
+        {%- else -%}
+        <li class="tabs-title thirds tabs-first"><a href="#panel-1">{{- include.onsite-tab -}}</a></li>
+        {%- endif -%}
+      {%- endif -%}
+      {%- if include.onlinestudent-tab-enabled == "true" -%}
+        {%- if include.onlinestudent-tab-active == "true" -%}
+        <li class="tabs-title thirds is-active"><a href="#panel-2">{{- include.onlinestudent-tab -}}</a></li>
+        {%- else -%}
+        <li class="tabs-title thirds"><a href="#panel-2">{{- include.onlinestudent-tab -}}</a></li>
+        {%- endif -%}
+      {%- endif -%}
+      {%- if include.reviewer-tab-enabled == "true" -%}
+        {%- if include.reviewer-tab-active == "true" -%}
+        <li class="tabs-title thirds is-active"><a href="#reviewers-panel" aria-selected="true">{{- include.reviewer-tab -}}</a></li>
+        {%- else -%}
+        <li class="tabs-title thirds"><a href="#reviewers-panel" aria-selected="true">{{- include.reviewer-tab -}}</a></li>
+        {%- endif -%}
+        {%- endif -%}
     </ul>
   </div>
 </div>
 <div class="row head-spacing foot-spacing">
   <div class="tabs-content small-12  large-push-1 large-10 columns" data-tabs-content="about-tabs">
-    <div class="tabs-panel is-active" id="panel-1">
+      {%- if include.onsite-tab-enabled == "true" -%}
+        {%- if include.onsite-tab-active == "true" -%}
+          <div class="tabs-panel is-active" id="panel-1">
+        {%- else -%}
+          <div class="tabs-panel" id="panel-1">
+        {%- endif -%}
         {%- capture student-signup -%}
         {{- include.student-signup -}}
         {%- endcapture -%}
       {%- include s3r3-onsite-student.html student-signup=student-signup -%}
     </div>
-    <div class="tabs-panel" id="panel-2">
+    {%- endif -%}
+    {%- if include.onlinestudent-tab-enabled == "true" -%}
+      {%- if include.onlinestudent-tab-active == "true" -%}
+        <div class="tabs-panel is-active" id="panel-2">
+      {%- else -%}
+        <div class="tabs-panel" id="panel-2">
+      {%- endif -%}
         {%- capture onlinestudent-signup -%}
         {{- include.onlinestudent-signup -}}
         {%- endcapture -%}
       {%- include s3r3-online-student.html onlinestudent-signup=onlinestudent-signup -%}
     </div>
-    <div class="tabs-panel" id="reviewers-panel">
+    {%- endif -%}
+    {%- if include.reviewer-tab-enabled == "true" -%}
+      {%- if include.reviewer-tab-active == "true" -%}
+        <div class="tabs-panel is-active" id="reviewers-panel">
+      {%- else -%}
+        <div class="tabs-panel" id="reviewers-panel">
+      {%- endif -%}
         {%- capture reviewer-signup -%}
         {{- include.reviewer-signup -}}
         {%- endcapture -%}
       {%- include s3r3-reviewer.html reviewer-signup=reviewer-signup -%}
     </div>
+    {%- endif -%}
   </div>
 </div>

@@ -2,15 +2,26 @@
 layout: collection-item
 title: S3 Resume and Reel Review (S3R3)
 enable-header: true
-reviewer-signups: true
-onlinestudent-signup-tab: "Winter 2019 Online Review Signup"
-onlinestudent-signup-form: https://airtable.com/embed/shrT8sczrtFFcig2s?backgroundColor=blue
-student-signup-form: 
-reviewer-signup-tab: "REVIEWERS – Winter 2019 Online Review Sign-up"
-# Reviewer Sign-up for Onsite & Virtual
-reviewer-signup-form: https://airtable.com/embed/shrgKvGBtrNEDMxY0?backgroundColor=green
+####### Signup tabs configuration
 close-date: April 16th, 2018
+### Eable all signup tabs
 signup-tabs: true
+### Form links
+student-signup-form: 
+onlinestudent-signup-form: https://airtable.com/embed/shrT8sczrtFFcig2s?backgroundColor=blue
+reviewer-signup-form: https://airtable.com/embed/shrgKvGBtrNEDMxY0?backgroundColor=green
+### Labels
+onsite-signup-tab: "SIGGRAPH Asia 2018 Onsite Review"
+onlinestudent-signup-tab: "Winter 2019 Virtual Review Sign-up"
+reviewer-signup-tab: "Reviewer Sign-up"
+### Enabled Tabs (be sure to match enabled tabs with active tabs)
+onsite-tab-enabled: false
+onlinestudent-tab-enabled: true
+reviewer-tab-enabled: true
+### Active tabs (1 active at a time, should match with active tabs above)
+onsite-tab-active: false
+onlinestudent-tab-active: true
+reviewer-tab-active: false
 ---
 <p>S3R3 is the S3 Resume and Reel Review program where ACM Student Members and Student Chapters’
   members have their resume or reel reviewed by industry professionals. This is conducted either virtually
@@ -33,8 +44,8 @@ signup-tabs: true
       managerial aspects)</li>
 </ul>
 <hr>
-<h2>Sign-ups open!</h2>
 {% if page.signup-tabs == true %}
+<h2>Sign-ups open!</h2>
   {%- capture onlinestudent-signup-form -%}
   {{- page.onlinestudent-signup-form -}}
   {%- endcapture -%}
@@ -50,5 +61,28 @@ signup-tabs: true
   {%- capture reviewer-signup-tab -%}
   {{- page.reviewer-signup-tab -}}
   {%- endcapture -%}
-  {%- include s3r3-tabs.html reviewer-tab=reviewer-signup-tab onlinestudent-tab=onlinestudent-signup-tab onlinestudent-signup=onlinestudent-signup-form student-signup=student-signup-form reviewer-signup=reviewer-signup-form -%}
-{% endif%}
+  {%- capture onsite-signup-tab -%}
+  {{- page.onsite-signup-tab -}}
+  {%- endcapture -%}
+  {%- capture onsite-tab-enabled -%}
+  {{- page.onsite-tab-enabled -}}
+  {%- endcapture -%}
+  {%- capture onlinestudent-tab-enabled -%}
+  {{- page.onlinestudent-tab-enabled -}}
+  {%- endcapture -%}
+  {%- capture reviewer-tab-enabled -%}
+  {{- page.reviewer-tab-enabled -}}
+  {%- endcapture -%}
+  {%- capture onsite-tab-active -%}
+  {{- page.onsite-tab-active -}}
+  {%- endcapture -%}
+  {%- capture onlinestudent-tab-active -%}
+  {{- page.onlinestudent-tab-active -}}
+  {%- endcapture -%}
+  {%- capture reviewer-tab-active -%}
+  {{- page.reviewer-tab-active -}}
+  {%- endcapture -%}
+  {%- include s3r3-tabs.html reviewer-tab-active=reviewer-tab-active onsite-tab-active=onsite-tab-active onlinestudent-tab-active=onlinestudent-tab-active onlinestudent-tab-enabled=onlinestudent-tab-enabled reviewer-tab-enabled=reviewer-tab-enabled onsite-tab-enabled=onsite-tab-enabled onsite-tab=onsite-signup-tab reviewer-tab=reviewer-signup-tab onlinestudent-tab=onlinestudent-signup-tab onlinestudent-signup=onlinestudent-signup-form student-signup=student-signup-form reviewer-signup=reviewer-signup-form -%}
+{% else %}
+<h2>Sign-ups are closed. Check back soon!</h2>
+  {% endif%}

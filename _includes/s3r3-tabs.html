@@ -34,10 +34,10 @@
         {%- else -%}
           <div class="tabs-panel" id="panel-1">
         {%- endif -%}
-        {%- capture student-signup -%}
-        {{- include.student-signup -}}
+        {%- capture onsite-signup -%}
+        {{- include.onsite-signup -}}
         {%- endcapture -%}
-      {%- include s3r3-onsite-student.html student-signup=student-signup -%}
+      {%- include s3r3-onsite-student.html onsite-signup=onsite-signup -%}
     </div>
     {%- endif -%}
     {%- if include.onlinestudent-tab-enabled == "true" -%}

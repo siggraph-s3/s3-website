@@ -9,7 +9,7 @@ $heading-color:#fff;
 
 
 h1, h2, h3, h4, h5, h6{
-	font-weight: 100;
+	font-weight: 200;
 	// font-family: 'Roboto Mono', Helvetica, Roboto, Arial, sans-serif;
 	font-family: "Oswald","Impact","Tahoma",sans-serif;
 	color:$heading-color;
@@ -22,6 +22,9 @@ h1, h2, h3, h4, h5, h6{
 h3 {
 	text-transform: none;
 	color: #333;
+	a {
+		font-weight: 400;
+	}
 }
 p {
 	font-weight: 300;
@@ -42,8 +45,8 @@ h1{
 		font-size: 2.25rem;
 	}
 }
-h1 {
-	
+h1.logomark {
+	font-weight: 400;
 }
 h2{
 	@media #{$medium-only} {

@@ -159,18 +159,18 @@ background: linear-gradient(33deg, rgba(0, 0, 0, 0.8), rgba(255,255,255,0.13)),u
 //   background-color: $blue;
 // background-blend-mode: luminosity;
 
-h1 {
-  
-  text-align:left;
-  font-weight: 200;
-  line-height:3.2rem;
-  @media #{$small-only} {
-    line-height: 1;
+  h1 {
+    
+    text-align:left;
+    font-weight: 400;
+    line-height:3.2rem;
+    @media #{$small-only} {
+      line-height: 1;
+    }
+    span {
+      display:table;
+    }
   }
-  span {
-    display:table;
-  }
-}
 
 }
 

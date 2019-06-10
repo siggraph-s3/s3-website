@@ -16,7 +16,7 @@ Great question! You can obtain benefit from S3 by becoming an ACM SIGGRAPH Stude
 
 ### How do I get involved with the SIGGRAPH Student Volunteer Program?
 
-Apply for the SIGGRAPH Student Volunteer Program [here](http://s{{ 'now' | date: "%Y" }}.siggraph.org/student-volunteers).
+Apply for the SIGGRAPH Student Volunteer Program [here](https://sv.siggraph.org/).
 
 ### I am no longer a student but would like to get involved. How do I do so?
 

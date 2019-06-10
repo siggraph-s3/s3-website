@@ -19,15 +19,13 @@ venue: Los Angeles Convention Center
 application-pairing-date: 8 January 2018
 mentorship-agreement-link: /assets/downloads/xsv-mentoring-agreement-2019.docx
 ---
-Are you no longer qualified to be a SIGGRAPH Student Volunteer? Want to become more involved with ACM SIGGRAPH and the computer graphics community? Thinking about someday applying to be on an ACM SIGGRAPH committee or SIGGRAPH conference subcommittee? If you answered “Yes!” to these questions, then the Ex-Student Volunteer (XSV) Program is for YOU! This program is a unique opportunity to get a behind-the-scenes perspective on everything involved with an ACM SIGGRAPH Executive Committee or a specific SIGGRAPH Conference program.
+Are you no longer qualified to be a SIGGRAPH Student Volunteer? Want to become more involved with ACM SIGGRAPH and the computer graphics community? Thinking about someday applying to be on an ACM SIGGRAPH committee or SIGGRAPH conference subcommittee? If you answered “Yes!” to these questions, then the XSV Program is for YOU! This program is a unique opportunity to get a behind-the-scenes perspective on everything involved with an ACM SIGGRAPH Executive Committee or a specific SIGGRAPH Conference program.
 
-As an XSV, you will either take on a specific role on an ACM SIGGRAPH Executive or SIGGRAPH Conference Committee or contribute to a specific project. You will be mentored by an ACM SIGGRAPH or SIGGRAPH {{page.siggraph-year}} Committee member and have the opportunity to build your SIGGRAPH network by meeting and learning from the professionals, creators, educators, and visionaries who make SIGGRAPH possible. Former Student Volunteers who demonstrate leadership and a passion for volunteering for SIGGRAPH are encouraged to apply!
+As an XSV, you will either take on a specific role on an ACM SIGGRAPH Executive or SIGGRAPH Conference Committee or contribute to a specific project. You will be mentored by an ACM SIGGRAPH or SIGGRAPH Conference Committee member and have the opportunity to build your SIGGRAPH network by meeting and learning from the professionals, creators, educators, and visionaries who make SIGGRAPH possible. Individuals who demonstrate leadership and a passion for volunteering for SIGGRAPH are encouraged to apply!
 
-This experience is available to those who are no longer eligible to serve as a SIGGRAPH Conference
-Student Volunteer or Team Leader and are at least 18 years old. High school, undergraduate, or graduate students enrolled full time for at least one semester during the {{page.academic-year}} academic year ({{page.academic-year-not-eligible}}) are NOT eligible. Applicants must have attended the SIGGRAPH
-Conference at least once in the last 3 years.
+This experience is available to those who are no longer eligible to serve as a SIGGRAPH Conference Student Volunteer or Team Leader and are at least 18 years old by the time of the conference. High school, undergraduate, or graduate students enrolled full time for at least one semester during the current academic year are NOT eligible. Applicants must have attended the SIGGRAPH Conference at least once in the last 3 years.
 
-Don’t miss out on the opportunity to expand your knowledge of what goes into putting this awesome conference together each year and get involved with the SIGGRPH community!
+Don’t miss out on the opportunity to expand your knowledge of what goes into putting this awesome conference together each year and get involved with the SIGGRAPH community!
 <hr>
 
 ## Eligibility requirements
@@ -46,8 +44,6 @@ Applicants must have attended the SIGGRAPH Conference at least once in the last 
 
 ### Deadlines & Important Dates
 
-Due to the high volume of applicants, we regret that we cannot accept any late applications. Selections will be made on a rolling basis for {{page.siggraph-year}}, which means some roles may be available earlier or later depending on the project needs. Having your application submitted early will enable you to be considered for roles no matter when they are posted/submitted.
-
 #### {{page.application-deadline}}: Applications Deadline
 
 Please complete the application on the S3 website by {{page.application-timezone}} on {{page.application-deadline}}. (Convert to your time zone.) Application results and pairings will be sent on a rolling basis throughout the {{page.siggraph-year}} cycle.
@@ -58,7 +54,7 @@ You will receive email notification at the same address you provided in your app
 
 #### Attend Mandatory Online Orientation
 
-Meet with all accepted XSVs and the SIGGRAPH Student Services (S3) XSV Liaison to discuss pairing and expectations.
+Meet with all accepted XSVs and the S3 XSV Liaison to discuss pairing and expectations.
 
 #### Establish Mentorship Relationship with ACM SIGGRAPH or SIGGRAPH {{page.siggraph-year}} Committee Member
 
@@ -84,7 +80,7 @@ Learn more about what goes on in the year-round planning and implementation for 
 
 #### S3 Résumé and Reel Review Sessions
 
-Polish that reel and résumé, and get some professional feedback to land that dream job! Space is limited. This program is made possible by the SIGGRAPH Student Services Committee (S3).
+Polish that reel and résumé, and get some professional feedback to land that dream job! Space is limited. This program is made possible by S3.
 
 #### Networking
 
@@ -104,9 +100,9 @@ _*S3 cannot guarantee any financial assistance, but are willing to work with XSV
 Review the [mentorship agreement]({{site.baseurl}}{{page.mentorship-agreement-link}}) and be prepared to discuss with your mentor during your first session.
 
 ### Application
-Now accepting applications!
+Applications for the current cohort are closed!
 
-<a class="button expand" href="{{page.application-link}}">XSV Application</a>
+<!-- <a class="button expand" href="{{page.application-link}}">XSV Application</a> -->
 
 ### Questions
-Still have questions? Please contact SIGGRAPH Student Services at s3@siggraph.org.
+Still have questions? Please contact S3 at s3@siggraph.org.

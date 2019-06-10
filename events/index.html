@@ -4,7 +4,7 @@ title: Events
 enable-header: true
 enable-banner: true
 ---
-		{% assign items = site.events | reverse %}
+		{% assign items = site.events | sort: 'date' | reverse %}
 		{% for event in items %}
 		<div class="row head-spacing foot-spacing">
 		    

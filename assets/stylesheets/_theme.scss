@@ -183,7 +183,7 @@ span.highlight{
 }
 .svg-header h1 {
 	color:$heading-color;
-	font-weight:700;
+	font-weight:400;
 }
 
 // HEADER TRILATTICE SVG
@@ -650,4 +650,8 @@ div.accordion-content{
 }
 .thirds a:hover {
 	background-color: #e6e6e6 !important;
+}
+
+img.logo {
+	max-width:10rem;
 }

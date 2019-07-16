@@ -6,6 +6,8 @@ enable-banner: false
 mentor-airtable: shr7ieHcTZNQF9xCV
 student-airtable: shrv1kaN85covVMxx
 mentorme-tabs: true
+mentorme-tab-student: false
+mentorme-tab-mentor: true
 ---
 <p>MentorMe aims to match students and emerging professionals with less than 3 years experience with
   industry professionals that have agreed to give their time to offer guidance and insight into their chosen
@@ -25,5 +27,5 @@ mentorme-tabs: true
 <a class="button expand" href="https://docs.google.com/forms/d/e/1FAIpQLSf4dVnUNb8CLknIPc2c3MWIiILD-lbc1k8OEKWx-fchhu7V1w/viewform">Mentor Application Form</a> -->
 
 {% if page.mentorme-tabs == true %}
-  {% include mentorme-tabs.html %}
+  {% include mentorme-tabs.html student-tab=page.mentorme-tab-student mentor-tab=page.mentorme-tab-mentor  %}
 {% endif%}

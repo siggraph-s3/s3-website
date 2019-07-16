@@ -10,10 +10,22 @@
     <div class="row head-spacing foot-spacing">
       <div class="tabs-content small-12  large-push-1 large-10 columns" data-tabs-content="about-tabs">
         <div class="tabs-panel is-active" id="students-panel">
-          {% include mentorme-student.html %}
+          
+          {%- if include.student-tab == true -%}
+            {%- include mentorme-student.html -%}
+          {% else %}
+          <p>MentorMe student sign-ups are currently closed.
+            {% if include.mentor-tab == true %} <strong>Mentor registration is still open, see tab above.</strong>{% endif %}
+          </p>
+          {%- endif -%}
         </div>
         <div class="tabs-panel" id="mentors-panel">
-          {% include mentorme-mentor.html %}
+          
+          {%- if include.mentor-tab == true -%}
+            {%- include mentorme-mentor.html -%}
+          {% else %}
+          <p>Mentor sign-ups are currently closed.</p>
+          {%- endif -%}
         </div>
       </div>
     </div>

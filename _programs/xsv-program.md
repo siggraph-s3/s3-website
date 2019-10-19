@@ -2,7 +2,7 @@
 layout: collection-item
 title: XSV Program
 enable-header: true
-application-link: https://goo.gl/forms/b6q4YyvpuHFidD4y2
+application-link: https://forms.gle/bAH5Dxb1nZCt2Ugx9
 age-18-by-date: 19 July, 2020
 siggraph-year: 2020
 academic-year: 2019-2020
@@ -117,9 +117,9 @@ _*S3 cannot guarantee any financial assistance, but are willing to work with XSV
 Review the [mentorship agreement]({{site.baseurl}}{{page.mentorship-agreement-link}}) and be prepared to discuss with your mentor during your first session.
 
 ### Application
-Applications for the current cohort are closed!
+Applications are open!
 
-<!-- <a class="button expand" href="{{page.application-link}}">XSV Application</a> -->
+<a class="button expand" href="{{page.application-link}}">XSV Application</a>
 
 ### Questions
 Still have questions? Please contact S3 at s3@siggraph.org.

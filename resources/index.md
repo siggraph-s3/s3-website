@@ -33,3 +33,22 @@ We are always looking for speakers, reviewers, and mentors. If you would like mo
 ### General Resources:
 
 [Information on Computer Science Programs from Affordable Colleges Foundation](http://www.affordablecollegesonline.org/online-colleges/computer-science-programs/)
+
+## Digital Etiquette
+
+
+<div class="flex-video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/g1wPTHSwPMQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+ 
+
+## Interviewing
+<div class="flex-video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HUjZQDopyHc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+ 
+
+## Networking Tips
+<div class="flex-video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Zgezz9joxsI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

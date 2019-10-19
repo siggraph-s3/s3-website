@@ -3,19 +3,25 @@ layout: collection-item
 title: XSV Program
 enable-header: true
 application-link: https://goo.gl/forms/b6q4YyvpuHFidD4y2
-age-18-by-date: 26 July, 2019
-siggraph-year: 2019
-academic-year: 2018-2019
-academic-year-not-eligible: Summer 2018 – Spring 2019
-application-deadline: 31 May, 2019
+age-18-by-date: 19 July, 2020
+siggraph-year: 2020
+academic-year: 2019-2020
+academic-year-not-eligible: Summer 2019 – Spring 2020
+application-deadline: 31 May, 2020
+app-deadline-1: 20 November, 2019
+app-results-1: 1 December, 2019
+app-deadline-2: 22 January, 2020
+app-results-2: 9 February, 2020
+app-deadline-3: 27 May, 2020
+app-results-3: 7 June, 2020
 application-timezone: 22:00 UTC/GMT
-application-results-date: 8 January 2018
+#application-results-date: 8 January 2018
 # program-duration: 8 January – 31 August 2018
-siggraph-dates: 28 July - 1 August
-arrival-date: 6 pm on Thursday, 9 August
-departure-date: 6 pm on Thursday, 1 August
-city: Los Angeles
-venue: Los Angeles Convention Center
+siggraph-dates: 19 - 23 July, 2020
+arrival-date: 6 pm on Thursday, 19 July
+departure-date: 6 pm on Thursday, 23 July
+city: Washington, D.C.
+venue: Washington, D.C. Convention Center
 application-pairing-date: 8 January 2018
 mentorship-agreement-link: /assets/downloads/xsv-mentoring-agreement-2019.docx
 ---
@@ -44,9 +50,20 @@ Applicants must have attended the SIGGRAPH Conference at least once in the last 
 
 ### Deadlines & Important Dates
 
-#### {{page.application-deadline}}: Applications Deadline
+New for {{page.siggraph-year}}! XSV will have 3 rounds of application acceptances. Applications will be considered based on the best fit/match for the available positions at the time of the deadline. Submit your application early for the highest likelihood of pairing. All unmatched applicants will be rolled over to the following round. The number of pairings is dependent on the requests received from the venue chairs and Executive Committee representatives.
+If matched, you will receive an email notification at the same address you provided in your application. Please adjust your spam filter so that messages from siggraph.org email addresses will not be placed in your junk-mail folder.
 
-Please complete the application on the S3 website by {{page.application-timezone}} on {{page.application-deadline}}. (Convert to your time zone.) Application results and pairings will be sent on a rolling basis throughout the {{page.siggraph-year}} cycle.
+#### {{page.app-deadline-1}}: Round 1 Applications Deadline
+
+Please complete the application on the S3 website by {{page.application-timezone}} on {{page.app-deadline-1}}. (Convert to your time zone.) Application pairings will be sent around {{page.app-results-1}}.
+
+#### {{page.app-deadline-2}}: Round 2 Applications Deadline
+
+Please complete the application on the S3 website by {{page.application-timezone}} on {{page.app-deadline-2}}. (Convert to your time zone.) Application pairings will be sent around {{page.app-results-2}}.
+
+#### {{page.app-deadline-3}}: Round 3 Applications Deadline
+
+Please complete the application on the S3 website by {{page.application-timezone}} on {{page.app-deadline-3}}. (Convert to your time zone.) Application pairings will be sent around {{page.app-results-3}}.
 
 You will receive email notification at the same address you provided in your application. Please adjust your spam filter so that messages from siggraph.org email addresses will not be placed in your junk-mail folder.
 

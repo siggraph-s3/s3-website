@@ -12,7 +12,7 @@ sections:
 - type: directory
   path: _programs
   label: Programs
-  create: all
+  create: none
   match: "**/*"
 - type: directory
   path: _team

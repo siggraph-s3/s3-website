@@ -4,7 +4,7 @@ title: XSV Alumni Reunion 2016
 img-url: events-img-alum-2016.png
 date: '2016-07-24T00:00:00Z'
 published: true
-enable-header: true
+event-type: alumni reunion
 ---
 **When:**
 

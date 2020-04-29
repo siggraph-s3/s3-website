@@ -4,7 +4,7 @@ title: SV Alumni Reunion 2019
 img-url: events-img-alum-2019.png
 date: '2019-07-28T00:00:00Z'
 published: true
-enable-header: true
+event-type: alumni reunion
 ---
 **When:**
 

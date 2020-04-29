@@ -5,15 +5,22 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
 - type: text
   name: title
-  label: title
+  label: Event title
+  description: 'Example: "2020 SV Alumni Reunion"'
 - type: file
   name: img-url
-  label: img-url
+  label: List image
+  config:
+    maxSize: 2
 - type: datetime
   name: date
   label: date
 - type: text
   name: event-type
-  label: event-type
+  label: Type of event
+  config:
+    required: false
+  description: 'Choose: s3r3, alumni reunion, webinar'

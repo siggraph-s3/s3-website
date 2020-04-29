@@ -12,7 +12,7 @@ fields:
   description: 'Example: "2020 SV Alumni Reunion"'
 - type: file
   name: img-url
-  label: List image
+  label: Events listing image
   config:
     maxSize: 2
 - type: datetime

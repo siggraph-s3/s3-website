@@ -15,6 +15,7 @@ fields:
   label: Events listing image
   config:
     maxSize: 2
+  description: 'Upload a square image. 741px * 741px '
 - type: datetime
   name: date
   label: date
@@ -23,5 +24,8 @@ fields:
   label: Type of event
   config:
     required: true
-    options: [s3r3, alumni reunion, webinar]
+    options:
+    - s3r3
+    - alumni reunion
+    - webinar
   description: 'Choose: s3r3, alumni reunion, webinar'

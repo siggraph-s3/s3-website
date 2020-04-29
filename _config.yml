@@ -24,7 +24,7 @@ permalink:          pretty
 port:               9002
 url: http://www.s3.siggraph.org # the base hostname & protocol for your site
 baseurl: "/s3-website"
-
+repository: siggraph-s3/s3-website
 # exclude this stuff when building the static site
 exclude:            [
                       '.gitignore',

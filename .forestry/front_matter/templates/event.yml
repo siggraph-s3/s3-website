@@ -1,0 +1,31 @@
+---
+label: Event
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+  hidden: true
+- type: text
+  name: title
+  label: Event title
+  description: 'Example: "2020 SV Alumni Reunion"'
+- type: file
+  name: img-url
+  label: Events listing image
+  config:
+    maxSize: 2
+  description: 'Upload a square image. 741px * 741px '
+- type: datetime
+  name: date
+  label: date
+- type: select
+  name: event-type
+  label: Type of event
+  config:
+    required: true
+    options:
+    - s3r3
+    - alumni reunion
+    - webinar
+  description: 'Choose: s3r3, alumni reunion, webinar'

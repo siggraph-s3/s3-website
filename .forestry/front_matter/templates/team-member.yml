@@ -1,0 +1,30 @@
+---
+label: Team member
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+  hidden: true
+- type: text
+  name: name
+  label: Name
+  config:
+    required: true
+- type: file
+  name: img
+  label: Profile picture
+  default: assets/img/profile-placeholder.jpg
+  config:
+    maxSize: 1
+- type: text
+  name: role
+  label: Role
+  description: IE - "Committee Chair"
+  config:
+    required: true
+- type: number
+  name: member-order
+  label: member-order
+  config:
+    step: 

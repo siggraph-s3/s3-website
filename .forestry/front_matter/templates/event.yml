@@ -18,9 +18,10 @@ fields:
 - type: datetime
   name: date
   label: date
-- type: text
+- type: select
   name: event-type
   label: Type of event
   config:
-    required: false
+    required: true
+    options: [s3r3, alumni reunion, webinar]
   description: 'Choose: s3r3, alumni reunion, webinar'

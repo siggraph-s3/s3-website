@@ -70,13 +70,20 @@ collections:
 
 #Navigation
 menuitems:
+  
   - url: /s3-website/
-    title: About
+    title: Home
   - url: /s3-website/programs/
     title: Programs
   - url: /s3-website/events/
     title: Events
-  - url: /s3-website/team/
-    title: Team
-  - url: /s3-website/resources/
-    title: Resources
+  - url: /s3-website/industry-career/
+    title: Industry & Career
+  - url: /s3-website/education/
+    title: Education
+  - url: /s3-website/community/
+    title: Community
+  # - url: /team/
+  #   title: Team
+  - url: /s3-website/about/
+    title: About

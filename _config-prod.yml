@@ -69,13 +69,20 @@ collections:
 
 #Navigation
 menuitems:
-  - url: /
-    title: About
+  
+    - url: /
+    title: Home
   - url: /programs/
     title: Programs
   - url: /events/
     title: Events
-  - url: /team/
-    title: Team
-  - url: /resources/
-    title: Resources
+  - url: /industry-career/
+    title: Industry & Career
+  - url: /education/
+    title: Education
+  - url: /community/
+    title: Community
+  # - url: /team/
+  #   title: Team
+  - url: /about/
+    title: About

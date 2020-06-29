@@ -1,77 +1,51 @@
-<div id="responsive-menu">
-              <!-- <div class="nav-container"> -->
-                <div class="top-bar-left"></div>
-                <div class="top-bar-right">
+<div class="top-bar-right" id="responsive-menu">
+  <div class="show-for-medium-only">
+    <ul class="menu align-center">
+    <li class=""><a href="http://twitter.com/siggraphs3"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li class=""><a href="http://facebook.com/https://www.facebook.com/S3-ACM-SIGGRAPH-Student-Services-113401685341913/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li class=""><a href="mailto:s3@siggraph.org"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+    </ul>
+  </div>
+  <ul class="dropdown menu vertical medium-horizontal align-right align-center-medium" data-dropdown-menu>
+      {% for item in site.data.navbar %}
+      {% if item.url == page.dir %}
+      {% assign class = "active" %}
+      {% else %}
+      {% assign class = "normal" %}
+      {% endif %}
+              
+      {% if item.subfolderitems %}
+
+      <li class="mega-menu dropdown">
+        <a data-toggle="mega-menu-{{ item.name | slugify }}" href="#">{{ item.name }}</a>
+        <div class="dropdown-pane bottom center" id="mega-menu-{{ item.name | slugify }}" data-toggler=".expanded" data-dropdown data-options="closeOnClick:false; hover: false; hoverPane: true; vOffset:35;">
+          <div class="row align-middle">
+            <div class="columns">
+              <ul class="menu horizontal">
+                <!-- <li class="hollow button small"><a href="{{ site.baseurl }}{{ item.url }}">See all</a></li> -->
+                <div class="row align-middle">
+                {% for entry in item.subfolderitems %}
                   
-            <!-- <ul class="menu">
-              {% for menuitem in site.menuitems %}
-              {% if menuitem.url == page.dir %}
-                  {% assign class = "active" %}
-              {% else %}
-                  {% assign class = "normal" %}
-              {% endif %}
-                  <li class="{{ class }}"><a href="{{ menuitem.url }}">{{ menuitem.title }}</a></li>
-              {% endfor %}
-                  <li class="vertical-divider"><a href="http://twitter.com/siggraphs3"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                  <li class=""><a href="http://facebook.com/https://www.facebook.com/S3-ACM-SIGGRAPH-Student-Services-113401685341913/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                  <li class=""><a href="mailto:s3@siggraph.org"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-            </ul> -->
-                  <ul class="dropdown menu" data-dropdown-menu>
-                      {% for item in site.data.navbar %}
-                      {% if item.url == page.dir %}
-                      {% assign class = "active" %}
-                      {% else %}
-                      {% assign class = "normal" %}
-                      {% endif %}
-                              
-                      {% if item.subfolderitems %}
-      
-      
-      
-      
-                      <li class="mega-menu dropdown">
-                        <a data-toggle="mega-menu-{{ item.name | slugify }}" href="#">{{ item.name }}</a>
-                        <div class="dropdown-pane bottom center" id="mega-menu-{{ item.name | slugify }}" data-toggler=".expanded" data-dropdown data-options="closeOnClick:false; hover: false; hoverPane: true; vOffset:35;">
-                          
-                          
-                          <div class="row align-middle">
-                            <div class="columns">
-                              <ul class="menu horizontal">
-                                <!-- <li class="hollow button small"><a href="{{ site.baseurl }}{{ item.url }}">See all</a></li> -->
-                                <div class="row align-middle">
-                                {% for entry in item.subfolderitems %}
-                                  
-                                    <div class="columns small-12 medium-expand">
-                                      <li class="mega-menu-sub-item-link {% unless forloop.first%}item-border{% endunless %}">
-                                        <a class="expanded" href="{{ site.baseurl }}{{ entry.url }}">{{ entry.name }}</a>
-                                        <p>{{ entry.description }} {{ forloop.index }}</p>
-                                      </li>
-                                    </div>
-                                  
-                                  {% if entry.description %}
-                                  {% endif %}
-                                {% endfor %}
-                              </div>
-                              </ul>
-                            </div>
-                          </div>
-                          
-                          
-                        </div>
+                      <li class="mega-menu-sub-item-link {% unless forloop.first%}item-border{% endunless %}">
+                        <a class="expanded" href="{{ site.baseurl }}{{ entry.url }}">{{ entry.name }}</a>
+                        <p>{{ entry.description }} {{ forloop.index }}</p>
                       </li>
-      
-      
-      
-                        {% else %}
-                        <li><a href="#">{{ item.name }}</a></li>
-                      {% endif %}
-                      {% endfor %}
-                      <li class="vertical-divider"><a href="http://twitter.com/siggraphs3"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                      <li class=""><a href="http://facebook.com/https://www.facebook.com/S3-ACM-SIGGRAPH-Student-Services-113401685341913/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                      <li class=""><a href="mailto:s3@siggraph.org"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-                  </ul>
                   
-                  
-                </div>
-              <!-- </div> -->
+                  {% if entry.description %}
+                  {% endif %}
+                {% endfor %}
+              </div>
+              </ul>
             </div>
+          </div>
+        </div>
+      </li>
+        {% else %}
+        <li><a href="#">{{ item.name }}</a></li>
+      {% endif %}
+      {% endfor %}
+      <li class="hide-for-medium-only vertical-divider"><a href="http://twitter.com/siggraphs3"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+      <li class="hide-for-medium-only"><a href="http://facebook.com/https://www.facebook.com/S3-ACM-SIGGRAPH-Student-Services-113401685341913/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+      <li class="hide-for-medium-only"><a href="mailto:s3@siggraph.org"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+  </ul>
+</div>

@@ -1,6 +1,32 @@
 //
 // Foundation-Jekyll - Custom Theme Styles
 //
+// Alignment helper classes
+.align-center-small {
+	@include breakpoint(small only) {
+	  -webkit-box-pack: center !important;
+	  -ms-flex-pack: center !important;
+	  justify-content: center !important;
+	}
+  }
+  
+  .align-center-medium {
+	@include breakpoint(medium only) {
+	  -webkit-box-pack: center !important;
+	  -ms-flex-pack: center !important;
+	  justify-content: center !important;
+	}
+  }
+  
+  .align-center-large {
+	@include breakpoint(large only) {
+	  -webkit-box-pack: center !important;
+	  -ms-flex-pack: center !important;
+	  justify-content: center !important;
+	}
+  }
+
+
 $main-accent-color:#A80532;
 $heading-color:#fff;
 
@@ -104,22 +130,23 @@ span.highlight{
   background-size: cover;
   
 }
-
 [data-sticky] {
   width: 100%;
 }
-
 .top-bar {
   padding: 2rem;
   transition: padding .25s ease;
+  flex-wrap: wrap;
 }
-
 .is-stuck .top-bar {
   padding: 1rem;
   transition: padding .25s ease;
 }
 .top-bar .menu>li>a {
   text-transform: uppercase;
+  @media #{$medium-only} {
+	font-size: 0.8rem;
+}
 }
 .menu .active>a {
     color: #fff !important;
@@ -153,8 +180,6 @@ span.highlight{
 	    }
 	}
 }
-
-
 .secondary-page-heading,
 .quote{
 	text-align: center;
@@ -245,7 +270,6 @@ span.highlight{
 }
 
 // ACCORDION GROUP
-
 .accordion-group{
 	margin-top: 10vh;
 	margin-bottom: 10vh;
@@ -272,7 +296,6 @@ span.highlight{
     }
     width: 100%;
 }
-
 .accordion-group ul.vertical.menu>li>a {
     flex-direction: row;
     font-size: 1rem;
@@ -282,21 +305,14 @@ span.highlight{
 	    	font-size: 0.9rem;
 	    }
 }
-
-
 ul.menu.is-active {
 	height: auto;
 }
-
-
-
 div.accordion-content{
 	padding: 0 !important;
 	border: 0 !important;
 	background-color: transparent !important;
 }
-
-
 
 a.accordion-title{
 	border-left: 0 !important;
@@ -306,13 +322,7 @@ a.accordion-title{
 a.accordion-title:hover, a.accordion-title:focus{
 	background-color: $white !important;
 }
-
-
-
-
-
-
-
+// S3R3
 .s3r3-callout {
 	background-color:#eeeeee;
 	max-width:100%;
@@ -336,6 +346,7 @@ img.logo {
 	max-width:10rem;
 }
 
+// Mega menu
 .mega-menu .dropdown-pane {
 	// width: 100vw;
 	// max-width: 100vw;
@@ -367,6 +378,9 @@ img.logo {
 	padding: 0 1rem;
 	a {
 		margin:0;
+		@media #{$medium-only} {
+			font-size: 0.8rem;
+		}
 	}
 	&.item-border {
 		border-left: 1px solid black;

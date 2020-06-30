@@ -1,11 +1,11 @@
-<div class="row row white expanded">
+<div class="row row white expanded border-bottom-gray">
     <div class="columns top-bar stacked-for-medium">
       <div class="show-for-medium-only row align-center top-bar-title">
       <!-- Add logic to enable s3 menu logo for all pages except front page -->
           {% if page.page_type == "home" %}
               <a class="masthead show-for-small-only" href="/"><img alt="SIGGRAPH S3" src="{{site.baseurl}}/assets/img/s3-logo-1.png"/></a>
           {% else %}
-               <a class="masthead" href="/"><img alt="SIGGRAPH S3" src="{{site.baseurl}}/assets/img/s3-logo-1.png"/></a>
+               <a class="masthead" href="/"><img style="width:100px; height:auto;" alt="SIGGRAPH S3" src="{{site.baseurl}}/assets/img/s3-logo-1.png"/></a>
           {% endif %}
          
         <span data-responsive-toggle="responsive-menu" data-hide-for="medium" class="menu-button">

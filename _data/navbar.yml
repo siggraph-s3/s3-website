@@ -5,16 +5,16 @@
   subfolderitems:
     - name: s3r3
       url: /programs/s3r3/
-      description: description
+      # description: Resume and reel reviews with industry professionals.
     - name: Webinars
       url: /programs/webinars/
-      description: description
+      # description: description
     - name: XSV
       url: /programs/xsv-program/
-      description: description
+      # description: description
     - name: MentorMe
       url: /programs/mentor-me/
-      description: description
+      # description: description
 - name: Events
   url: /events/
 - name: Industry & Career
@@ -22,37 +22,37 @@
   subfolderitems:
     - name: Job postings
       url: /industry-career/job-postings/
-      description: description
+      # description: description
     - name: News
       url: /industry-career/news
-      description: description
+      # description: description
 - name: Education
   url: /education/
   subfolderitems:
     - name: Reference Guides and texts
       url: /education/eduation/reference-guides-texts
-      description: description
+      # description: description
     - name: Youtube Playlists
       url: /education/youtube-playlists
-      description: description
+      # description: description
     - name: Webinars
       url: /education/webinars
-      description: description
+      # description: description
 - name: Community
   url: /community/
-  description: description
+  # description: description
   subfolderitems:
   - name: Discord
     url: /community/discord
-    description: description
+    # description: description
   - name: Facebook Groups
     url: /community/facebook-groups
-    description: description
+    # description: description
   - name: ACM SIGGRAPH Committees
     url: /community/acm-siggraph-committees
-    description: description
+    # description: description
   - name: SIGGRAPH Conference
     url: /siggraph-conference/
-    description: description
+    # description: description
 # - name: About
 #   url: /about/

@@ -6,7 +6,7 @@
         <li class=""><a href="mailto:s3@siggraph.org"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
     </ul>
   </div>
-  <ul class="dropdown menu vertical medium-horizontal align-right align-center-medium" data-dropdown-menu>
+  <ul class="drilldown menu vertical medium-horizontal align-right align-center-medium" data-responsive-menu="drilldown medium-dropdown" data-dropdown-menu data-drilldown-menu>
       {% for item in site.data.navbar %}
       {% if item.url == page.dir %}
       {% assign class = "active" %}
@@ -17,8 +17,8 @@
       {% if item.subfolderitems %}
 
       <li class="mega-menu dropdown">
-        <a data-toggle="mega-menu-{{ item.name | slugify }}" href="#">{{ item.name }}</a>
-        <div class="dropdown-pane bottom center" id="mega-menu-{{ item.name | slugify }}" data-toggler=".expanded" data-dropdown data-options="closeOnClick:false; hover: false; hoverPane: true; vOffset:35;">
+        <a data-toggle="mega-menu-{{ item.name | slugify }}" href="{{ site.baseurl }}{{ item.url }}">{{ item.name }}</a>
+        <div class="dropdown-pane bottom center hide-for-small-only" id="mega-menu-{{ item.name | slugify }}" data-dropdown data-position="bottom" data-alignment="center" data-options="closeOnClick:false; hover: true; hoverPane: true; vOffset:35;">
           <div class="row align-middle">
             <div class="columns">
               <ul class="menu horizontal">
@@ -28,11 +28,13 @@
                   
                       <li class="mega-menu-sub-item-link {% unless forloop.first%}item-border{% endunless %}">
                         <a class="expanded" href="{{ site.baseurl }}{{ entry.url }}">{{ entry.name }}</a>
-                        <p>{{ entry.description }} {{ forloop.index }}</p>
+                        {% if entry.description %}
+                        <p>{{ entry.description }}</p>
+                        {% endif %}
                       </li>
                   
-                  {% if entry.description %}
-                  {% endif %}
+                  
+                  
                 {% endfor %}
               </div>
               </ul>
@@ -41,11 +43,13 @@
         </div>
       </li>
         {% else %}
-        <li><a href="#">{{ item.name }}</a></li>
+        <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.name }}</a></li>
       {% endif %}
       {% endfor %}
       <li class="hide-for-medium-only vertical-divider"><a href="http://twitter.com/siggraphs3"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
       <li class="hide-for-medium-only"><a href="http://facebook.com/https://www.facebook.com/S3-ACM-SIGGRAPH-Student-Services-113401685341913/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
       <li class="hide-for-medium-only"><a href="mailto:s3@siggraph.org"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
   </ul>
+
+
 </div>

@@ -397,3 +397,17 @@ img.logo {
 		padding:0;
 	}	
 }
+
+// front page featured card
+
+div.featured-card {
+	padding:1rem;
+	margin:1rem 0;
+	border:3px solid #efefef;
+	// background-color: #efefef;
+	border-radius: 4px;
+
+	.featured-card {
+		padding:0 1rem;
+	}
+}

@@ -6,6 +6,10 @@ fields:
   name: layout
   label: layout
   hidden: true
+- type: boolean
+  name: Featured
+  label: featured
+  hidden: false
 - type: text
   name: title
   label: Event title

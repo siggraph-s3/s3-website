@@ -5,9 +5,8 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
-  path: about
+  path: about/**
   label: About
-  match: "**/*"
 - type: directory
   path: _events
   label: Events

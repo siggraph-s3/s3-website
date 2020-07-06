@@ -8,9 +8,10 @@ fields:
   hidden: true
 - type: boolean
   name: featured
-  label: featured
+  label: Featured
   default: false
   hidden: false
+  description: If this event is set to featured, it will appear on the front page.
 - type: text
   name: title
   label: Event title

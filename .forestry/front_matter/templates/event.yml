@@ -7,7 +7,7 @@ fields:
   label: layout
   hidden: true
 - type: boolean
-  name: Featured
+  name: featured
   label: featured
   default: false
 - type: text

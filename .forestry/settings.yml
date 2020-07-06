@@ -4,10 +4,8 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: heading
-  label: Pages
 - type: document
-  path: ''
+  path: about
   label: About
   match: "**/*"
 - type: directory

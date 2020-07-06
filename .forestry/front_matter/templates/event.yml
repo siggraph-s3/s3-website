@@ -9,7 +9,6 @@ fields:
 - type: boolean
   name: Featured
   label: featured
-  hidden: false
   default: false
 - type: text
   name: title

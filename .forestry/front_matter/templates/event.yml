@@ -2,16 +2,16 @@
 label: Event
 hide_body: false
 fields:
-- type: text
-  name: layout
-  label: layout
-  hidden: true
 - type: boolean
   name: featured
   label: Featured
   default: false
   hidden: false
   description: If this event is set to featured, it will appear on the front page.
+- type: text
+  name: layout
+  label: layout
+  hidden: true
 - type: text
   name: title
   label: Event title

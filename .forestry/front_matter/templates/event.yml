@@ -10,6 +10,7 @@ fields:
   name: Featured
   label: featured
   hidden: false
+  default: false
 - type: text
   name: title
   label: Event title

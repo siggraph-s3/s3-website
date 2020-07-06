@@ -18,7 +18,7 @@
 
       <li class="mega-menu dropdown">
         <a data-toggle="mega-menu-{{ item.name | slugify }}" href="{{ site.baseurl }}{{ item.url }}">{{ item.name }}</a>
-        <div class="dropdown-pane bottom center hide-for-small-only" id="mega-menu-{{ item.name | slugify }}" data-dropdown data-position="bottom" data-alignment="center" data-options="closeOnClick:false; hover: true; hoverPane: true; vOffset:35;">
+        <div class="dropdown-pane bottom center hide-for-small-only" id="mega-menu-{{ item.name | slugify }}" data-dropdown data-force-follow="false" data-position="bottom" data-alignment="center" data-options="closeOnClick:false; hover: true; hoverPane: true; vOffset:35;">
           <div class="row align-middle">
             <div class="columns">
               <ul class="menu horizontal">

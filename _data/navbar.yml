@@ -34,10 +34,10 @@
   url: "/community/"
   subfolderitems:
   - name: Discord
-    url: "/community/discord"
+    url: "/community#discord"
   - name: Facebook Groups
-    url: "/community/facebook-groups"
+    url: "/community#facebook-groups"
   - name: ACM SIGGRAPH Committees
-    url: "/community/acm-siggraph-committees"
+    url: "/community#acm-siggraph-committees"
   - name: SIGGRAPH Conference
-    url: "/siggraph-conference/"
+    url: "/community#siggraph-conference"

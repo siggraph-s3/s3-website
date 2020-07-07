@@ -23,7 +23,7 @@ layout: default
   
   <!-- REQUEST ROW -->
   <div>
-    {% assign callouts = (site.front-page-callouts | reverse | where: "published", true ) %}
+    {% assign callouts = (site.front-page-callouts | reverse | where: "enabled", true ) %}
     {% if page.enable-callouts == true and callouts.size > 0 %}
         {% for callout in callouts %}
             

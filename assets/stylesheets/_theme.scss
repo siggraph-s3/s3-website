@@ -363,8 +363,17 @@ img.logo {
 	right: 0px !important;
 	border: 0;
 	z-index: 550;
-	padding: 2rem 1rem;
+	padding: 4rem 1rem;
 	box-sizing: border-box;
+	@media #{$large-only} {
+		top:120px !important;
+		
+	}
+	@media #{$medium-only} {
+		top: 204px !important;
+		
+	}
+	
 	// display: none !important;
 	// see all button
 

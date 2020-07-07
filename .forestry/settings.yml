@@ -6,8 +6,7 @@ webhook_url:
 sections:
 - type: document
   path: _data/navbar.yml
-  label: Configure menu
-  create: none
+  label: Site Menu
   match: "**/*"
 - type: heading
   label: Page Configuration

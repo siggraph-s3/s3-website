@@ -8,6 +8,7 @@ sections:
   path: index.html
   label: Home Page
   match: "**/*"
+  hide_body: true
 - type: jekyll-pages
   label: Pages
   create: all

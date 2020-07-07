@@ -4,14 +4,15 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Page Configuration
 - type: document
   path: index.html
   label: Home Page
   match: "**/*"
   hide_body: true
-- type: jekyll-pages
-  label: Pages
-  create: all
+- type: heading
+  label: Content
 - type: directory
   path: _events
   label: Events

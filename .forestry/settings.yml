@@ -7,6 +7,7 @@ sections:
 - type: document
   path: _data/navbar.yml
   label: Configure menu
+  create: none
   match: "**/*"
 - type: heading
   label: Page Configuration

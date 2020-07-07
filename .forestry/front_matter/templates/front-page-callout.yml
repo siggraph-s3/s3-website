@@ -20,3 +20,5 @@ fields:
 - type: boolean
   name: enabled
   label: Enable Callout
+  default: true
+  hidden: false

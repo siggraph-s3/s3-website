@@ -17,3 +17,6 @@ fields:
 - type: text
   name: button-url
   label: button-url
+- type: boolean
+  name: enabled
+  label: Enable Callout

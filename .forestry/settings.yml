@@ -17,6 +17,11 @@ sections:
 - type: heading
   label: Content
 - type: directory
+  path: _front-page-callouts
+  label: Front Page Callouts
+  create: all
+  match: "**/*"
+- type: directory
   path: _events
   label: Events
   create: all

@@ -1,0 +1,19 @@
+---
+label: Front Page Callout
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: text
+  label: text
+- type: boolean
+  name: enable-button
+  label: enable-button
+- type: text
+  name: button-text
+  label: button-text
+- type: text
+  name: button-url
+  label: button-url

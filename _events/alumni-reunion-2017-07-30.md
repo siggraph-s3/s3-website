@@ -5,6 +5,7 @@ img-url: events-img-alum-2017.jpg
 date: '2017-07-30T00:00:00Z'
 published: true
 event-type: alumni reunion
+featured: false
 ---
 **When:**
 

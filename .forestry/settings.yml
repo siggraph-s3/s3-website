@@ -4,6 +4,23 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Menu
+- type: document
+  path: _data/navbar.yml
+  label: Site Menu
+- type: heading
+  label: Page Configuration
+- type: document
+  path: index.html
+  label: Home Page
+- type: heading
+  label: Content
+- type: directory
+  path: _front-page-callouts
+  label: Front Page Callouts
+  create: all
+  match: "**/*"
 - type: directory
   path: _events
   label: Events

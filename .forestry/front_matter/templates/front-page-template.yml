@@ -1,0 +1,22 @@
+---
+label: Front Page Template
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: text-heading
+  label: text-heading
+- type: boolean
+  name: remove-duplicate-logo
+  label: remove-duplicate-logo
+- type: boolean
+  name: enable-callouts
+  label: enable-callouts
+- type: boolean
+  name: enable-featured-events
+  label: enable-featured-events

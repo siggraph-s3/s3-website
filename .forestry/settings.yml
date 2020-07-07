@@ -7,7 +7,7 @@ sections:
 - type: document
   path: index.html
   label: Home Page
-  read_only: true
+  read_only: false
 - type: jekyll-pages
   label: Pages
   create: all

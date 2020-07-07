@@ -1,0 +1,7 @@
+# action.yml
+name: 'Build and Deploy'
+description: 'Use the a Ruby docker image to build the website with Jekyll'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'

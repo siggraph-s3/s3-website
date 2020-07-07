@@ -4,13 +4,15 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: _data/navbar.yml
+  label: Configure menu
+  match: "**/*"
 - type: heading
   label: Page Configuration
 - type: document
   path: index.html
   label: Home Page
-  match: "**/*"
-  hide_body: true
 - type: heading
   label: Content
 - type: directory

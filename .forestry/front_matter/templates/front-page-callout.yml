@@ -28,3 +28,5 @@ fields:
   label: Enable Callout
   default: true
   hidden: false
+pages:
+- _front-page-callouts/2020-s3r3.md

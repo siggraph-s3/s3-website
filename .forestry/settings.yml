@@ -15,9 +15,8 @@ sections:
   path: index.html
   label: Home Page
 - type: document
-  path: industry-career/index.html
+  path: industry-career
   label: industry & career
-  match: "**/*"
 - type: heading
   label: Content
 - type: directory

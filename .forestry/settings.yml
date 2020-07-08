@@ -14,6 +14,10 @@ sections:
 - type: document
   path: index.html
   label: Home Page
+- type: document
+  path: industry-career/index.html
+  label: industry & career
+  match: "**/*"
 - type: heading
   label: Content
 - type: directory

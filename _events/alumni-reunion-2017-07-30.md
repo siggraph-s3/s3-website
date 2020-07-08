@@ -6,6 +6,9 @@ date: '2017-07-30T00:00:00Z'
 published: true
 event-type: alumni reunion
 featured: false
+enable-header: true
+enable-banner: false
+banner-img:
 ---
 **When:**
 

@@ -420,3 +420,31 @@ div.featured-card {
 		padding:0 1rem;
 	}
 }
+
+// ANIMATED CALLOUT BUTTON
+.call-to-action-btn {
+	padding: 5rem;
+	
+	@media #{$small-only} {
+		padding: 2rem;
+	}
+}
+.animated-bg {
+	animation: animated-bg 5s;
+	-moz-animation: animated-bg 5s infinite; /* Firefox */
+	-webkit-animation: animated-bg 5s infinite; /* Safari and Chrome */
+
+	&:hover {
+		animation: none;
+	}
+}
+@-moz-keyframes animated-bg /* Firefox */ {
+    0% {background-color:#A80532;}
+    50% {background-color:#ff0000;}
+    100% {background-color:#A80532;}
+}
+@-webkit-keyframes animated-bg /* Safari and Chrome */ {
+    0% {background-color:#A80532;}
+    50% {background-color:#ff0000;}
+    100% {background-color:#A80532;}
+}

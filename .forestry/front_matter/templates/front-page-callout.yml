@@ -2,6 +2,11 @@
 label: Front Page Callout
 hide_body: true
 fields:
+- type: boolean
+  name: enabled
+  label: Enable Callout
+  default: true
+  hidden: false
 - type: text
   name: title
   label: title
@@ -23,8 +28,3 @@ fields:
   showOnly:
     field: enable-button
     value: true
-- type: boolean
-  name: enabled
-  label: Enable Callout
-  default: true
-  hidden: false

@@ -37,3 +37,5 @@ fields:
     - alumni reunion
     - webinar
   description: 'Choose: s3r3, alumni reunion, webinar'
+pages:
+- _events/alumni-reunion-2016-07-24.md

@@ -2,13 +2,13 @@
 layout: collection-item
 title: SV Alumni Reunion 2019
 img-url: events-img-alum-2019.png
-date: '2019-07-28T00:00:00Z'
-published: true
+date: 2019-07-28T00:00:00Z
 event-type: alumni reunion
 featured: false
 enable-header: true
 enable-banner: false
-banner-img:
+banner-img: 
+
 ---
 **When:**
 
@@ -23,4 +23,4 @@ Los Angeles, CA 90015
 **Details:**
 
 Small bites 
-Cash bar 
+Cash bar

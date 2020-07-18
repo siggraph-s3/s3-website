@@ -25,5 +25,7 @@ fields:
 - type: boolean
   name: enable-featured-events
   label: enable-featured-events
+  description: If an event has the featured toggle enabled, then it will automatically
+    show up on the front page. You can disable all featured events with this toggle.
 pages:
 - index.html

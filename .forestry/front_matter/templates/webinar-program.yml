@@ -19,3 +19,5 @@ fields:
   type: boolean
   label: Show featured webinar
   default: true
+pages:
+- _programs/webinars.html

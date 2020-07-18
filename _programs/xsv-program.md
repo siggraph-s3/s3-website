@@ -15,15 +15,14 @@ app-results-2: 9 February, 2020
 app-deadline-3: 27 May, 2020
 app-results-3: 7 June, 2020
 application-timezone: 22:00 UTC/GMT
-#application-results-date: 8 January 2018
-# program-duration: 8 January – 31 August 2018
 siggraph-dates: 19 - 23 July, 2020
 arrival-date: 6 pm on Thursday, 19 July
 departure-date: 6 pm on Thursday, 23 July
 city: Washington, D.C.
 venue: Washington, D.C. Convention Center
 application-pairing-date: 8 January 2018
-mentorship-agreement-link: /assets/downloads/xsv-mentoring-agreement-2019.docx
+mentorship-agreement-link: "/assets/downloads/xsv-mentoring-agreement-2019.docx"
+
 ---
 Are you no longer qualified to be a SIGGRAPH Student Volunteer? Want to become more involved with ACM SIGGRAPH and the computer graphics community? Thinking about someday applying to be on an ACM SIGGRAPH committee or SIGGRAPH conference subcommittee? If you answered “Yes!” to these questions, then the XSV Program is for YOU! This program is a unique opportunity to get a behind-the-scenes perspective on everything involved with an ACM SIGGRAPH Executive Committee or a specific SIGGRAPH Conference program.
 

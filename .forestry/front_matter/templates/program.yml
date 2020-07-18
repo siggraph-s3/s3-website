@@ -71,3 +71,5 @@ fields:
 - type: text
   name: mentorship-agreement-link
   label: mentorship-agreement-link
+pages:
+- _programs/xsv-program.md

@@ -25,6 +25,11 @@ sections:
   create: all
   match: "**/*"
 - type: directory
+  path: _page-sections
+  label: Page sections
+  create: documents
+  match: "**/*"
+- type: directory
   path: _events
   label: Events
   create: all

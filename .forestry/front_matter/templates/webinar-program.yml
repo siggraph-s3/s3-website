@@ -1,6 +1,6 @@
 ---
 label: webinar-program
-hide_body: false
+hide_body: true
 fields:
 - type: text
   name: layout
@@ -9,6 +9,9 @@ fields:
 - type: text
   name: title
   label: title
+- type: textarea
+  name: page-text
+  label: Page text
 - type: boolean
   name: enable-header
   label: enable-header

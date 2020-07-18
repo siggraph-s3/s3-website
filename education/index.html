@@ -3,11 +3,11 @@ layout: page
 title: Education
 enable-banner: true
 enable-header: true
-page-sections:
-  - refs
-  - video-playlists
-  - webinars
+#page-sections:
+#  - refs
+#  - video-playlists
+#  - webinars
+enable-sections: true
 ---
-{% for item in page.page-sections %}
-{% include page-section.html section=item%}
-{% endfor %}
+{% assign sections_array = site.page-sections | where: 'enable-on-page', {{page.title}} %}
+{% include page-section.html sections-array=sections_array %}

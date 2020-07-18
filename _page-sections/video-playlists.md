@@ -1,7 +1,8 @@
 ---
 title: video-playlists
 heading: Youtube playlists
-enable-on-page: [Education]
+enable-on-page:
+- Education
 enabled: true
 
 ---

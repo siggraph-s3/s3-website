@@ -5,9 +5,14 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
 - type: text
   name: title
   label: title
 - type: boolean
   name: enable-header
   label: enable-header
+- name: show-featured-webinar
+  type: boolean
+  label: Show featured webinar
+  default: true

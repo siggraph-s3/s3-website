@@ -14,7 +14,7 @@
     url: "/programs/xsv-program/"
   - name: MentorMe
     url: "/programs/mentor-me/"
-  enable_sublinks: false
+  enable_sublinks: true
 - name: Events
   url: "/events/"
   enable_sublinks: false

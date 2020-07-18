@@ -39,3 +39,4 @@ fields:
   description: 'Choose: s3r3, alumni reunion, webinar'
 pages:
 - _events/alumni-reunion-2016-07-24.md
+- _events/webinar-2019-10-11.md

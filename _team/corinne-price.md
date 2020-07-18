@@ -1,9 +1,10 @@
 ---
 layout: collection-item
 name: Corinne Price
-member-order: 0
+member-order: 
 role: chair
 img: corinneprice.jpg
+
 ---
 Corinne Price is a Director supporting Federal clients at ICF located in Fairfax, Virginia. Corinne previously worked with Northrop Grumman IT, KPMG LLP, and Accenture LLC supporting clients with IT project management, acquisition strategy, technical cost estimating, and portfolio management. Her current efforts focus on technology modernization strategy and implementation, in particular migrating from legacy systems to a cloud-based offering.
 

@@ -1,7 +1,8 @@
 ---
 title: jobs
 heading: Job postings
-enable-on-page: [Industry and Career]
+enable-on-page:
+- Industry and Career
 enabled: true
 
 ---

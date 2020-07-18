@@ -1,6 +1,6 @@
 ---
-label: program
-hide_body: false
+label: xsv-program
+hide_body: true
 fields:
 - type: text
   name: layout

@@ -20,6 +20,8 @@ fields:
 - type: boolean
   name: enable-callouts
   label: enable-callouts
+  description: You can add  and edit callouts in the content section called "Front
+    Page Callouts."
 - type: boolean
   name: enable-featured-events
   label: enable-featured-events

@@ -3,6 +3,10 @@ layout: page
 title: Industry and Career
 enable-banner: true
 enable-header: true
+page-sections:
+  - jobs
+  - news
 ---
-{% include page-section.html section="jobs"%}
-{% include page-section.html section="news"%}
+{% for item in page.page-sections %}
+{% include page-section.html section=item%}
+{% endfor %}

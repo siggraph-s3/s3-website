@@ -8,9 +8,18 @@ fields:
 - type: text
   name: heading
   label: heading
-- type: list
-  name: enable-on-page
-  label: enable-on-page
 - type: boolean
   name: enabled
   label: enabled
+  default: true
+- type: list
+  name: enable-on-page
+  label: enable-on-page
+  config:
+    use_select: true
+    source:
+      type: simple
+      section: industry-career
+    options:
+    - Education
+    - " Industry and Career"

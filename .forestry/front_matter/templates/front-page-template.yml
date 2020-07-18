@@ -15,6 +15,8 @@ fields:
 - type: boolean
   name: remove-duplicate-logo
   label: remove-duplicate-logo
+  description: On the front page, it's possible to have the s3 logo visible in the
+    navigation bar. This is hidden by default.
 - type: boolean
   name: enable-callouts
   label: enable-callouts

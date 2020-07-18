@@ -36,7 +36,7 @@
     url: "/education/youtube-playlists"
   - name: Webinars
     url: "/education/webinars"
-  enable_sublinks: false
+  enable_sublinks: true
 - name: Community
   url: "/community/"
   subfolderitems:

@@ -1,0 +1,16 @@
+---
+label: Page section
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: heading
+  label: heading
+- type: list
+  name: enable-on-page
+  label: enable-on-page
+- type: boolean
+  name: enabled
+  label: enabled

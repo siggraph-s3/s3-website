@@ -13,8 +13,8 @@
       {% else %}
       {% assign class = "normal" %}
       {% endif %}
-              
-      {% if item.subfolderitems %}
+      {% assign sub-items = item.subfolderitems | size %}
+      {% if sub-items > 0  %}
 
       <li class="mega-menu dropdown">
         <a data-toggle="mega-menu-{{ item.name | slugify }}" href="{{ site.baseurl }}{{ item.url }}">{{ item.name }}</a>

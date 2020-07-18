@@ -1,0 +1,31 @@
+---
+label: mentorme-program
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: boolean
+  name: enable-header
+  label: enable-header
+- type: boolean
+  name: enable-banner
+  label: enable-banner
+- type: text
+  name: mentor-airtable
+  label: mentor-airtable
+- type: text
+  name: student-airtable
+  label: student-airtable
+- type: boolean
+  name: mentorme-tabs
+  label: mentorme-tabs
+- type: boolean
+  name: mentorme-tab-student
+  label: mentorme-tab-student
+- type: boolean
+  name: mentorme-tab-mentor
+  label: mentorme-tab-mentor

@@ -1,7 +1,8 @@
 ---
 title: refs
 heading: Reference Guides/Texts
-enable-on-page: [Education]
+enable-on-page:
+- Education
 enabled: true
 
 ---

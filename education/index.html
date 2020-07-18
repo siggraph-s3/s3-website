@@ -3,7 +3,11 @@ layout: page
 title: Education
 enable-banner: true
 enable-header: true
+page-sections:
+  - refs
+  - video-playlists
+  - webinars
 ---
-{% include page-section.html section="refs" %}
-{% include page-section.html section="video-playlists"%}
-{% include page-section.html section="webinars"%}
+{% for item in page.page-sections %}
+{% include page-section.html section=item%}
+{% endfor %}

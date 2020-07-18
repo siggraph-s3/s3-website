@@ -12,3 +12,34 @@ fields:
   - type: text
     name: url
     label: url
+  - name: enable_sublinks
+    type: boolean
+    label: Enable sublinks
+    description: Enable to show menu sublinks
+    hidden: false
+    default: true
+  - name: subfolderitems
+    type: field_group_list
+    fields:
+    - name: name
+      type: text
+      config:
+        required: false
+      label: Link Title
+      description: Entire the name of submenu the link
+    - name: url
+      type: text
+      config:
+        required: false
+      label: url
+      description: 'Absolute url example: "http:www.google.com". Relative url example:
+        "/programs/xsv/"'
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Sub link
+    description: This is a sublink for the main menu
+    showOnly:
+      field: enable_sublinks
+      value: true

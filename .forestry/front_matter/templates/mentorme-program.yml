@@ -29,3 +29,5 @@ fields:
 - type: boolean
   name: mentorme-tab-mentor
   label: mentorme-tab-mentor
+pages:
+- _programs/mentor-me.html

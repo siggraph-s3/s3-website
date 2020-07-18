@@ -43,5 +43,6 @@ fields:
     showOnly:
       field: enable_sublinks
       value: true
+  hidden: true
 pages:
 - _data/navbar.yml

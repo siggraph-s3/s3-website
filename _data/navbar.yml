@@ -48,4 +48,4 @@
     url: "/community#acm-siggraph-committees"
   - name: SIGGRAPH Conference
     url: "/community#siggraph-conference"
-  enable_sublinks: false
+  enable_sublinks: true

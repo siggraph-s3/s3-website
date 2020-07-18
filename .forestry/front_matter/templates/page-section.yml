@@ -24,6 +24,7 @@ fields:
     - Education
     - Industry and Career
 pages:
+- _page-sections/news.md
 - _page-sections/refs.md
 - _page-sections/video-playlists.md
 - _page-sections/webinars.md

@@ -1,7 +1,8 @@
 ---
 title: webinars
 heading: Webinars
-enable-on-page: [Education]
+enable-on-page:
+- Education
 enabled: true
 
 ---

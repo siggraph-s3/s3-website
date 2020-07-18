@@ -9,7 +9,7 @@ layout: default
     {% include top-bar.html %}
     <!-- END TOP BAR -->
     <!-- PROGRAM MARK -->
-    <div class="row header-content hide-for-small-only">
+    <div class="row header-content">
         <div class="small-12 center columns">
           <a class="right masthead" href="{{ site.baseurl }}/"><img class="logo" alt="SIGGRAPH S3" src="{{site.baseurl}}/assets/img/s3-logo-1.png"/></a>
         </div>
@@ -37,7 +37,15 @@ layout: default
     {% if page.enable-featured-events == true and featured_events.size > 0 %}
       {% assign content_columns = 2 %}
     {% endif %}
-  
+  <div class="row expanded head-spacing foot-spacing">
+      <div class="columns small-6 large-4 large-push-2 conference center">
+        <a class="center" title="SIGGRAPH Conference" href="https://www.siggraph.org/current-conference" href="https://www.siggraph.org/current-conference"><img class="center-align" style="border: none;" src="http://media.siggraph.org/promo/siggraph-badge.gif" src="http://media.siggraph.org/promo/siggraph-badge.gif" alt="SIGGRAPH" width="160" height="64" /></a>
+      </div>
+      <div class="columns small-6 large-4  large-push-2 asia-conference center">
+       <a class="center" title="SIGGRAPH Asia Conference" href="https://www.siggraph.org/current-asia-conference" href="https://www.siggraph.org/current-asia-conference"><img class="center-align" style="border: none;" src="http://media.siggraph.org/promo/siggraph-asia-badge.gif" src="http://media.siggraph.org/promo/siggraph-asia-badge.gif" alt="SIGGRAPH Asia" width="160" height="64" /></a>
+      </div>
+  </div>
+  <hr>
     <div class="row">
       {% if content_columns == 2 %}
       

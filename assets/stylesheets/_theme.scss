@@ -1,6 +1,89 @@
 //
 // Foundation-Jekyll - Custom Theme Styles
 //
+// Color overrides
+$black:#000;
+$soft-grey:#999;
+$dark-grey:#111;
+$blue: #1e407c;
+$light-blue: #1e587d;
+$red: #e33232;
+$green:#31bf9c;
+$orange:#F7941E;
+
+.black {
+	&-bg {
+		background-color:$black;
+		color:choose-contrast-color($black);
+	}
+	&-text {
+		color:$black;
+	}
+}
+.soft-grey {
+	&-bg {
+		background-color:$soft-grey;
+		color:choose-contrast-color($soft-grey);
+	}
+	&-text {
+		color:$soft-grey;
+	}
+}
+.dark-grey {
+	&-bg {
+		background-color:$dark-grey;
+		color:choose-contrast-color($dark-grey);
+	}
+	&-text {
+		color:$dark-grey;
+	}
+}
+.blue {
+	&-bg {
+		background-color:$blue;
+		color:choose-contrast-color($blue);
+	}
+	&-text {
+		color:$blue;
+	}
+}
+.light-blue {
+	&-bg {
+		background-color:$light-blue;
+		color:choose-contrast-color($light-blue);
+	}
+	&-text {
+		color:$light-blue;
+	}
+}
+.red {
+	&-bg {
+		background-color:$red;
+		color:choose-contrast-color($red);
+	}
+	&-text {
+		color:$red;
+	}
+}
+.green {
+	&-bg {
+		background-color:$green;
+		color:choose-contrast-color($green);
+	}
+	&-text {
+		color:$green;
+	}
+}
+.orange {
+	&-bg {
+		background-color:$orange;
+		color:choose-contrast-color($orange);
+	}
+	&-text {
+		color:$orange;
+	}
+}
+
 // Alignment helper classes
 .align-center-small {
 	@include breakpoint(small only) {
@@ -129,7 +212,6 @@ span.highlight{
   padding: 10rem 0;
   background: url('http://placehold.it/2000x500&text=this is a header') center center no-repeat;
   background-size: cover;
-  
 }
 [data-sticky] {
   width: 100%;

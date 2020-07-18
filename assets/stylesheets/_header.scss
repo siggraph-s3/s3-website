@@ -182,6 +182,10 @@ svg {
 .header-content {
   padding-top:20vh;
   padding-bottom:20vh;
+  @media #{$small-only} {
+		padding-top: 5vh;
+    	padding-bottom: 5vh;
+	}
 }
 
 // flex stuff

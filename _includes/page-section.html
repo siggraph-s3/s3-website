@@ -1,0 +1,5 @@
+{% assign page_sections = site.page-sections | where: "title", include.section %}
+{% for sec in page_sections %}
+        <h2>{{ sec.heading }}</h2>
+        <p>{{ sec.content }}</p>
+{% endfor %}

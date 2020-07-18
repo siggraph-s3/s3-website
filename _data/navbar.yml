@@ -1,6 +1,8 @@
 ---
 - name: Home
   url: "/"
+  enable_sublinks: false
+  subfolderitems: []
 - name: Programs
   url: "/programs/"
   subfolderitems:
@@ -12,8 +14,11 @@
     url: "/programs/xsv-program/"
   - name: MentorMe
     url: "/programs/mentor-me/"
+  enable_sublinks: false
 - name: Events
   url: "/events/"
+  enable_sublinks: false
+  subfolderitems: []
 - name: Industry & Career
   url: "/industry-career/"
   subfolderitems:
@@ -21,6 +26,7 @@
     url: "/industry-career/job-postings/"
   - name: News
     url: "/industry-career/news"
+  enable_sublinks: false
 - name: Education
   url: "/education/"
   subfolderitems:
@@ -30,6 +36,7 @@
     url: "/education/youtube-playlists"
   - name: Webinars
     url: "/education/webinars"
+  enable_sublinks: false
 - name: Community
   url: "/community/"
   subfolderitems:
@@ -41,3 +48,4 @@
     url: "/community#acm-siggraph-committees"
   - name: SIGGRAPH Conference
     url: "/community#siggraph-conference"
+  enable_sublinks: false

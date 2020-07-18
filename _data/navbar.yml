@@ -26,7 +26,7 @@
     url: "/industry-career/job-postings/"
   - name: News
     url: "/industry-career/news"
-  enable_sublinks: false
+  enable_sublinks: true
 - name: Education
   url: "/education/"
   subfolderitems:

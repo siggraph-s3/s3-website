@@ -21,3 +21,5 @@ fields:
 - type: boolean
   name: enable-featured-events
   label: enable-featured-events
+pages:
+- index.html

@@ -1,4 +1,4 @@
-title:              SIGGRAPH S3
+title: SIGGRAPH S3
 # Versioning
 current_version: 1.5.0
 foundation_version: 6.0.0
@@ -10,50 +10,41 @@ social:
   twitter: siggraphs3
 
 # Dependencies
-markdown:           kramdown
+markdown: kramdown
 #Syntax Highlighter
 #highlighter:        pygments
 
 # Permalinks
-permalink:          pretty
+permalink: pretty
 
 # Server
 # source:             ./source Git Pages overrides this variable
 # destination:        ./static
 
-port:               9002
+port: 9002
 url: http://www.s3.siggraph.org # the base hostname & protocol for your site
 baseurl: "/s3-website"
 repository: siggraph-s3/s3-website
 # exclude this stuff when building the static site
-exclude:            [
-                      '.gitignore',
-                      'README.md',
-                      'Gemfile',
-                      'Gemfile.lock',
-                      'vendor/bundle',
-                    ]
+exclude: [".gitignore", "README.md", "Gemfile", "Gemfile.lock", "vendor/bundle"]
 
 ## CUSTOM VARS
 
-
 #ga_id:             ##-########-###
-site_name:          S3
-site_description :  
-site_copyright:     Copyright (c) 2018
-site_url:           http://www.s3.siggraph.org/s3-website
-site_email:         
-site_phone:         
-
-
+site_name: S3
+site_description:
+site_copyright: Copyright (c) 2018
+site_url: http://www.s3.siggraph.org/s3-website
+site_email:
+site_phone:
 
 # Assets
 # We specify the directory for s3-website so we can use @imports.
 sass:
-  sass_dir:          ./assets/stylesheets
-  style:            :compressed
+  sass_dir: ./assets/stylesheets
+  style: :compressed
 
-# Collections 
+# Collections
 collections:
   programs:
     output: true
@@ -65,16 +56,15 @@ collections:
     output: false
   page-sections:
     output: false
- #  _   _     __      _______ _____       _______ _____ ____  _   _ 
- # | \ | |   /\ \    / /_   _/ ____|   /w\|__   __|_   _/ __ \| \ | |
- # |  \| |  /  \ \  / /  | || |  __   /  \  | |    | || |  | |  \| |
- # | . ` | / /\ \ \/ /   | || | |_ | / /\ \ | |    | || |  | | . ` |
- # | |\  |/ ____ \  /   _| || |__| |/ ____ \| |   _| || |__| | |\  |
- # |_| \_/_/    \_\/   |_____\_____/_/    \_\_|  |_____\____/|_| \_|
+  #  _   _     __      _______ _____       _______ _____ ____  _   _
+  # | \ | |   /\ \    / /_   _/ ____|   /w\|__   __|_   _/ __ \| \ | |
+  # |  \| |  /  \ \  / /  | || |  __   /  \  | |    | || |  | |  \| |
+  # | . ` | / /\ \ \/ /   | || | |_ | / /\ \ | |    | || |  | | . ` |
+  # | |\  |/ ____ \  /   _| || |__| |/ ____ \| |   _| || |__| | |\  |
+  # |_| \_/_/    \_\/   |_____\_____/_/    \_\_|  |_____\____/|_| \_|
 
 #Navigation
 menuitems:
-  
   - url: /s3-website/
     title: Home
   - url: /s3-website/programs/

@@ -12,6 +12,11 @@ fields:
   - type: text
     name: url
     label: url
+  - type: boolean
+    name: url_active
+    label: Enable link url
+    default: true
+    description: When disabled, the link becomes inactive.
   - name: enable_sublinks
     type: boolean
     label: Enable sublinks

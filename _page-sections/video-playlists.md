@@ -6,4 +6,4 @@ enable-on-page:
 enabled: true
 
 ---
-Links to curated playlists by topic.
+Links will be added soon.

@@ -14,20 +14,30 @@
       {% assign class = "normal" %}
       {% endif %}
       {% assign sub-items = item.subfolderitems | size %}
+      {% if item.url contains '://' %}
+      {% assign url = item.url %}
+      {% else %}
+      {% capture url %}{{ item.url | relative_url }}{% endcapture %}
+      {% endif %}
+      
       {% if sub-items > 0  %}
 
       <li class="mega-menu dropdown">
-        <a data-toggle="mega-menu-{{ item.name | slugify }}" href="{{ site.baseurl }}{{ item.url }}">{{ item.name }}</a>
+        <a data-toggle="mega-menu-{{ item.name | slugify }}" class="{{ class }}" {% unless item.url_active == false %}href="{{ url }}"{% endunless %}>{{ item.name }}</a>
         <div class="dropdown-pane bottom center hide-for-small-only" id="mega-menu-{{ item.name | slugify }}" data-dropdown data-force-follow="false" data-position="bottom" data-alignment="center" data-options="closeOnClick:false; hover: true; hoverPane: true; vOffset:35;">
           <div class="row align-middle">
             <div class="columns">
               <ul class="menu horizontal">
-                <!-- <li class="hollow button small"><a href="{{ site.baseurl }}{{ item.url }}">See all</a></li> -->
+                <!-- <li class="hollow button small"><a href="{{ site.baseurl }}{{ url }}">See all</a></li> -->
                 <div class="row align-middle">
                 {% for entry in item.subfolderitems %}
-                  
+                  {% if entry.url contains '://' %}
+                  {% assign entry_url = entry.url %}
+                  {% else %}
+                  {% capture entry_url %}{{ entry.url | relative_url }}{% endcapture %}
+                  {% endif %}
                       <li class="mega-menu-sub-item-link {% unless forloop.first%}item-border{% endunless %}">
-                        <a class="expanded" href="{{ site.baseurl }}{{ entry.url }}">{{ entry.name }}</a>
+                        <a class="expanded class" href="{{ entry_url }}">{{ entry.name }}</a>
                         {% if entry.description %}
                         <p>{{ entry.description }}</p>
                         {% endif %}
@@ -43,7 +53,7 @@
         </div>
       </li>
         {% else %}
-        <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.name }}</a></li>
+        <li><a class=""href="{{ url }}">{{ item.name }}</a></li>
       {% endif %}
       {% endfor %}
       <li class="hide-for-medium-only vertical-divider"><a aria-label="twitter" href="http://twitter.com/siggraphs3"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>

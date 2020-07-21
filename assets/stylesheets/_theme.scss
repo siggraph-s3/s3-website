@@ -174,7 +174,15 @@ h3{
 	padding-bottom: 10vh;
 }
 
-// Sticky header
+.small {
+	&-padding {
+		&-top {
+			padding-top:10px;
+		}
+	}
+
+}
+
 body {
 	font-family: "Roboto Mono", Consolas, Monospace;
 }
@@ -183,6 +191,10 @@ a {
 	&:hover {
 		text-decoration: underline;
 	}
+}
+a.disabled {
+	pointer-events: none;
+	cursor: default;
 }
 // icon font resizing
 i.fa {

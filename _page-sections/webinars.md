@@ -6,4 +6,4 @@ enable-on-page:
 enabled: true
 
 ---
-Links to specific relevant webinars.
+Links to relevant webinars will be added soon.

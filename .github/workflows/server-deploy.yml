@@ -19,6 +19,6 @@ jobs:
       - name: Build Jekyll
         run: bundle exec jekyll build --config=_config.yml,_config-prod.yml
       - name: Build SSH Credentials
-        run: eval $(ssh-agent -s) && echo "${{secrets.SSH_PRIVATE_KEY}}" | tr -d '\r' | ssh-add - > /dev/null
+        run: eval $(ssh-agent -s -p ${{secrets.SSH_PORT}}) && echo "${{secrets.SSH_PRIVATE_KEY}}" | tr -d '\r' | ssh-add - > /dev/null
       - name: Send data to the server
         run: rsync -e "ssh -o StrictHostKeyChecking=no" -rvzh ./_site  ${{secrets.ACM_SERVER_USER}}@${{secrets.ACM_SERVER_ADDRESS}}:${{secrets.DEPLOY_PATH}}

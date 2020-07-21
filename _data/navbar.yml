@@ -3,8 +3,10 @@
   url: "/"
   enable_sublinks: false
   subfolderitems: []
+  url_active: true
 - name: Programs
   url: "/programs/"
+  url_active: true
   subfolderitems:
   - name: s3r3
     url: "/programs/s3r3/"
@@ -17,10 +19,12 @@
   enable_sublinks: true
 - name: Events
   url: "/events/"
+  url_active: true
   enable_sublinks: false
   subfolderitems: []
 - name: Industry & Career
   url: "/industry-career/"
+  url_active: true
   subfolderitems:
   - name: Job postings
     url: "/industry-career/job-postings/"
@@ -29,23 +33,25 @@
   enable_sublinks: true
 - name: Education
   url: "/education/"
+  url_active: true
   subfolderitems:
   - name: Reference Guides and texts
-    url: "/education/eduation/reference-guides-texts"
+    url: "/education/#reference-guides-texts"
   - name: Youtube Playlists
-    url: "/education/youtube-playlists"
+    url: "/education/#youtube-playlists"
   - name: Webinars
-    url: "/education/webinars"
+    url: "/education/#webinars"
   enable_sublinks: true
 - name: Community
   url: "/community/"
+  url_active: false
   subfolderitems:
   - name: Discord
-    url: "/community#discord"
+    url: "https://discord.com/"
   - name: Facebook Groups
-    url: "/community#facebook-groups"
+    url: "https://www.facebook.com/pg/ACMSIGGRAPHS3/groups/"
   - name: ACM SIGGRAPH Committees
-    url: "/community#acm-siggraph-committees"
+    url: "https://www.siggraph.org/participate/acm-siggraph-standing-committee-responsibilities/"
   - name: SIGGRAPH Conference
-    url: "/community#siggraph-conference"
+    url: "https://s2020.siggraph.org/"
   enable_sublinks: true

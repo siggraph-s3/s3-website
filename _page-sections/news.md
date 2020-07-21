@@ -6,4 +6,4 @@ enable-on-page:
 enabled: true
 
 ---
-Pertinent industry info, i.e. COVID impacts
+News to be updated soon.

@@ -6,4 +6,4 @@ enable-on-page:
 enabled: true
 
 ---
-Links to various career sites
+Job resources to be updated soon.

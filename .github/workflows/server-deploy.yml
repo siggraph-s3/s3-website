@@ -26,8 +26,9 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{secrets.SSH_PRIVATE_KEY}}
           ACM_SERVER_ADDRESS: ${{secrets.ACM_SERVER_ADDRESS}}
+          ACM_SERVER_PORT: ${{secrets.ACM_SERVER_PORT}}
           ACM_SERVER_USER: ${{secrets.ACM_SERVER_USER}}
           DEPLOY_PATH: ${{secrets.DEPLOY_PATH}}
         run: |
           eval $(ssh-agent -s) && echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
-          rsync -e "ssh -o -p $PORT StrictHostKeyChecking=no" -rvzh ./_site  $ACM_SERVER_USER@$ACM_SERVER_ADDRESS:$DEPLOY_PATH
+          rsync -e "ssh -p $ACM_SERVER_PORT -o StrictHostKeyChecking=no" -rvzh ./_site  $ACM_SERVER_USER@$ACM_SERVER_ADDRESS:$DEPLOY_PATH

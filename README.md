@@ -10,4 +10,4 @@ Follow instructions in terminal
 ## Production deployment
 To build for production: ```bundle exec jekyll build --config=_config.yml,_config-prod.yml```
 
-Note: ```bundle exec jekyll serve``` fails to include both config files. 
+Note: ```bundle exec jekyll serve``` fails to include both config files.

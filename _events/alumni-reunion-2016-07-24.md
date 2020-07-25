@@ -2,9 +2,9 @@
 layout: collection-item
 title: XSV Alumni Reunion 2016
 img-url: events-img-alum-2016.png
-date: 2016-07-24T00:00:00Z
+date: 2016-07-24T00:00:00.000+00:00
 event-type: alumni reunion
-featured: false
+featured: true
 enable-header: true
 enable-banner: false
 banner-img: 

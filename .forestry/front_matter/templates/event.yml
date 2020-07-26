@@ -11,7 +11,7 @@ fields:
   showOnly:
     value: s3r3
 - type: boolean
-  name: featured
+  name: enable-featured-banner
   label: Featured Banner
   default: false
   hidden: false

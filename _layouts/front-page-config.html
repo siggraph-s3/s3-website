@@ -56,7 +56,8 @@ layout: default
       
           <div class="small-12 medium-push-1 medium-6 large-push-1 large-5 columns">
             <h2 class="callout-heading">{{ page.text-heading }}</h2>
-            {% include mission-statement.html %}  
+            {% assign sections_array = site.page-sections | where: 'enable-on-page', {{page.title}} %}
+          {% include page-section.html sections-array=sections_array %}
             {% comment %}{% include vr-image-viewer.html %}{% endcomment %}
           </div>
   
@@ -80,7 +81,6 @@ layout: default
         
         <div class="small-12 medium-push-1 medium-10 large-push-2 large-8 columns">
           <h2 class="callout-heading">{{ page.text-heading }}</h2>
-          {% comment %}{% include mission-statement.html %}{% endcomment %}
           {% assign sections_array = site.page-sections | where: 'enable-on-page', {{page.title}} %}
           {% include page-section.html sections-array=sections_array %}
         </div>

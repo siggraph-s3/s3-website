@@ -29,7 +29,7 @@ fields:
     show up on the front page. You can disable all featured events with this toggle.
 - type: boolean
   name: enable-default-header
-  label: Enable Banner Image
+  label: Enable Featured Banner Carousel
   description: A banner image will appear on the front page. This does not inlcude the featured image carousel.
 pages:
 - index.html

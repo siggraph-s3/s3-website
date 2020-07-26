@@ -9,12 +9,11 @@ fields:
 - type: text
   name: title
   label: title
-- type: list
+- type: select
   name: columns
   label: Front page columns
   description: Set the number of page columns ('1' or '2')
   config:
-    use_select: true
     options:
     - 1
     - 2

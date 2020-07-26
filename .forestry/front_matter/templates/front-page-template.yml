@@ -13,11 +13,6 @@ fields:
   name: text-heading
   label: Text Heading
 - type: boolean
-  name: remove-duplicate-logo
-  label: remove-duplicate-logo
-  description: On the front page, it's possible to have the s3 logo visible in the
-    navigation bar. This is hidden by default.
-- type: boolean
   name: enable-callouts
   label: Enable Callouts
   description: You can add  and edit callouts in the content section called "Front
@@ -34,7 +29,17 @@ fields:
     show up on the front page. You can disable all featured events with this toggle.
 - type: boolean
   name: enable-default-header
-  label: Enable Fixed Front Page Banner Image 
-  description: A banner image will appear on the front page. This does not inlcude the featured banner carousel.
+  label: Enable Fixed Front Page Banner Image
+  description: A banner image will appear on the front page. This does not inlcude
+    the featured banner carousel.
+- type: boolean
+  name: remove-duplicate-logo
+  label: remove-duplicate-logo
+  description: On the front page, it's possible to have the s3 logo visible in the
+    navigation bar. This is hidden by default.
+  showOnly:
+    field: enable-default-header
+    value: true
+  default: true
 pages:
 - index.html

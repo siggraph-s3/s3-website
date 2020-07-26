@@ -13,7 +13,8 @@ fields:
   label: Featured Banner
   default: false
   hidden: false
-  description: If this event is set to featured, it will appear in the front page banner.
+  description: If this event is set to featured, it will appear in the front page
+    banner.
 - type: text
   name: layout
   label: layout
@@ -33,7 +34,7 @@ fields:
   label: Featured Banner Image
   config:
     maxSize: 2
-  description: 'Upload an image with dimensions, 1200px * 550px'
+  description: Upload an image with dimensions, 1200px * 550px
 - type: datetime
   name: date
   label: date

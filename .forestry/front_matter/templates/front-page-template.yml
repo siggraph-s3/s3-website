@@ -10,8 +10,8 @@ fields:
   name: title
   label: title
 - type: list
-  name: enable-on-page
-  label: enable-on-page
+  name: columns
+  label: Front page columns
   description: Set the number of page columns ('1' or '2')
   config:
     use_select: true

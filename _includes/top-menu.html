@@ -9,9 +9,9 @@
   <ul class="drilldown menu vertical medium-horizontal align-right align-center-medium" data-responsive-menu="drilldown medium-dropdown" data-dropdown-menu data-drilldown-menu>
       {% for item in site.data.navbar %}
       {% if item.url == page.dir %}
-      {% assign class = "active" %}
+      {% assign menu-state = "active" %}
       {% else %}
-      {% assign class = "normal" %}
+      {% assign menu-state = "normal" %}
       {% endif %}
       {% assign sub-items = item.subfolderitems | size %}
       {% if item.url contains '://' %}
@@ -22,7 +22,7 @@
       
       {% if sub-items > 0  %}
 
-      <li class="mega-menu dropdown">
+      <li class="{{ menu-state }} mega-menu dropdown">
         <a data-toggle="mega-menu-{{ item.name | slugify }}" class="{{ class }}" {% unless item.url_active == false %}href="{{ url }}"{% endunless %}>{{ item.name }}</a>
         <div class="dropdown-pane bottom center hide-for-small-only" id="mega-menu-{{ item.name | slugify }}" data-dropdown data-force-follow="false" data-position="bottom" data-alignment="center" data-options="closeOnClick:false; hover: true; hoverPane: true; vOffset:35;">
           <div class="row align-middle">
@@ -53,7 +53,7 @@
         </div>
       </li>
         {% else %}
-        <li><a class=""href="{{ url }}">{{ item.name }}</a></li>
+        <li class="{{ menu-state }} "><a href="{{ url }}">{{ item.name }}</a></li>
       {% endif %}
       {% endfor %}
       <li class="hide-for-medium-only vertical-divider"><a aria-label="twitter" href="http://twitter.com/siggraphs3"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>

@@ -11,7 +11,7 @@ fields:
   label: title
 - type: text
   name: text-heading
-  label: text-heading
+  label: Text Heading
 - type: boolean
   name: remove-duplicate-logo
   label: remove-duplicate-logo
@@ -19,17 +19,17 @@ fields:
     navigation bar. This is hidden by default.
 - type: boolean
   name: enable-callouts
-  label: enable-callouts
+  label: Enable Callouts
   description: You can add  and edit callouts in the content section called "Front
     Page Callouts."
 - type: boolean
   name: enable-featured-events
-  label: enable-featured-events
+  label: Enable Featured Events
   description: If an event has the featured toggle enabled, then it will automatically
     show up on the front page. You can disable all featured events with this toggle.
 - type: boolean
   name: enable-default-header
-  label: Enable banner image
+  label: Enable Banner Image
   description: A banner image will appear on the front page. This does not inlcude the featured image carousel.
 pages:
 - index.html

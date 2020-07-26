@@ -27,6 +27,18 @@ fields:
   description: You can add  and edit callouts in the content section called "Front
     Page Callouts."
 - type: boolean
+  name: twitter-feed
+  label: Enable Twitter Feed
+  description: Twitter feed.
+- type: text
+  name: twitter-account
+  label: Twitter account
+  description: Which twitter feed account to show
+  showOnly:
+    field: twitter-feed
+    value: true
+  default: true
+- type: boolean
   name: enable-featured-events
   label: Enable Featured Event Cards
   description: If an event has the featured card toggle enabled, then it will automatically

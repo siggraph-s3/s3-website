@@ -61,7 +61,7 @@ layout: default
             {% comment %}{% include vr-image-viewer.html %}{% endcomment %}
             <div class="row">
               <hr> 
-              <div class="small-12 columns">
+              <div class="small-12 columns head-spacing foot-spacing">
                 <div class="center-align">
                   <a href="{{ site.baseurl }}/programs/" class="large button call-to-action-btn animated-bg">See all S3 programs <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                 </div>
@@ -83,10 +83,12 @@ layout: default
             <hr>
             {% endif %}
             {% endfor %}
+            {% if page.twitter-feed == true %}
+            <div class="tweet-box">
+              <a class="twitter-timeline" href="https://twitter.com/{{ page.twitter-account }}">Tweets by {{ page.twitter-account }}</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
 
-            
-            <a class="twitter-timeline" href="https://twitter.com/siggraph">Tweets by SIGGRAPH</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+            {% endif %}
           </div>
           
             
@@ -107,7 +109,12 @@ layout: default
           </div>
           <div class="small-12 medium-push-1 medium-10 large-push-2 large-8 columns">
             <hr>
-            <a class="twitter-timeline center" href="https://twitter.com/siggraph">Tweets by SIGGRAPH</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            {% if page.twitter-feed == true %}
+            
+              <a class="twitter-timeline" href="https://twitter.com/{{ page.twitter-account }}">Tweets by {{ page.twitter-account }}</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            
+
+            {% endif %}
           </div>
         </div>
 

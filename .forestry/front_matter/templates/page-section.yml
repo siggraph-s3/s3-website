@@ -23,7 +23,9 @@ fields:
     options:
     - Education
     - Industry and Career
+    - SIGGRAPH S3
 pages:
+- _page-sections/front-page.md
 - _page-sections/jobs.md
 - _page-sections/news.md
 - _page-sections/refs.md

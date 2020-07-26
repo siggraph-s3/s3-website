@@ -6,10 +6,10 @@ banner-img-url:
 date: 2019-07-28T00:00:00Z
 event-type: alumni reunion
 featured: false
+enable-featured-card: false
 enable-featured-banner: false
 enable-header: true
 enable-banner: false
-banner-img: 
 
 ---
 **When:**

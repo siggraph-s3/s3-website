@@ -6,11 +6,10 @@ banner-img-url: banner-template_1200-500.png
 date: 2017-07-30T00:00:00Z
 event-type: alumni reunion
 featured: false
-# featured-card-enabled: false
+enable-featured-card: false
 enable-featured-banner: false
 enable-header: true
 enable-banner: false
-banner-img: 
 
 ---
 **When:**

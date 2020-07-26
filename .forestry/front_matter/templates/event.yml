@@ -26,10 +26,16 @@ fields:
   description: 'Example: "2020 SV Alumni Reunion"'
 - type: file
   name: img-url
-  label: Events listing image
+  label: Card Image
   config:
     maxSize: 2
   description: 'Upload a square image. 741px * 741px '
+- type: file
+  name: banner-img-url
+  label: Featured Banner Image
+  config:
+    maxSize: 2
+  description: 'Upload an image with dimensions, 1200px * 550px'
 - type: datetime
   name: date
   label: date

@@ -47,11 +47,11 @@
   url_active: false
   subfolderitems:
   - name: Discord
-    url: "https://discord.com/"
+    url: https://discord.com/channels/@me/732765343352750130
   - name: Facebook Groups
-    url: "https://www.facebook.com/pg/ACMSIGGRAPHS3/groups/"
+    url: https://www.facebook.com/pg/ACMSIGGRAPHS3/groups/
   - name: ACM SIGGRAPH Committees
-    url: "https://www.siggraph.org/participate/acm-siggraph-standing-committee-responsibilities/"
+    url: https://www.siggraph.org/participate/acm-siggraph-standing-committee-responsibilities/
   - name: SIGGRAPH Conference
-    url: "https://s2020.siggraph.org/"
+    url: https://s2020.siggraph.org/
   enable_sublinks: true

@@ -31,4 +31,4 @@ jobs:
           DEPLOY_PATH: ${{secrets.DEPLOY_PATH}}
         run: |
           eval $(ssh-agent -s) && echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
-          rsync -e "ssh -p $ACM_SERVER_PORT -o StrictHostKeyChecking=no" -rvzh ./_site  $ACM_SERVER_USER@$ACM_SERVER_ADDRESS:$DEPLOY_PATH
+          rsync -e "ssh -p $ACM_SERVER_PORT -o StrictHostKeyChecking=no" -rvzh ./_site/  $ACM_SERVER_USER@$ACM_SERVER_ADDRESS:$DEPLOY_PATH

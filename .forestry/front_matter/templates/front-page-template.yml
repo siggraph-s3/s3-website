@@ -24,12 +24,17 @@ fields:
     Page Callouts."
 - type: boolean
   name: enable-featured-events
-  label: Enable Featured Events
-  description: If an event has the featured toggle enabled, then it will automatically
+  label: Enable Featured Event Cards
+  description: If an event has the featured card toggle enabled, then it will automatically
+    show up on the front page. You can disable all featured events with this toggle.
+- type: boolean
+  name: enable-featured-banner-carousel
+  label: Enable Featured Banner Carousel
+  description: If an event has the featured card toggle enabled, then it will automatically
     show up on the front page. You can disable all featured events with this toggle.
 - type: boolean
   name: enable-default-header
-  label: Enable Featured Banner Carousel
-  description: A banner image will appear on the front page. This does not inlcude the featured image carousel.
+  label: Enable Fixed Front Page Banner Image 
+  description: A banner image will appear on the front page. This does not inlcude the featured banner carousel.
 pages:
 - index.html

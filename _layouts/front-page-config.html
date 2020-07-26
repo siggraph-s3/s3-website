@@ -19,8 +19,11 @@ layout: default
   <!-- ORBIT SLIDER -->
 
   {% assign slider_items = (site.events | reverse | where: "enable-featured-banner", "true" ) %}
-  {% include orbit-slider.html slides=slider_items label="Featured Events" %}
-        
+  {% assign slider_size = (slider_items | size ) %}
+
+  {% if page.enable-featured-banner-carousel == true and slider_size > 0 %}
+    {% include orbit-slider.html slides=slider_items label="Featured Events" %}
+  {% endif %}
   <div>
     {% assign callouts = (site.front-page-callouts | reverse | where: "enabled", true ) %}
     {% if page.enable-callouts == true and callouts.size > 0 %}
@@ -54,7 +57,7 @@ layout: default
           <div class="small-12 medium-push-1 medium-6 large-push-1 large-5 columns">
             <h2 class="callout-heading">{{ page.text-heading }}</h2>
             {% include mission-statement.html %}  
-            {% include vr-image-viewer.html %}
+            {% comment %}{% include vr-image-viewer.html %}{% endcomment %}
           </div>
   
   

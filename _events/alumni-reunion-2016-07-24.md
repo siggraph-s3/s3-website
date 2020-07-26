@@ -5,7 +5,6 @@ card-img-url: events-img-alum-2016.png
 banner-img-url: banner-template_1200-500.png
 date: 2016-07-24T00:00:00Z
 event-type: alumni reunion
-featured: false
 enable-featured-card: false
 enable-featured-banner: false
 enable-header: true

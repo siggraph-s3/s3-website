@@ -3,13 +3,11 @@ label: Event
 hide_body: false
 fields:
 - type: boolean
-  name: featured
+  name: enable-featured-card
   label: Featured Card
   default: false
   hidden: false
   description: If this event is set to featured, it will appear on the front page.
-  showOnly:
-    value: s3r3
 - type: boolean
   name: enable-featured-banner
   label: Featured Banner

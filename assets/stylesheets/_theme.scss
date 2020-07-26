@@ -542,3 +542,11 @@ div.featured-card {
     50% {background-color:#ff0000;}
     100% {background-color:#A80532;}
 }
+
+// orbit slider
+ul.orbit-container {
+    height: auto !important;
+}
+li.orbit-slide {
+    max-height: none !important;
+}

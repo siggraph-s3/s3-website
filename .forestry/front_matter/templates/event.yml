@@ -4,12 +4,18 @@ hide_body: false
 fields:
 - type: boolean
   name: featured
-  label: Featured
+  label: Featured Card
   default: false
   hidden: false
   description: If this event is set to featured, it will appear on the front page.
   showOnly:
     value: s3r3
+- type: boolean
+  name: featured
+  label: Featured Banner
+  default: false
+  hidden: false
+  description: If this event is set to featured, it will appear in the front page banner.
 - type: text
   name: layout
   label: layout

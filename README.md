@@ -5,7 +5,7 @@ To manually build for git pages: ```bundle exec jekyll build```
 
 ## Local Development
 To develop locally: ```bundle exec jekyll serve```  
-Follow instructions in terminal
+Follow instructions in terminal.
 
 ## Production deployment
 To build for production: ```bundle exec jekyll build --config=_config.yml,_config-prod.yml```

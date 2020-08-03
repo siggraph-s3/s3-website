@@ -2,7 +2,7 @@
 title: About S3
 heading: About SIGGRAPH S3
 enable-on-page:
-- SIGGRAPH S3
+- Team
 enabled: true
 
 ---

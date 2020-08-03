@@ -1,9 +1,4 @@
 ---
-- name: Home
-  url: "/"
-  enable_sublinks: false
-  subfolderitems: []
-  url_active: true
 - name: Programs
   url: "/programs/"
   url_active: true

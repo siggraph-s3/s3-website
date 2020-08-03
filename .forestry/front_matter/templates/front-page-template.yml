@@ -32,7 +32,8 @@ fields:
 - type: text
   name: twitter-account
   label: Twitter account
-  description: "Which Twitter account to show: IE - 'siggraph'. Don't inlcude the '@'."
+  description: 'Which Twitter account to show: IE - ''siggraph''. Don''t inlcude the
+    ''@''.'
   showOnly:
     field: twitter-feed
     value: true

@@ -24,6 +24,8 @@ sections:
   label: Front Page Callouts
   create: all
   match: "**/*"
+  templates:
+  - front-page-callout
 - type: directory
   path: _page-sections
   label: Page sections
@@ -36,6 +38,8 @@ sections:
   label: Events
   create: all
   match: "**/*"
+  templates:
+  - event
 - type: directory
   path: _programs
   label: Programs

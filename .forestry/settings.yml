@@ -29,6 +29,8 @@ sections:
   label: Page sections
   create: documents
   match: "**/*"
+  templates:
+  - page-section
 - type: directory
   path: _events
   label: Events

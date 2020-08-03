@@ -3,6 +3,7 @@ layout: default
 title: Team
 enable-header: true
 ---
+
 <div class="contact-us">
   <!-- TOP BAR -->
   {% include top-bar.html %}
@@ -19,7 +20,14 @@ enable-header: true
 </div>
 <!-- END HEADER -->
 
-<!-- Tabs -->
+
+<div class="row">
+  <div class="small-12 medium-8 large-6 small-centered columns">
+    {% assign sections_array = site.page-sections | where: 'enable-on-page', {{page.title}} %}
+    {% include page-section.html sections-array=sections_array %}
+  </div>
+</div>
+  <!-- Tabs -->
 <div class="row secondary-tabs-row">
     <div class="small-9 medium-8 large-6 small-centered columns">
       <ul class="tabs" data-tabs id="about-tabs">

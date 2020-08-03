@@ -22,9 +22,9 @@
   url_active: true
   subfolderitems:
   - name: Job postings
-    url: "/industry-career/job-postings/"
+    url: "/industry-career/#job-postings"
   - name: News
-    url: "/industry-career/news"
+    url: "/industry-career/#news"
   enable_sublinks: true
 - name: Education
   url: "/education/"

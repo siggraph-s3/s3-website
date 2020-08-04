@@ -3,7 +3,7 @@
   url: "/programs/"
   url_active: true
   subfolderitems:
-  - name: s3r3
+  - name: S3R3
     url: "/programs/s3r3/"
   - name: Webinars
     url: "/programs/webinars/"

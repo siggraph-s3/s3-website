@@ -21,7 +21,7 @@
   url: "/industry-career/"
   url_active: true
   subfolderitems:
-  - name: Job postings
+  - name: Job Postings
     url: "/industry-career/#job-postings"
   - name: News
     url: "/industry-career/#news"

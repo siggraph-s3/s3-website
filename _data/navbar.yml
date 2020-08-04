@@ -30,7 +30,7 @@
   url: "/education/"
   url_active: true
   subfolderitems:
-  - name: Reference Guides and texts
+  - name: Reference Guides and Texts
     url: "/education/#reference-guides-texts"
   - name: Youtube Playlists
     url: "/education/#youtube-playlists"

@@ -6,4 +6,6 @@ enable-on-page:
 enabled: true
 
 ---
-Job resources to be updated soon.
+SIGGRAPH 2020 Job Listings
+
+[https://s2020.siggraph.org/exhibition/job-fair/](https://s2020.siggraph.org/exhibition/job-fair/ "https://s2020.siggraph.org/exhibition/job-fair/")

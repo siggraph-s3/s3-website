@@ -3,7 +3,7 @@ layout: collection-item
 name: Corinne Price
 member-order: 
 role: Chair
-img: assets/img/price-corinne_bw.jpg
+img: assets/img/team/corinneprice.jpg
 
 ---
 Corinne Price is a Director supporting Federal clients at ICF located in Fairfax, Virginia. Corinne previously worked with Northrop Grumman IT, KPMG LLP, and Accenture LLC supporting clients with IT project management, acquisition strategy, technical cost estimating, and portfolio management. Her current efforts focus on technology modernization strategy and implementation, in particular migrating from legacy systems to a cloud-based offering. She is a Certified Technology Business Management (TBM) Executive, a Certified Cost Estimator/Analyst (CCEA), a Project Management Professional (PMP), and has obtained her ITIL Foundations certificate. She received her Masters of Engineering in Biological Engineering and her B.S. in Biological Engineering with a Biomedical Engineering minor from Cornell University. 

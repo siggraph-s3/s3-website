@@ -2,7 +2,7 @@
 layout: collection-item
 name: Corinne Price
 member-order: 
-role: chair
+role: Chair
 img: assets/img/price-corrine-3-2016-bw.jpg
 
 ---

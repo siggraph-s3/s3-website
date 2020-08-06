@@ -4,7 +4,7 @@
   url: "/about/"
   enable_sublinks: true
   subfolderitems:
-  - name: S3 Committee
+  - name: Committee Members
     url: "/about/committee"
   - url: "/about/mission"
     name: Mission

@@ -1,6 +1,6 @@
 ---
 title: About S3
-heading: About SIGGRAPH S3
+heading: S3 Mission
 enable-on-page:
 - Team
 enabled: true

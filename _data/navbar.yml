@@ -2,12 +2,8 @@
 - name: About
   url_active: true
   url: "/team/"
-  enable_sublinks: true
-  subfolderitems:
-  - name: Committee Members
-    url: "/about/#committee"
-  - url: "/about/#mission"
-    name: Mission
+  enable_sublinks: false
+  subfolderitems: []
 - name: Programs
   url: "/programs/"
   url_active: true

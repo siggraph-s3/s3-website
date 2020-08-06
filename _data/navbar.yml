@@ -3,7 +3,11 @@
   url_active: true
   url: "/about/"
   enable_sublinks: true
-  subfolderitems: []
+  subfolderitems:
+  - name: S3 Committee
+    url: "/about/committee"
+  - url: "/about/mission"
+    name: Mission
 - name: Programs
   url: "/programs/"
   url_active: true

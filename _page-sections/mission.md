@@ -1,8 +1,8 @@
 ---
-title: About S3
+title: Mission
 heading: S3 Mission
 enable-on-page:
-- Team
+- Mission
 enabled: true
 
 ---

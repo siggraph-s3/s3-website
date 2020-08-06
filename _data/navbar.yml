@@ -1,9 +1,15 @@
 ---
 - name: About
-  url_active: true
+  url_active: false
   url: "/about/"
-  enable_sublinks: false
-  subfolderitems: []
+  enable_sublinks: true
+  subfolderitems:
+  - name: Mission
+    url: "/mission/"
+  - name: Team
+    url: "/team/"
+  - name: FAQ
+    url: "/faq/"
 - name: Programs
   url: "/programs/"
   url_active: true

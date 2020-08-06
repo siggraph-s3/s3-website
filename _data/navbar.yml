@@ -5,8 +5,8 @@
   enable_sublinks: true
   subfolderitems:
   - name: Committee Members
-    url: "/about/committee"
-  - url: "/about/mission"
+    url: "/about/#committee"
+  - url: "/about/#mission"
     name: Mission
 - name: Programs
   url: "/programs/"

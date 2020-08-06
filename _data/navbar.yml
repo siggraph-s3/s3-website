@@ -1,7 +1,7 @@
 ---
 - name: About
   url_active: true
-  url: "/team/"
+  url: "/about/"
   enable_sublinks: false
   subfolderitems: []
 - name: Programs

@@ -1,10 +1,10 @@
 ---
 layout: default
 title: About
+enable-header: true
 ---
 
-<!-- Learn about this code on MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode -->
-<div class="about-header">
+<div class="contact-us">
   <!-- TOP BAR -->
   {% include top-bar.html %}
   <!-- END TOP BAR -->
@@ -13,36 +13,42 @@ title: About
       <h1 class="secondary-page-heading">{{ page.title }}</h1>
     </div>
     <div class="small-12 columns">
-      <h2 class="quote">{{ page.quote }}</h2>
+      <h2 class="quote">Hello :)</h2>
     </div>
   </div>
 
 </div>
 <!-- END HEADER -->
 
-<!-- PATHWAYS -->
+
+<div class="row">
+  <div class="small-12 medium-8 large-6 small-centered columns">
+    {% assign sections_array = site.page-sections | where: 'enable-on-page', {{page.title}} %}
+    {% include page-section.html sections-array=sections_array %}
+  </div>
+</div>
+  <!-- Tabs -->
 <div class="row secondary-tabs-row">
     <div class="small-9 medium-8 large-6 small-centered columns">
       <ul class="tabs" data-tabs id="about-tabs">
-        <li class="tabs-title tabs-first is-active"><a href="#mission-panel">Mission statement</a></li>
-        <li class="tabs-title tabs-second"><a href="#faq-panel" aria-selected="true">FAQ</a></li>
-        <li class="tabs-title tabs-third"><a href="#committee-panel" aria-selected="true">Committee</a></li>
+        <li class="tabs-title tabs-first is-active"><a href="#team-panel">Team</a></li>
+        <li class="tabs-title tabs-second"><a href="#contact-panel" aria-selected="true">Contact Us</a></li>
       </ul>
     </div>
 </div>
 <div class="row head-spacing foot-spacing">
-  <div class="tabs-content small-12 medium-10 large-8 columns" data-tabs-content="about-tabs">
+  <div class="tabs-content small-12  large-push-1 large-10 columns" data-tabs-content="about-tabs">
     
-    <div class="tabs-panel is-active" id="mission-panel">
-      <h2 class="callout-heading">Student experience</h2>
-      <blockquote>SIGGRAPH Student Services, colloquially known as S3, is an ACM SIGGRAPH committee whose primary mission is to bring additional value to the student members of SIGGRAPH.</blockquote>
-      <p>Established in 2007, the SIGGRAPH Student Services, colloquially known as S3 is an ACM SIGGRAPH committee whose primary mission is to bring additional value to the student members of SIGGRAPH. The Student Services Committee also provides continuity and institutional memory for the student volunteer and intern programs at SIGGRAPH and SIGGRAPH Asia and collaborates with other SIGGRAPH entities (conferences, committees, etc.) on issues that affect student members. S3 currently maintains and is in the process of expanding three key programs - resume and reel reviews, mentoring for ACM SIGGRAPH student members known as MentorMe, and a series of webinars.</p>
+    <div class="tabs-panel is-active" id="team-panel">
+      {% include team-profile.html %}
     </div>
-    <div class="tabs-panel" id="faq-panel">
-    FAQ
-        </div>
-    <div class="tabs-panel" id="committee-panel">
-    {% include team-profile.html %}
+    <div class="tabs-panel" id="contact-panel">
+    	<div class="row">
+	    	<div class="small-12  medium-push-1 medium-10 columns">
+	    		{% include contact-panel.html %}
+	    	</div>
+    	</div>
+    
     </div>
   </div>
 </div>

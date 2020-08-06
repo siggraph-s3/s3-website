@@ -3,7 +3,6 @@ enabled: true
 title: mission
 heading: Mission
 enable-on-page: []
-published: false
 
 ---
 Established in 2007, S3 is an ACM SIGGRAPH committee whose mission is to plan, develop, and facilitate activities that bring additional year round value to the student members and emerging professionals of ACM SIGGRAPH through integration with the SIGGRAPH community and career development. This includes individuals who are pursing undergraduate and graduate education, as well as, the those within their first three years after graduation.

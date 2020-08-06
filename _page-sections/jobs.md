@@ -6,6 +6,4 @@ enable-on-page:
 enabled: true
 
 ---
-SIGGRAPH 2020 Job Listings
-
-[https://s2020.siggraph.org/exhibition/job-fair/](https://s2020.siggraph.org/exhibition/job-fair/ "https://s2020.siggraph.org/exhibition/job-fair/")
+[SIGGRAPH 2020 Job Listings](https://s2020.siggraph.org/exhibition/job-fair/ "SIGGRAPH 2020 Job Fair Listings")

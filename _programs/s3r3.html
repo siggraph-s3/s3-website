@@ -2,19 +2,19 @@
 layout: collection-item
 title: S3 Resume and Reel Review (S3R3)
 enable-header: true
-close-date: April 16th, 2018
+close-date: August 22, 2020
 signup-tabs: true
-onsite-signup-form: https://airtable.com/embed/shrpAoCe9VLSHhaCx?backgroundColor=cyan
-onlinestudent-signup-form: ''
-reviewer-signup-form: https://airtable.com/embed/shrGcNBNh0JcXtUOb?backgroundColor=cyan
-onsite-signup-tab: Students Sign-up
-onlinestudent-signup-tab: Winter 2020 Virtual Review Sign-up
-reviewer-signup-tab: Reviewers-only Sign-up
+onsite-signup-form: ''
+onlinestudent-signup-form: https://airtable.com/shrtZwaNM1X5iAhZX/embed
+reviewer-signup-form: https://airtable.com/shrUeAysIqJVCHVJw/embed
+onsite-signup-tab: ''
+onlinestudent-signup-tab: SIGGRAPH 2020 Sign-up
+reviewer-signup-tab: SIGGRAPH 2020 Reviewers Sign-up
 onsite-tab-enabled: false
-onlinestudent-tab-enabled: false
+onlinestudent-tab-enabled: true
 reviewer-tab-enabled: true
 onsite-tab-active: false
-onlinestudent-tab-active: false
+onlinestudent-tab-active: true
 reviewer-tab-active: true
 tab-size: ''
 
@@ -75,5 +75,5 @@ tab-size: ''
   {%- endcapture -%}
   {%- include s3r3-tabs.html tab-size=tab-size reviewer-tab-active=reviewer-tab-active onsite-tab-active=onsite-tab-active onlinestudent-tab-active=onlinestudent-tab-active onlinestudent-tab-enabled=onlinestudent-tab-enabled reviewer-tab-enabled=reviewer-tab-enabled onsite-tab-enabled=onsite-tab-enabled onsite-tab=onsite-signup-tab reviewer-tab=reviewer-signup-tab onlinestudent-tab=onlinestudent-signup-tab onlinestudent-signup=onlinestudent-signup-form onsite-signup=onsite-signup-form reviewer-signup=reviewer-signup-form -%}
 {% else %}
-<h2>Sign-ups are closed. Check back soon!</h2>
+<h2>Review sign-ups are open!</h2>
   {% endif%}

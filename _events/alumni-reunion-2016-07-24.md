@@ -1,14 +1,15 @@
 ---
 layout: collection-item
-title: XSV Alumni Reunion 2016
+title: SV Alumni Reunion 2016
 card-img-url: events-img-alum-2016.png
 banner-img-url: banner-template_1200-500.png
-date: 2016-07-24T00:00:00Z
+date: 2016-07-24T00:00:00.000+00:00
 event-type: alumni reunion
 enable-featured-card: false
 enable-featured-banner: false
 enable-header: true
 enable-banner: false
+img-url: ''
 
 ---
 **When:**

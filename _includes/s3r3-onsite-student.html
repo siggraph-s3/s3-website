@@ -1,1 +1,2 @@
-{{- include.onsite-signup }}
+<p>If the form does not load for you, please visit: <a href="https://airtable.com/{{- include.onsite-signup | remove: 'https://airtable.com/embed/' | remove: 'https://airtable.com/' -}}">https://airtable.com/{{- include.onsite-signup | remove: 'https://airtable.com/embed/' | remove: 'https://airtable.com/' -}}</a></p>
+<script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/{{- include.onsite-signup | remove: 'https://airtable.com/embed/' | remove: 'https://airtable.com/' -}}?backgroundColor=pink" frameborder="0" onmousewheel="" width="100%" height="3854" style="background: transparent; border: 1px solid #ccc;"></iframe>

@@ -17,15 +17,18 @@ fields:
 - type: boolean
   name: signup-tabs
   label: signup-tabs
-- type: text
+- type: textarea
   name: onsite-signup-form
   label: onsite-signup-form
-- type: text
+  description: Paste the entire iFrame embed code snippet.
+- type: textarea
   name: onlinestudent-signup-form
   label: onlinestudent-signup-form
-- type: text
+  description: Paste the entire iFrame embed code snippet.
+- type: textarea
   name: reviewer-signup-form
   label: reviewer-signup-form
+  description: Paste the entire iFrame embed code snippet.
 - type: text
   name: onsite-signup-tab
   label: onsite-signup-tab

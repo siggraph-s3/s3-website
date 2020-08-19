@@ -3,24 +3,24 @@ layout: collection-item
 title: XSV Program
 enable-header: true
 application-link: https://forms.gle/bAH5Dxb1nZCt2Ugx9
-age-18-by-date: 19 July, 2020
-siggraph-year: 2020
-academic-year: 2019-2020
-academic-year-not-eligible: Summer 2019 – Spring 2020
-application-deadline: 31 May, 2020
-app-deadline-1: 20 November, 2019
-app-results-1: 1 December, 2019
-app-deadline-2: 22 January, 2020
-app-results-2: 9 February, 2020
-app-deadline-3: 27 May, 2020
-app-results-3: 7 June, 2020
+age-18-by-date: 31 July, 2021
+siggraph-year: 2021
+academic-year: 2020-2021
+academic-year-not-eligible: Summer 2020 – Spring 2021
+application-deadline: 28 May, 2021
+app-deadline-1: 3 December, 2020
+app-results-1: 17 December, 2020
+app-deadline-2: 28 January, 2021
+app-results-2: 25 February, 2021
+app-deadline-3: 22 April, 2021
+app-results-3: " 21 May, 2021"
 application-timezone: 22:00 UTC/GMT
-siggraph-dates: 19 - 23 July, 2020
-arrival-date: 6 pm on Thursday, 19 July
-departure-date: 6 pm on Thursday, 23 July
-city: Washington, D.C.
-venue: Washington, D.C. Convention Center
-application-pairing-date: 8 January 2018
+siggraph-dates: 1 - 5 August, 2021
+arrival-date: 6 pm PDT on 31 July, 2021
+departure-date: 6 pm PDT on 5 August, 2021
+city: Los Angeles
+venue: " Los Angeles Convention Center"
+application-pairing-date: 2021-05-21 16:00:00 +0000
 mentorship-agreement-link: "/assets/downloads/xsv-mentoring-agreement-2019.docx"
 
 ---

@@ -14,15 +14,15 @@
         <li class="is-active orbit-slide">
           {% if slide.banner-img-url == empty or slide.banner-img-url == false or slide.banner-img-url == '' slide.banner-img-url == null %}
           <div>
-            <h3 class="text-center">{{ slide.title }}</h3>
+            <h3 class="text-center"></h3><a href="{{ site.baseurl }}{{ slide.url }}">{{ slide.title }}</a></h3>
             <p class="text-center">{{ slide.description}}</p>
             <a href="{{ slide.url }}" class="small button call-to-action-btn animated-bg">See more <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
             <h3 class="text-center">This Orbit slider does not use animations.</h3>
           </div>
           {% else %}
           <figure class="orbit-figure">
-            <img class="orbit-image" src="{{ site.baseurl }}/assets/img/{{ slide.banner-img-url }}" alt="slide image for {{ slide.title }}">
-            <figcaption class="orbit-caption">{{ slide.title }}</figcaption>
+            <a class="" href="{{ site.baseurl }}{{ slide.url }}"><img class="orbit-image" src="{{ site.baseurl }}/assets/img/{{ slide.banner-img-url }}" alt="slide image for {{ slide.title }}"></a>
+            <!-- <figcaption class="orbit-caption"></a>{{ slide.banner-caption }}</figcaption> -->
           </figure>
           {% endif %}
         </li>

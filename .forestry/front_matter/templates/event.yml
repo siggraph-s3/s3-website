@@ -25,7 +25,7 @@ fields:
   label: Event title
   description: 'Example: "2020 SV Alumni Reunion"'
 - type: file
-  name: img-url
+  name: card-img-url
   label: Card Image
   config:
     maxSize: 2

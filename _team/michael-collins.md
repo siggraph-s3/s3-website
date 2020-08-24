@@ -2,7 +2,7 @@
 layout: collection-item
 name: Michael Collins
 member-order: 5
-role: XSV Liaison & Communications
+role: XSV & Communications Coordinator
 img: michaelcollins.jpg
 
 ---

@@ -3,7 +3,7 @@ layout: collection-item
 name: Benny Garcia
 member-order: 4
 role: SIGGRAPH Asia Coordinator
-img: bennygarcia.jpg
+img: assets/img/team/bennygarcia.jpg
 
 ---
 Born and raised in California Benny Garcia received a BA in Art with a focus in Animation from California State University, Los Angeles. Although his studies where tailored more towards animation, it was here that his interest in modeling began. After graduation Benny enrolled in the Gnomon School Of Visual Effects Certificate Program. He is currently focusing on Modeling and Texturing for both games and film as a freelance artist.

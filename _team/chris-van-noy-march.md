@@ -3,7 +3,7 @@ layout: collection-item
 name: Chris Van Noy-March
 member-order: 3
 role: XSV Coordinator
-img: chrisvannoymarch.jpg
+img: assets/img/team/chrisvannoymarch.jpg
 published: false
 
 ---

@@ -1,10 +1,9 @@
 ---
-img: assets/img/profile-placeholder.jpg
+img: assets/img/janolinomadi_proprofile_01.jpg
 layout: ''
 name: Madi Janolino
 role: Discord Coordinator
 member-order: 4
-published: false
 
 ---
 Madi Janolino is a recent graduate from the Experimental Animation program of the University of Central Florida as a 2D and 3D animator. She has a fascination for the growing scene of adult animation and the inclusion of animation as a medium for outstanding expression following its social and technical developments.

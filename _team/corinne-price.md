@@ -1,8 +1,8 @@
 ---
 layout: collection-item
 name: Corinne Price
-member-order: 
-role: Chair
+member-order: 2
+role: Former Chair
 img: assets/img/team/corinneprice.jpg
 
 ---

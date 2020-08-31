@@ -1,8 +1,8 @@
 ---
 layout: collection-item
 name: Marissa Tontaveetong
-member-order: 2
-role: S3R3 Coordinator
+member-order: 1
+role: Chair
 img: assets/img/team/gingertontaveetong.jpg
 
 ---

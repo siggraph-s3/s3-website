@@ -23,7 +23,7 @@ enable-header: true
 
 <div class="row">
   <div class="small-12 medium-8 large-6 small-centered columns">
-    {% assign sections_array = site.page-sections | where: 'enable-on-page', {{page.title}} %}
+    {% assign sections_array = site.page-sections | where: 'enable-on-page', page.title %}
     {% include page-section.html sections-array=sections_array %}
   </div>
 </div>

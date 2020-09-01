@@ -1,8 +1,8 @@
 ---
 layout: collection-item
 title: SV Alumni Reunion 2018
-card-img-url: events-img-alum-2018.jpg
-banner-img-url: banner-template_1200-500.png
+card-img-url: assets/img/events-img-alum-2018.jpg
+banner-img-url: assets/img/banner-template_1200-500.png
 date: 2018-08-12T00:00:00Z
 event-type: alumni reunion
 enable-featured-card: false

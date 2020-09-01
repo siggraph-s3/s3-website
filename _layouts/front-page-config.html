@@ -18,14 +18,14 @@ layout: default
   
   <!-- ORBIT SLIDER -->
 
-  {% assign slider_items = (site.events | reverse | where: "enable-featured-banner", "true" ) %}
-  {% assign slider_size = (slider_items | size ) %}
+  {% assign slider_items = site.events | reverse | where: "enable-featured-banner", "true"  %}
+  {% assign slider_size = slider_items | size  %}
 
   {% if page.enable-featured-banner-carousel == true and slider_size > 0 %}
     {% include orbit-slider.html slides=slider_items label="Featured Events" %}
   {% endif %}
   <div>
-    {% assign callouts = (site.front-page-callouts | reverse | where: "enabled", true ) %}
+    {% assign callouts = site.front-page-callouts | reverse | where: "enabled", true  %}
     {% if page.enable-callouts == true and callouts.size > 0 %}
         {% for callout in callouts %}
             
@@ -39,7 +39,7 @@ layout: default
         {% endfor %}
     {% endif %}
     {% assign content_columns = page.columns %}
-    {% assign featured_events = (site.events | where: "enable-featured-card", true ) %}
+    {% assign featured_events = site.events | where: "enable-featured-card", true  %}
     {% if page.enable-featured-events == true and featured_events.size > 0 %}
     {% assign content_columns = 2 %}
     {% endif %}
@@ -56,7 +56,7 @@ layout: default
       {% if content_columns == 2 %}
       
           <div class="small-12 medium-push-1 medium-6 large-push-1 large-5 columns">
-            {% assign sections_array = site.page-sections | where: 'enable-on-page', {{page.title}} %}
+            {% assign sections_array = site.page-sections | where: 'enable-on-page', page.title %}
             {% include page-section.html sections-array=sections_array %}
             {% comment %}{% include vr-image-viewer.html %}{% endcomment %}
             <div class="row">
@@ -71,7 +71,7 @@ layout: default
   
   
           <div class="small-12 medium-push-1 medium-4 large-push-2 large-4 columns">
-            {% assign events = (site.events | reverse) %}
+            {% assign events = site.events | reverse %}
             {% for event in events %}
             {% if event.enable-featured-card == true %}
             {% capture featured_title %}{{event.title}}{% endcapture %}
@@ -97,7 +97,7 @@ layout: default
       {% else %}
         
         <div class="small-12 medium-push-1 medium-10 large-push-2 large-8 columns">
-          {% assign sections_array = site.page-sections | where: 'enable-on-page', {{page.title}} %}
+          {% assign sections_array = site.page-sections | where: 'enable-on-page', page.title %}
           {% include page-section.html sections-array=sections_array %}
         </div>
         <div class="row">

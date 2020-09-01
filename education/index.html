@@ -5,5 +5,5 @@ enable-banner: true
 enable-header: true
 enable-sections: true
 ---
-{% assign sections_array = site.page-sections | where: 'enable-on-page', {{page.title}} %}
+{% assign sections_array = site.page-sections | where: 'enable-on-page', page.title %}
 {% include page-section.html sections-array=sections_array %}

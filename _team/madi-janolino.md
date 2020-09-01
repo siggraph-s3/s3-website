@@ -1,6 +1,6 @@
 ---
 img: assets/img/janolinomadi_proprofile_01.jpg
-layout: ''
+layout: 'collection-item'
 name: Madi Janolino
 role: Discord Coordinator
 member-order: 4

@@ -13,7 +13,7 @@ show-featured-webinar: true
 ---
 <p>{{ page.page-text }}</p>
 {% if page.show-featured-webinar == true %}
-{% assign events = (site.events | where: 'event-type','webinar' | reverse %}
+{% assign events = site.events | where: 'event-type','webinar' | reverse %}
 {% assign events_size = events | where: "featured", true | size %}
     
     {% if events_size > 0 %} 

@@ -3,7 +3,7 @@ To use this card:
   {% include featured-card.html featured_class=featured_class featured_image=featured_image featured_title=featured_title featured_text=featured_text featured_url=featured_url %}
 {% endcomment %}
 <div class="radius bordered shadow card featured-card {{include.featured_class}}">
-    <a alt="{{include.featured_title}}" href="{{site.baseurl}}{{include.featured_url}}" ><img src="{{site.baseurl}}/assets/img/{{include.featured_image}}"></a>
+    <a alt="{{include.featured_title}}" href="{{site.baseurl}}{{include.featured_url}}" ><img src="{{site.baseurl}}/{{include.featured_image}}"></a>
     <div class="card-divider">
     </div>
     <div class="card-section">

@@ -1,7 +1,7 @@
 ---
 layout: collection-item
 title: SV Alumni Reunion 2019
-card-img-url: events-img-alum-2019.png
+card-img-url: assets/img/events-img-alum-2019.png
 banner-img-url:
 date: 2019-07-28T00:00:00Z
 event-type: alumni reunion

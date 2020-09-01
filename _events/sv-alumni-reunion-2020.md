@@ -1,11 +1,11 @@
 ---
 layout: collection-item
-enable-featured-card: true
+enable-featured-card: false
 enable-featured-banner: true
 title: SV Alumni Reunion 2020
 card-img-url: assets/img/sv-alum-reunion2020.jpg
 banner-img-url: assets/img/sv-alumni-reunion-banner.jpg
-date: 2020-09-09 01:00:00 +0000
+date: 2020-09-09T01:00:00.000+00:00
 event-type: alumni reunion
 
 ---

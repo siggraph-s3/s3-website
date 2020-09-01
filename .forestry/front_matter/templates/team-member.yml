@@ -6,6 +6,7 @@ fields:
   name: layout
   label: layout
   hidden: true
+  default: collection-item
 - type: text
   name: name
   label: Name

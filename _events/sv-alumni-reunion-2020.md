@@ -11,4 +11,6 @@ event-type: alumni reunion
 ---
 Virtual gathering of all SV Alumni from 2020 and prior.
 
-More details to follow.
+Time: Sep 8, 2020 09:00 PM Eastern Time (US and Canada)
+
+Join Zoom Meeting: [https://zoom.us/j/94095657775?pwd=SEFtOCtZNVhTemFyZFdpNDlIcmhtZz09](https://zoom.us/j/94095657775?pwd=SEFtOCtZNVhTemFyZFdpNDlIcmhtZz09 "https://zoom.us/j/94095657775?pwd=SEFtOCtZNVhTemFyZFdpNDlIcmhtZz09")

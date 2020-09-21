@@ -1,7 +1,7 @@
 ---
 layout: collection-item
 enable-featured-card: false
-enable-featured-banner: true
+enable-featured-banner: false
 title: SV Alumni Reunion 2020
 card-img-url: assets/img/sv-alum-reunion2020.jpg
 banner-img-url: assets/img/sv-alumni-reunion-banner.jpg

@@ -20,7 +20,7 @@ arrival-date: 6 pm PDT on 31 July, 2021
 departure-date: 6 pm PDT on 5 August, 2021
 city: Los Angeles
 venue: " Los Angeles Convention Center"
-application-pairing-date: 2021-05-21 16:00:00 +0000
+application-pairing-date: 2021-05-21T16:00:00.000+00:00
 mentorship-agreement-link: "/assets/downloads/xsv-mentoring-agreement-2019.docx"
 
 ---
@@ -74,7 +74,7 @@ Meet with all accepted XSVs and the S3 XSV Liaison to discuss pairing and expect
 
 #### Establish Mentorship Relationship with ACM SIGGRAPH or SIGGRAPH {{page.siggraph-year}} Committee Member
 
-Meet with your mentor in online sessions or via phone calls throughout the year. Discuss the assignments to be completed, expectations, and timeline for delivery. Work on tasks to support the specific project or conference program you are paired with. Set up check-points throughout the program and be prepared to shadow your mentor during the conference. 
+Meet with your mentor in online sessions or via phone calls throughout the year. Discuss the assignments to be completed, expectations, and timeline for delivery. Work on tasks to support the specific project or conference program you are paired with. Set up check-points throughout the program and be prepared to shadow your mentor during the conference.
 
 #### Attend SIGGRAPH {{page.siggraph-year}} ({{page.siggraph-dates}})
 
@@ -103,22 +103,26 @@ Polish that reel and résumé, and get some professional feedback to land that d
 Meet industry professionals from all over the globe who share your passion for computer graphics!
 
 ### Expenses
+
 Be prepared to handle expenses including, but not limited to:
 
-- Meals
-- Parking (if you drive to the conference)
-- Travel to and from {{page.city}}
-- Hotel and other lodging expenses*
+* Meals
+* Parking (if you drive to the conference)
+* Travel to and from {{page.city}}
+* Hotel and other lodging expenses*
 
 _*S3 cannot guarantee any financial assistance, but are willing to work with XSVs to help secure lodging._
 
 ### Mentorship Agreement
+
 Review the [mentorship agreement]({{site.baseurl}}{{page.mentorship-agreement-link}}) and be prepared to discuss with your mentor during your first session.
 
 ### Application
+
 Applications are open!
 
 <a class="button expand" href="{{page.application-link}}">XSV Application</a>
 
 ### Questions
+
 Still have questions? Please contact S3 at s3@siggraph.org.

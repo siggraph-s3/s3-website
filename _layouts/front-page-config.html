@@ -85,9 +85,8 @@ layout: default
             {% endfor %}
             {% if page.twitter-feed == true %}
             <div class="tweet-box">
-              <a class="twitter-timeline" href="https://twitter.com/{{ page.twitter-account }}">Tweets by {{ page.twitter-account }}</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <a class="twitter-timeline" data-lang="en" data-height="800" data-dnt="true" href="https://twitter.com/{{ page.twitter-account }}">Tweets by {{ page.twitter-account }}</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
-
             {% endif %}
           </div>
           

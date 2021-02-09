@@ -71,7 +71,7 @@ Meet with your mentor in online sessions or via phone calls throughout the year.
 
 #### Participate in SIGGRAPH {{page.siggraph-year}} ({{page.siggraph-dates}})
 
-Commit to participating in the conference, {{page.siggraph-dates}}. Depending on the program you are paired with and the tasks you are assigned, you may be required to assist with preconference set-up a couple days before the conference starts. Depart the {{page.venue}} no earlier than {{page.departure-date}}. We recommend that you stay a couple extra days after the conference so you can celebrate with your new SIGGRAPH colleagues.
+Commit to participating in the conference, {{page.siggraph-dates}}. Depending on the program you are paired with and the tasks you are assigned, you may be required to assist with preconference set-up a couple days before the conference starts.
 
 #### Be Punctual & Professional
 

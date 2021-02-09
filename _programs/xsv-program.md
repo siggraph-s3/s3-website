@@ -53,7 +53,7 @@ XSV applications will be considered based on the best fit/match for the availabl
 
 The application must be fully completed and submitted before the deadline to be considered. Be sure your resume highlights your skills and qualifications to be an XSV.
 
-#### {{page.app-deadline-1}}: Applications Deadline
+#### {{page.app-deadline-1}}: Application Deadline
 
 Please complete the application on the S3 website by {{page.application-timezone}} on {{page.app-deadline-1}}. (Convert to your time zone.) Application pairings will be sent on a rolling basis.
 

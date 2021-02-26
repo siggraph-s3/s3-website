@@ -5,8 +5,8 @@ card-img-url: assets/img/events-img-s3r3-asia2020.jpg
 banner-img-url: assets/img/events-img-banner-s3r3-asia2020.jpg
 date: 2020-12-11 00:00:00 +0000
 event-type: s3r3
-enable-featured-card: false
-enable-featured-banner: false
+enable-featured-card: true
+enable-featured-banner: true
 enable-header: true
 enable-banner: false
 published: false

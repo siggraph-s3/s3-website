@@ -4,9 +4,20 @@ title: Programs
 ---
 <h1 class="post-title"><a href="{{ site.baseurl }}/{{ page.collection }}/"><i class="fa fa-arrow-left" aria-hidden="true"></i> All {{ page.collection }}</a> / {{ page.title }}</h1>
 <hr>
+{% assign banner = page.banner-img-url %}
+{% if page.event_banner_enabled == true and banner and banner != '' and banner != empty and banner != null %}
+
+{% assign slider_items = site.events | reverse | where: "title", {{page.title}}  %}
+{% assign slider_size = slider_items | size  %}
+{% assign slider_label = page.title %}
+  {% if slider_size > 0 %}
+    {% include orbit-slider.html slides=slider_items label=slider_label %}
+    <hr>
+  {% endif %}
+{% endif %}
 {{ content }}
 <article class="head-spacing foot-spacing">
-{{ asign video = page.video_link }}
+{% assign video = page.video_link %}
 {% if video and video != '' and video != null and video != empty %}
    <p><a href="{{page.video_link }}" target="_blank">{{page.video_link }}</a></p>
 {% endif %}

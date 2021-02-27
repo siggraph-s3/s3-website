@@ -8,7 +8,8 @@ event-type: s3r3
 enable-featured-card: true
 enable-featured-banner: true
 enable-header: true
-enable-banner: true
+enable-banner: false
+event_banner_enabled: true
 video_link: ''
 event_description: |-
   ### **When:**

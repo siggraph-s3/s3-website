@@ -20,6 +20,16 @@ fields:
   label: layout
   hidden: true
   default: collection-item
+- type: select
+  name: event-type
+  label: Type of event
+  config:
+    required: true
+    options:
+    - s3r3
+    - alumni reunion
+    - webinar
+  description: 'Choose: s3r3, alumni reunion, webinar'
 - type: text
   name: title
   label: Event title
@@ -39,16 +49,22 @@ fields:
 - type: datetime
   name: date
   label: date
-- type: select
-  name: event-type
-  label: Type of event
+- name: video_link
+  type: text
   config:
-    required: true
-    options:
-    - s3r3
-    - alumni reunion
-    - webinar
-  description: 'Choose: s3r3, alumni reunion, webinar'
+    required: false
+  label: Webinar or Video Link
+  description: IE - Link to Zoom.
+- name: event_description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Event Description
+  description: Put misc. details about the event here.
 - name: forms
   type: field_group
   config: {}

@@ -87,6 +87,28 @@ fields:
     description: Paste form embed code here.
   label: Forms
   description: Add embed code from Airtable.
+- name: forms_group
+  type: field_group_list
+  fields:
+  - name: form_name
+    type: text
+    config:
+      required: false
+    label: Form Name
+  - name: embed_code
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Embed Code
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Forms
 pages:
 - _events/alumni-reunion-2016-07-24.md
 - _events/alumni-reunion-2017-07-30.md

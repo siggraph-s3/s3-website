@@ -24,5 +24,11 @@ forms:
     class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrkTKbQ31lnU0Lix?backgroundColor=pink"
     frameborder="0" onmousewheel="" width="100%" height="2763" style="background:
     transparent; border: 1px solid #ccc;"></iframe>'
+forms_group:
+- form_name: Student Signup Form
+  embed_code: '<script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe
+    class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrkTKbQ31lnU0Lix?backgroundColor=pink"
+    frameborder="0" onmousewheel="" width="100%" height="2763" style="background:
+    transparent; border: 1px solid #ccc;"></iframe>'
 
 ---

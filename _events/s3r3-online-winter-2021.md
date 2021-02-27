@@ -3,7 +3,7 @@ layout: collection-item
 title: S3R3 Online Winter 2021
 card-img-url: assets/img/portfolio-review-announcement-v1.png
 banner-img-url: assets/img/s3r3.png
-date: 2021-02-28 04:59:00 +0000
+date: 2021-02-28T04:59:00.000+00:00
 event-type: s3r3
 enable-featured-card: true
 enable-featured-banner: true
@@ -25,5 +25,6 @@ forms_group:
     class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrkTKbQ31lnU0Lix?backgroundColor=pink"
     frameborder="0" onmousewheel="" width="100%" height="2763" style="background:
     transparent; border: 1px solid #ccc;"></iframe>'
+  enable_form: true
 
 ---

@@ -73,11 +73,18 @@ fields:
 - name: forms_group
   type: field_group_list
   fields:
+  - name: enable_form
+    type: boolean
+    label: Enable Form
+    default: true
   - name: form_name
     type: text
     config:
       required: false
     label: Form Name
+    showOnly:
+      field: enable_form
+      value: true
   - name: embed_code
     type: textarea
     default: ''
@@ -87,6 +94,9 @@ fields:
       schema:
         format: markdown
     label: Embed Code
+    showOnly:
+      field: enable_form
+      value: true
   config:
     min: 
     max: 

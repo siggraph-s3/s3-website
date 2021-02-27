@@ -5,3 +5,15 @@ title: Programs
 <h1 class="post-title"><a href="{{ site.baseurl }}/{{ page.collection }}/"><i class="fa fa-arrow-left" aria-hidden="true"></i> All {{ page.collection }}</a> / {{ page.title }}</h1>
 <hr>
 {{ content }}
+<article class="head-spacing foot-spacing">
+{{ asign video = page.video_link }}
+{% if video and video != '' and video != null and video != empty %}
+   <p><a href="{{page.video_link }}" target="_blank">{{page.video_link }}</a></p>
+{% endif %}
+{{ page.event_description | markdownify}}
+</article>
+{% if page.event-type == 's3r3' and page.forms_group.size > 0 %}
+<p>Visit the <a href="{{ site.baseurl }}/programs/s3r3/" target="_blank">S3R3 program page to learn more</a> about this event.</p>
+<hr>
+{% include airtable-forms.html %}
+{% endif %}

@@ -8,7 +8,7 @@ event-type: s3r3
 enable-featured-card: true
 enable-featured-banner: true
 enable-header: true
-enable-banner: false
+enable-banner: true
 video_link: ''
 event_description: |-
   ### **When:**
@@ -17,13 +17,7 @@ event_description: |-
 
   ### **Details:**
 
-  **Student registration deadline:** March, 19 November; 11:59 pm EST. To sign up, visit the [S3R3 program page to learn more]({{ site.baseurl }}/programs/s3r3/).
-forms:
-  form_name: Student Signup Form
-  embed_code: '<script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe
-    class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrkTKbQ31lnU0Lix?backgroundColor=pink"
-    frameborder="0" onmousewheel="" width="100%" height="2763" style="background:
-    transparent; border: 1px solid #ccc;"></iframe>'
+  **Student registration deadline:** March, 19 November; 11:59 pm EST.
 forms_group:
 - form_name: Student Signup Form
   embed_code: '<script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe

@@ -2,19 +2,6 @@
 label: Event
 hide_body: false
 fields:
-- type: boolean
-  name: enable-featured-card
-  label: Featured Card
-  default: false
-  hidden: false
-  description: If this event is set to featured, it will appear on the front page.
-- type: boolean
-  name: enable-featured-banner
-  label: Featured Banner
-  default: false
-  hidden: false
-  description: If this event is set to featured, it will appear in the front page
-    banner.
 - type: text
   name: layout
   label: layout
@@ -30,22 +17,40 @@ fields:
     - alumni reunion
     - webinar
   description: 'Choose: s3r3, alumni reunion, webinar'
-- type: text
-  name: title
-  label: Event title
-  description: 'Example: "2020 SV Alumni Reunion"'
-- type: file
-  name: card-img-url
-  label: Card Image
-  config:
-    maxSize: 2
-  description: 'Upload a square image. 741px * 741px '
 - type: file
   name: banner-img-url
   label: Featured Banner Image
   config:
     maxSize: 2
   description: Upload an image with dimensions, 1200px * 550px
+- type: file
+  name: card-img-url
+  label: Card Image
+  config:
+    maxSize: 2
+  description: 'Upload a square image. 741px * 741px '
+- type: boolean
+  name: enable-featured-banner
+  label: Featured Banner
+  default: false
+  hidden: false
+  description: If this event is set to featured, it will appear in the front page
+    banner.
+- type: boolean
+  name: enable-featured-card
+  label: Featured Card
+  default: false
+  hidden: false
+  description: If this event is set to featured, it will appear on the front page.
+- type: text
+  name: title
+  label: Event title
+  description: 'Example: "2020 SV Alumni Reunion"'
+- name: event_banner_enabled
+  type: boolean
+  label: Event banner enabled
+  description: Show the event banner on this event page.
+  default: true
 - type: datetime
   name: date
   label: date

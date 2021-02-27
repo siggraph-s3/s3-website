@@ -65,28 +65,6 @@ fields:
       format: markdown
   label: Event Description
   description: Put misc. details about the event here.
-- name: forms
-  type: field_group
-  config: {}
-  fields:
-  - name: form_name
-    type: text
-    config:
-      required: false
-    label: Form Name
-    description: IE – Student or Reviewer Signup Form
-  - name: embed_code
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: Embed Code
-    description: Paste form embed code here.
-  label: Forms
-  description: Add embed code from Airtable.
 - name: forms_group
   type: field_group_list
   fields:

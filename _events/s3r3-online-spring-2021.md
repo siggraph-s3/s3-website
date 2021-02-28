@@ -26,6 +26,5 @@ forms_group:
     frameborder="0" onmousewheel="" width="100%" height="2763" style="background:
     transparent; border: 1px solid #ccc;"></iframe>'
   enable_form: true
-published: false
 
 ---

@@ -76,3 +76,20 @@ tab-size: ''
   {%- include s3r3-tabs.html tab-size=tab-size reviewer-tab-active=reviewer-tab-active onsite-tab-active=onsite-tab-active onlinestudent-tab-active=onlinestudent-tab-active onlinestudent-tab-enabled=onlinestudent-tab-enabled reviewer-tab-enabled=reviewer-tab-enabled onsite-tab-enabled=onsite-tab-enabled onsite-tab=onsite-signup-tab reviewer-tab=reviewer-signup-tab onlinestudent-tab=onlinestudent-signup-tab onlinestudent-signup=onlinestudent-signup-form onsite-signup=onsite-signup-form reviewer-signup=reviewer-signup-form -%}
 {% else %}
   {% endif%}
+
+  <div class="row">
+    <div class="small-12 medium-push-3 medium-6 large-push-3 large-6 columns">
+
+      {% assign events = site.events | reverse | where: "event-type", "s3r3" %}
+      {% for event in events %}
+        {% if event.enable-featured-banner == true %}
+          {% capture featured_title %}{{event.title}}{% endcapture %}
+          {% capture featured_text %}{{event.description}}{% endcapture %}
+          {% capture featured_class %}{{event.class}}{% endcapture %}
+          {% capture featured_image %}{{event.card-img-url}}{% endcapture %}
+          {% capture featured_url %}{{event.url}}{% endcapture %}
+          {% include featured-card.html featured_class=featured_class featured_image=featured_image featured_title=featured_title featured_text=featured_text featured_url=featured_url %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>

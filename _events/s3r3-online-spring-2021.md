@@ -1,8 +1,8 @@
 ---
 layout: collection-item
 title: S3R3 Online Spring 2021
-card-img-url: assets/img/portfolio-review-announcement-v1-1.png
-banner-img-url: assets/img/s3r3-spring2021.png
+card-img-url: assets/img/portfolio-review-announcement-v1.png
+banner-img-url: assets/img/s3r3-1.png
 date: 2021-02-28T04:59:00.000+00:00
 event-type: s3r3
 enable-featured-card: true

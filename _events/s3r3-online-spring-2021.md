@@ -18,7 +18,7 @@ event_description: |-
 
   ### **Details:**
 
-  **Student registration deadline:** March, 19; 11:59 pm EST.
+  **Student registration deadline:** _Extended to March, 26;_ 11:59 pm EST.
 forms_group:
 - form_name: Student Signup Form
   embed_code: '<script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe

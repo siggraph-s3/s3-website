@@ -14,7 +14,7 @@ video_link: ''
 event_description: |-
   ### **When:**
 
-  Online reviews happen asynchronously. Reviews will be returned by April 4th, 2021.
+  Online reviews happen asynchronously. Reviews will be returned by April 20th, 2021.
 
   ### **Details:**
 

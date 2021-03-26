@@ -3,9 +3,9 @@ layout: collection-item
 title: 'Webinar: Build the Shot'
 card-img-url: assets/img/copy-of-website-banner-1.jpg
 banner-img-url: assets/img/copy-of-copy-of-website-banner.png
-date: 2021-03-27 03:00:00 +0000
+date: 2021-03-27T03:00:00.000+00:00
 event-type: webinar
-description: Learn about CFX from industry pros!
+description: Learn about becoming a previz artist and making your shots stand out!
 enable-featured-card: false
 enable-featured-banner: true
 enable-header: true

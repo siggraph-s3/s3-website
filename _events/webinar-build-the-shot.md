@@ -1,16 +1,19 @@
 ---
 layout: collection-item
 title: 'Webinar: Build the Shot'
-card-img-url: assets/img/events-img-webinar-cfx2019.jpg
-banner-img-url: 
-date: 2019-10-11T22:00:00.000+00:00
+card-img-url: ''
+banner-img-url: assets/img/copy-of-copy-of-website-banner.png
+date: 2021-03-27 03:00:00 +0000
 event-type: webinar
 description: Learn about CFX from industry pros!
 enable-featured-card: false
-enable-featured-banner: false
+enable-featured-banner: true
 enable-header: true
 enable-banner: false
-published: false
+event_banner_enabled: true
+video_link: ''
+event_description: ''
+forms_group: []
 
 ---
 **When:**
@@ -19,13 +22,10 @@ Friday, October 11, 2019 at 8 PM – 8:30 PM PDT
 
 **Details:**
 
-RSVP on Facebook: [https://www.facebook.com/events/713848275796607/](https://www.facebook.com/events/713848275796607/) 
+RSVP on Facebook: [https://www.facebook.com/events/276816953883721/](https://www.facebook.com/events/276816953883721/ "https://www.facebook.com/events/276816953883721/")
 
-Join Zoom Meeting: [https://us04web.zoom.us/j/821597991](https://us04web.zoom.us/j/821597991)
-
-
-Have you ever wondered what a CFX Artist does? Or what a CFX Reel requires? Then wonder no more. DreamWorks CFX Lead, Pradipto Sengupta, talks about how artists bring 3D animated characters to life through hair, cloth, fur, and more. 
+Want to know what makes your shots stand out from the rest or what goes into the process of becoming a good previs 3d artist? Join us and find out from senior visualization artist/ animator Prasad with credits on features such as Avengers, Thor Ragnarok, Ant-Man, Lovecraft Country, and more! Prasad has worked as a senior previsualization artist at Marvel, The Third Floor, Luma Pictures, Laika House, etc.
 
 **Panelist:**
 
-[Pradipto Sengupta](https://www.linkedin.com/in/pradipto-sengupta-306a3118/)
+[Prasad K. Narse](https://www.linkedin.com/in/prasadnarse/) - Senior Visualization Artist/ Senior Animator

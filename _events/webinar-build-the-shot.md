@@ -1,7 +1,7 @@
 ---
 layout: collection-item
 title: 'Webinar: Build the Shot'
-card-img-url: ''
+card-img-url: assets/img/copy-of-website-banner-1.jpg
 banner-img-url: assets/img/copy-of-copy-of-website-banner.png
 date: 2021-03-27 03:00:00 +0000
 event-type: webinar

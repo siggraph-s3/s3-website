@@ -18,7 +18,7 @@ forms_group: []
 ---
 **When:**
 
-Friday, October 11, 2019 at 8 PM – 8:30 PM PDT
+Friday, March 26, 2021 at 11 PM EDT – 12 AM EDT
 
 **Details:**
 

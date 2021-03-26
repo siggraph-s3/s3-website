@@ -8,35 +8,23 @@ page-text: S3 offers a series of informative webinars covering advice, tips, and
   and mentors. Previous topics included, how to make the most of attending the SIGGRAPH
   Conference and unlocking information in iOS game development, animation, and digital
   media.
-show-featured-webinar: true
 
 ---
 <p>{{ page.page-text }}</p>
-{% if page.show-featured-webinar == true %}
-{% assign events = site.events | where: 'event-type','webinar' | reverse %}
-{% assign events_size = events | where: "featured", true | size %}
-    
-    {% if events_size > 0 %} 
-        <hr>
-        <h3 class="center-align">Featured</h3>
-        <div class="row">
-        {% for event in events %}
-        {% if event.featured == true %}
-        {% capture featured_title %}{{event.title}}{% endcapture %}
-        {% capture featured_text %}{{event.description}}{% endcapture %}
-        {% capture featured_class %}{{event.class}}{% endcapture %}
-        {% capture featured_image %}{{event.img-url}}{% endcapture %}
-        {% capture featured_url %}{{event.url}}{% endcapture %}
-        <div class="small-12 medium-6 medium-push-3">
-        {% include featured-card.html featured_class=featured_class featured_image=featured_image featured_title=featured_title featured_text=featured_text featured_url=featured_url %}
-        </div>
+
+<div class="row">
+    <div class="small-12 medium-push-3 medium-6 large-push-3 large-6 columns">
+
+      {% assign events = site.events | reverse | where: "event-type", "webinar" %}
+      {% for event in events %}
+        {% if event.enable-featured-banner == true %}
+          {% capture featured_title %}{{event.title}}{% endcapture %}
+          {% capture featured_text %}{{event.description}}{% endcapture %}
+          {% capture featured_class %}{{event.class}}{% endcapture %}
+          {% capture featured_image %}{{event.card-img-url}}{% endcapture %}
+          {% capture featured_url %}{{event.url}}{% endcapture %}
+          {% include featured-card.html featured_class=featured_class featured_image=featured_image featured_title=featured_title featured_text=featured_text featured_url=featured_url %}
         {% endif %}
-        {% endfor %}
-        </div>
-    {% else %}
-        <hr>
-        <h3 class="center-align">No scheduled webinars</h3>
-    {% endif %}
-
-
-{% endif %}
+      {% endfor %}
+    </div>
+  </div>

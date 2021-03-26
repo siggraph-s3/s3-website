@@ -46,6 +46,16 @@ fields:
   name: title
   label: Event title
   description: 'Example: "2020 SV Alumni Reunion"'
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Event Description
+  description: Put misc. details about the event here.
 - name: event_banner_enabled
   type: boolean
   label: Event banner enabled
@@ -60,16 +70,6 @@ fields:
     required: false
   label: Webinar or Video Link
   description: IE - Link to Zoom.
-- name: event_description
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Event Description
-  description: Put misc. details about the event here.
 - name: forms_group
   type: field_group_list
   fields:

@@ -1,32 +1,44 @@
 ---
 layout: collection-item
 title: 'Webinar: Exploring the Basics of Lighting'
-card-img-url: assets/img/copy-of-website-banner-1.jpg
-banner-img-url: assets/img/copy-of-copy-of-website-banner.png
-date: 2021-03-27T03:00:00.000+00:00
+card-img-url: assets/img/cards3-webinar-aprl24-2021.jpg
+banner-img-url: assets/img/screen-shot-2021-04-22-at-5-05-39-pm.jpg
+date: 2001-12-01 17:00:00 +0000
 event-type: webinar
-description: Learn about becoming a previz artist and making your shots stand out!
+description: Want to know the basics of a good lighting reel? Join us and find out
+  from senior VFX Trainer.
 enable-featured-card: false
 enable-featured-banner: true
 enable-header: true
 enable-banner: false
 event_banner_enabled: true
-video_link: ''
+video_link: https://www.facebook.com/events/830185627574053
 event_description: ''
 forms_group: []
-published: false
 
 ---
 **When:**
 
-Friday, March 26, 2021 at 11 PM EDT – 12 AM EDT
+Friday, March 26, 2021 at 12 PM – 1 AM EDT
 
 **Details:**
 
-RSVP on Facebook: [https://www.facebook.com/events/276816953883721/](https://www.facebook.com/events/276816953883721/ "https://www.facebook.com/events/276816953883721/")
+RSVP on Facebook: [https://www.facebook.com/events/830185627574053](https://www.facebook.com/events/830185627574053 "https://www.facebook.com/events/830185627574053")
 
-Want to know what makes your shots stand out from the rest or what goes into the process of becoming a good previs 3d artist? Join us and find out from senior visualization artist/ animator Prasad with credits on features such as Avengers, Thor Ragnarok, Ant-Man, Lovecraft Country, and more! Prasad has worked as a senior previsualization artist at Marvel, The Third Floor, Luma Pictures, Laika House, etc.
+Want to know the basics of a good lighting reel? Join us and find out from senior VFX Trainer. Anandh has been in the animation industry for over 16 years now and has been teaching in multiple countries including India, Sri Lanka and the UK.
 
 **Panelist:**
 
-[Prasad K. Narse](https://www.linkedin.com/in/prasadnarse/) - Senior Visualization Artist/ Senior Animator
+ANANDH RAMESH  
+Senior Lecturer - Animation and Visual Effects, Norwich University of the Arts (UK)  
+He has worked for top studios such as DNEG as a VFX Trainer.
+
+Zoom Meeting Link:
+
+[https://zoom.us/j/98805289211...](https://zoom.us/j/98805289211... "https://zoom.us/j/98805289211...")
+
+Meeting ID: 988 0528 9211  
+Passcode: 156260
+
+Sponsored by your,  
+ACM SIGGRAPH S3 Committee

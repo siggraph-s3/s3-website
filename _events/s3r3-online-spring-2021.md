@@ -5,8 +5,8 @@ card-img-url: assets/img/portfolio-review-announcement-v1.png
 banner-img-url: assets/img/s3r3-1.png
 date: 2021-02-28T04:59:00.000+00:00
 event-type: s3r3
-enable-featured-card: true
-enable-featured-banner: true
+enable-featured-card: false
+enable-featured-banner: false
 enable-header: true
 enable-banner: false
 event_banner_enabled: true

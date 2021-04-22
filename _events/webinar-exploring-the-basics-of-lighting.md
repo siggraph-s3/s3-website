@@ -12,7 +12,7 @@ enable-featured-banner: true
 enable-header: true
 enable-banner: false
 event_banner_enabled: true
-video_link: https://www.facebook.com/events/830185627574053
+video_link: ''
 event_description: ''
 forms_group: []
 
@@ -32,13 +32,6 @@ Want to know the basics of a good lighting reel? Join us and find out from senio
 ANANDH RAMESH  
 Senior Lecturer - Animation and Visual Effects, Norwich University of the Arts (UK)  
 He has worked for top studios such as DNEG as a VFX Trainer.
-
-Zoom Meeting Link:
-
-[https://zoom.us/j/98805289211...](https://zoom.us/j/98805289211... "https://zoom.us/j/98805289211...")
-
-Meeting ID: 988 0528 9211  
-Passcode: 156260
 
 Sponsored by your,  
 ACM SIGGRAPH S3 Committee

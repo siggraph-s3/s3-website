@@ -1,12 +1,12 @@
 ---
 layout: collection-item
-title: 'Webinar: Breathing Life into your Animations'
-card-img-url: assets/img/cards3-webinar-aprl24-2021.jpg
-banner-img-url: assets/img/screen-shot-2021-04-22-at-5-05-39-pm.jpg
-date: 2001-12-01 17:00:00 +0000
+title: 'Webinar: Breathing Life into Your Animations'
+card-img-url: ''
+banner-img-url: ''
+date: 2021-05-22 17:00:00 +0000
 event-type: webinar
-description: Want to know the basics of a good lighting reel? Join us and find out
-  from senior VFX Trainer.
+description: Want to know how to breath life into your animations? Join us and find
+  out from a veteran animation director.
 enable-featured-card: false
 enable-featured-banner: true
 enable-header: true
@@ -20,19 +20,18 @@ published: false
 ---
 **When:**
 
-Friday, March 26, 2021 at 12 PM – 1 AM EDT
+Saturday, May 22, 2021 at 1 PM EDT – 1:45 PM EDT
 
 **Details:**
 
-RSVP on Facebook: [https://www.facebook.com/events/830185627574053](https://www.facebook.com/events/830185627574053 "https://www.facebook.com/events/830185627574053")
+RSVP on Facebook: [https://www.facebook.com/events/167768338505526](https://www.facebook.com/events/167768338505526 "https://www.facebook.com/events/167768338505526")
 
-Want to know the basics of a good lighting reel? Join us and find out from senior VFX Trainer. Anandh has been in the animation industry for over 16 years now and has been teaching in multiple countries including India, Sri Lanka and the UK.
+Want to know how to breath life into your animations? Join us and find out from a veteran animation director.
 
 **Panelist:**
 
-ANANDH RAMESH  
-Senior Lecturer - Animation and Visual Effects, Norwich University of the Arts (UK)  
-He has worked for top studios such as DNEG as a VFX Trainer.
+PETER CHANTHANAKONE  
+Director/Associate Professor.
 
 Sponsored by your,  
 ACM SIGGRAPH S3 Committee

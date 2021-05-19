@@ -3,7 +3,7 @@ layout: collection-item
 title: 'Webinar: Exploring the Basics of Lighting'
 card-img-url: assets/img/cards3-webinar-aprl24-2021.jpg
 banner-img-url: assets/img/screen-shot-2021-04-22-at-5-05-39-pm.jpg
-date: 2001-12-01 17:00:00 +0000
+date: 2021-03-26 04:00:00 +0000
 event-type: webinar
 description: Want to know the basics of a good lighting reel? Join us and find out
   from senior VFX Trainer.

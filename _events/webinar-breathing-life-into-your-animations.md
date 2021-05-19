@@ -1,8 +1,8 @@
 ---
 layout: collection-item
 title: 'Webinar: Breathing Life into Your Animations'
-card-img-url: ''
-banner-img-url: ''
+card-img-url: assets/img/s3-webinar-9_resize.png
+banner-img-url: assets/img/s3-webinar-9_resize2.png
 date: 2021-05-22 17:00:00 +0000
 event-type: webinar
 description: Want to know how to breath life into your animations? Join us and find
@@ -15,7 +15,6 @@ event_banner_enabled: true
 video_link: ''
 event_description: ''
 forms_group: []
-published: false
 
 ---
 **When:**

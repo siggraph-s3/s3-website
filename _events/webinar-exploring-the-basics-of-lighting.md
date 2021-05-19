@@ -8,7 +8,7 @@ event-type: webinar
 description: Want to know the basics of a good lighting reel? Join us and find out
   from senior VFX Trainer.
 enable-featured-card: false
-enable-featured-banner: true
+enable-featured-banner: false
 enable-header: true
 enable-banner: false
 event_banner_enabled: true

@@ -8,7 +8,7 @@ event-type: webinar
 description: Want to know how to breath life into your animations? Join us and find
   out from a veteran animation director.
 enable-featured-card: false
-enable-featured-banner: true
+enable-featured-banner: false
 enable-header: true
 enable-banner: false
 event_banner_enabled: true

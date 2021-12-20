@@ -111,7 +111,7 @@ Review the [mentorship agreement]({{site.baseurl}}{{page.mentorship-agreement-li
 
 Applications are open!
 
-<a class="button expand" href="{{page.application-link}}">XSV Application</a>
+<a class="button expand" href="{{page.application-link}}">CAP Application</a>
 
 ### Questions
 

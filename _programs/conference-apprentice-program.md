@@ -5,7 +5,7 @@ enable-header: true
 application-link: https://forms.gle/kwvd93VxiYxGrzY56
 age-18-by-date: 01 July 2022
 siggraph-year: 2022
-academic-year: 2021-2022
+academic-year: 2021 – 2022
 academic-year-not-eligible: Summer 2021 – Spring 2022
 application-deadline: 30 April 2022
 app-deadline-1: 04 February 2022

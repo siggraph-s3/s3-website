@@ -24,7 +24,9 @@ application-pairing-date: 2022-05-15 04:00:00 +0000
 mentorship-agreement-link: "/assets/downloads/xsv-mentoring-agreement-2019.docx"
 
 ---
-Are you no longer qualified to be a SIGGRAPH Student Volunteer? Want to become more involved with ACM SIGGRAPH and the computer graphics community? Thinking about someday applying to be on an ACM SIGGRAPH committee or SIGGRAPH conference subcommittee? If you answered “Yes!” to these questions, then the Conference Apprentice Program (CAP) is for YOU! This program is a unique opportunity to get a behind-the-scenes perspective on everything involved with an ACM SIGGRAPH Executive Committee or a specific SIGGRAPH Conference program.
+New for 2022 the XSV Program has been rebranded to the Conference Apprentice Program (CAP)!
+
+CAP is a unique opportunity to get a behind-the-scenes perspective on everything involved with an ACM SIGGRAPH Executive Committee or a specific SIGGRAPH Conference program.
 
 As a Conference Apprentice, you will either take on a specific role on an ACM SIGGRAPH Executive or SIGGRAPH Conference Committee. You will be mentored by an ACM SIGGRAPH or SIGGRAPH Conference Committee member and have the opportunity to build your SIGGRAPH network by meeting and learning from the professionals, creators, educators, and visionaries who make SIGGRAPH possible. Individuals who demonstrate leadership and a passion for volunteering for SIGGRAPH are encouraged to apply!
 

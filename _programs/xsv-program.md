@@ -1,32 +1,32 @@
 ---
 layout: collection-item
-title: XSV Program
+title: Conference Apprentice Program
 enable-header: true
-application-link: https://forms.gle/jBhtso9VdpmFPdSq9
-age-18-by-date: 30 April, 2021
-siggraph-year: 2021
-academic-year: 2020-2021
-academic-year-not-eligible: Summer 2020 – Spring 2021
-application-deadline: 14 May, 2021
-app-deadline-1: 14 May, 2021
+application-link: https://forms.gle/kwvd93VxiYxGrzY56
+age-18-by-date: 01 July 2022
+siggraph-year: 2022
+academic-year: 2021-2022
+academic-year-not-eligible: Summer 2021 – Spring 2022
+application-deadline: 30 April 2022
+app-deadline-1: 04 February 2022
 app-results-1: NA
-app-deadline-2: NA
+app-deadline-2: 30 April 2022
 app-results-2: NA
 app-deadline-3: NA
 app-results-3: NA
 application-timezone: 22:00 UTC/GMT
-siggraph-dates: 1 - 5 August, 2021
+siggraph-dates: 8 - 11 August, 2022
 arrival-date: NA
 departure-date: NA
-city: Los Angeles
-venue: " Los Angeles Convention Center"
-application-pairing-date: 2021-05-21T16:00:00.000+00:00
+city: Vancouver
+venue: Vancouver Convention Centre
+application-pairing-date: 2022-05-15 04:00:00 +0000
 mentorship-agreement-link: "/assets/downloads/xsv-mentoring-agreement-2019.docx"
 
 ---
-Are you no longer qualified to be a SIGGRAPH Student Volunteer? Want to become more involved with ACM SIGGRAPH and the computer graphics community? Thinking about someday applying to be on an ACM SIGGRAPH committee or SIGGRAPH conference subcommittee? If you answered “Yes!” to these questions, then the XSV Program is for YOU! This program is a unique opportunity to get a behind-the-scenes perspective on everything involved with an ACM SIGGRAPH Executive Committee or a specific SIGGRAPH Conference program.
+Are you no longer qualified to be a SIGGRAPH Student Volunteer? Want to become more involved with ACM SIGGRAPH and the computer graphics community? Thinking about someday applying to be on an ACM SIGGRAPH committee or SIGGRAPH conference subcommittee? If you answered “Yes!” to these questions, then the Conference Apprentice Program (CAP) is for YOU! This program is a unique opportunity to get a behind-the-scenes perspective on everything involved with an ACM SIGGRAPH Executive Committee or a specific SIGGRAPH Conference program.
 
-As an XSV, you will either take on a specific role on an ACM SIGGRAPH Executive or SIGGRAPH Conference Committee or contribute to a specific project. You will be mentored by an ACM SIGGRAPH or SIGGRAPH Conference Committee member and have the opportunity to build your SIGGRAPH network by meeting and learning from the professionals, creators, educators, and visionaries who make SIGGRAPH possible. Individuals who demonstrate leadership and a passion for volunteering for SIGGRAPH are encouraged to apply!
+As a Conference Apprentice, you will either take on a specific role on an ACM SIGGRAPH Executive or SIGGRAPH Conference Committee. You will be mentored by an ACM SIGGRAPH or SIGGRAPH Conference Committee member and have the opportunity to build your SIGGRAPH network by meeting and learning from the professionals, creators, educators, and visionaries who make SIGGRAPH possible. Individuals who demonstrate leadership and a passion for volunteering for SIGGRAPH are encouraged to apply!
 
 This experience is available to those who are no longer eligible to serve as a SIGGRAPH Conference Student Volunteer or Team Leader. Applicants must have attended the SIGGRAPH Conference at least once in the last 3 years.
 
@@ -49,9 +49,9 @@ Applicants must have attended the SIGGRAPH Conference at least once in the last 
 
 ### Deadlines & Important Dates
 
-XSV applications will be considered based on the best fit/match for the available positions at the time of the deadline. Submit your application early for the highest likelihood of pairing. The number of pairings is dependent on the requests received from the venue chairs and Executive Committee representatives.
+CAP applications will be considered based on the best fit/match for the available positions at the time of the deadline. Submit your application early for the highest likelihood of pairing. The number of pairings is dependent on the requests received from the venue chairs and Executive Committee representatives.
 
-The application must be fully completed and submitted before the deadline to be considered. Be sure your resume highlights your skills and qualifications to be an XSV.
+The application must be fully completed and submitted before the deadline to be considered. Be sure your resume highlights your skills and qualifications to be a Conference Apprentice.
 
 #### {{page.app-deadline-1}}: Application Deadline
 
@@ -97,7 +97,7 @@ Meet industry professionals from all over the globe who share your passion for c
 
 ### Expenses
 
-No expenses are planned to be covered for 2021.
+No expenses are planned to be covered for 2022.
 
 ### Mentorship Agreement
 

@@ -18,8 +18,8 @@
     url: "/programs/s3r3/"
   - name: Webinars
     url: "/programs/webinars/"
-  - name: XSV
-    url: "/programs/xsv-program/"
+  - name: CAP
+    url: "/programs/conference-apprentice-program/"
   - name: MentorMe
     url: "/programs/mentor-me/"
   enable_sublinks: true

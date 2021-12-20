@@ -55,9 +55,11 @@ CAP applications will be considered based on the best fit/match for the availabl
 
 The application must be fully completed and submitted before the deadline to be considered. Be sure your resume highlights your skills and qualifications to be a Conference Apprentice.
 
-#### {{page.app-deadline-1}}: Application Deadline
+#### {{page.app-deadline-1}}: Application Deadline 1
 
-Please complete the application on the S3 website by {{page.application-timezone}} on {{page.app-deadline-1}}. (Convert to your time zone.) Application pairings will be sent on a rolling basis.
+#### {{page.app-deadline-2}}: Application Deadline 2
+
+Please complete the application on the S3 website no later than {{page.application-timezone}} on {{page.app-deadline-2}} for consideration. Application pairings will be completed on a rolling basis, so the earlier you apply then the higher likelihood for a match.
 
 If matched, you will receive an email notification at the same address you provided in your application. Please adjust your spam filter so that messages from siggraph.org email addresses will not be placed in your junk-mail folder.
 
@@ -65,7 +67,7 @@ If matched, you will receive an email notification at the same address you provi
 
 #### Attend Mandatory Online Orientation
 
-Meet with all accepted XSVs and the S3 XSV Liaison to discuss pairing and expectations.
+Meet with all accepted Conference Apprentices and the S3 CAP Liaison to discuss pairing and expectations.
 
 #### Establish Mentorship Relationship with ACM SIGGRAPH or SIGGRAPH {{page.siggraph-year}} Committee Member
 

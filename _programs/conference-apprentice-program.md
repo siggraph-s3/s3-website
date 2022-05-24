@@ -109,7 +109,7 @@ Review the [mentorship agreement]({{site.baseurl}}{{page.mentorship-agreement-li
 
 ### Application
 
-Applications are open!
+Applications are now closed for SIGGRAPH 2022. Please check back in the Fall for next year's application.
 
 <a class="button expand" href="{{page.application-link}}">CAP Application</a>
 

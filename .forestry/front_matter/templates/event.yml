@@ -16,7 +16,8 @@ fields:
     - s3r3
     - alumni reunion
     - webinar
-  description: 'Choose: s3r3, alumni reunion, webinar'
+    - portfolio-clinic
+  description: 'Choose: s3r3, alumni reunion, webinar, portfolio clinic'
 - type: file
   name: banner-img-url
   label: Featured Banner Image

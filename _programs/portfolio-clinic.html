@@ -1,0 +1,24 @@
+---
+layout: collection-item
+title: S3 Portfolio Clinic
+enable-header: true
+page-text: "S3 offers a monthly podcast where we explore and discuss best practices, professional advice, tips of the trade, and insight into multiple CG fields. In every session we invite our industry professional volunteers to answer all your questions on everything, from demo reels to resumes. Have a direct question about your work? Let us help you answer it by having your work featured in our discussions."
+---
+<p>{{ page.page-text }}</p>
+
+<div class="row">
+    <div class="small-12 medium-push-3 medium-6 large-push-3 large-6 columns">
+
+      {% assign events = site.events | reverse | where: "event-type", "portfolio-clinic" %}
+      {% for event in events %}
+        {% if event.enable-featured-banner == true %}
+          {% capture featured_title %}{{event.title}}{% endcapture %}
+          {% capture featured_text %}{{event.description}}{% endcapture %}
+          {% capture featured_class %}{{event.class}}{% endcapture %}
+          {% capture featured_image %}{{event.card-img-url}}{% endcapture %}
+          {% capture featured_url %}{{event.url}}{% endcapture %}
+          {% include featured-card.html featured_class=featured_class featured_image=featured_image featured_title=featured_title featured_text=featured_text featured_url=featured_url %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>

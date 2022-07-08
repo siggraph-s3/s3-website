@@ -22,6 +22,8 @@
     url: "/programs/conference-apprentice-program/"
   - name: MentorMe
     url: "/programs/mentor-me/"
+  - name: Portfolio Clinic
+    url: "/programs/portfolio-clinic/"
   enable_sublinks: true
 - name: Events
   url: "/events/"

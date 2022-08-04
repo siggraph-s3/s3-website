@@ -3,7 +3,7 @@ layout: collection-item
 event_banner_enabled: true
 event-type: portfolio-clinic
 banner-img-url: ''
-card-img-url: assets/img/podcast_portfolio_clinic.jpeg
+card-img-url: assets/img/portolio_clinic_1.png
 enable-featured-banner: false
 enable-featured-card: true
 title: S3 Portfolio Clinic Podcast

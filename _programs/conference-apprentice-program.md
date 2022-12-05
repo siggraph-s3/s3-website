@@ -2,25 +2,25 @@
 layout: collection-item
 title: Conference Apprentice Program
 enable-header: true
-application-link: https://forms.gle/kwvd93VxiYxGrzY56
-age-18-by-date: 01 July 2022
-siggraph-year: 2022
-academic-year: 2021 – 2022
-academic-year-not-eligible: Summer 2021 – Spring 2022
-application-deadline: 30 April 2022
-app-deadline-1: 04 February 2022
+application-link: https://forms.gle/8ACdfyZE1FRudzQw8
+age-18-by-date: 01 July 2023
+siggraph-year: 2023
+academic-year: 2022 – 2023
+academic-year-not-eligible: Summer 2022 – Spring 2023
+application-deadline: 30 April 2023
+app-deadline-1: 04 February 2023
 app-results-1: NA
-app-deadline-2: 30 April 2022
+app-deadline-2: 30 April 2023
 app-results-2: NA
 app-deadline-3: NA
 app-results-3: NA
 application-timezone: 22:00 UTC/GMT
-siggraph-dates: 8 - 11 August, 2022
+siggraph-dates: 6 - 10 August, 2023
 arrival-date: NA
 departure-date: NA
 city: Vancouver
-venue: Vancouver Convention Centre
-application-pairing-date: 2022-05-15 04:00:00 +0000
+venue: Los Angeles Convention Center
+application-pairing-date: 2023-05-15 04:00:00 +0000
 mentorship-agreement-link: "/assets/downloads/xsv-mentoring-agreement-2019.docx"
 
 ---

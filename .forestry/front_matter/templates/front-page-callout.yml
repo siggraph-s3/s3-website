@@ -29,5 +29,6 @@ fields:
     field: enable-button
     value: true
 pages:
+- _front-page-callouts/cap-applications-are-open.html
 - _front-page-callouts/s3r3-siggraph-asia-2020.html
 - _front-page-callouts/s3r3-siggraph-na-2020.html

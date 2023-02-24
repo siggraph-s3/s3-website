@@ -24,9 +24,7 @@ application-pairing-date: 2023-05-15 04:00:00 +0000
 mentorship-agreement-link: "/assets/downloads/xsv-mentoring-agreement-2019.docx"
 
 ---
-New for 2022 the XSV Program has been rebranded to the Conference Apprentice Program (CAP)!
-
-CAP is a unique opportunity to get a behind-the-scenes perspective on everything involved with an ACM SIGGRAPH Executive Committee or a specific SIGGRAPH Conference program.
+The Conference Apprentice Program (CAP) is a unique opportunity to get a behind-the-scenes perspective on everything involved with an ACM SIGGRAPH Executive Committee or a specific SIGGRAPH Conference program.
 
 As a Conference Apprentice, you will either take on a specific role on an ACM SIGGRAPH Executive or SIGGRAPH Conference Committee. You will be mentored by an ACM SIGGRAPH or SIGGRAPH Conference Committee member and have the opportunity to build your SIGGRAPH network by meeting and learning from the professionals, creators, educators, and visionaries who make SIGGRAPH possible. Individuals who demonstrate leadership and a passion for volunteering for SIGGRAPH are encouraged to apply!
 
@@ -101,7 +99,7 @@ Meet industry professionals from all over the globe who share your passion for c
 
 ### Expenses
 
-No expenses are planned to be covered for 2022.
+A small stipend will be available for conference apprentices to help defray the expenses with attending the 2023 Conference in Los Angeles.
 
 ### Mentorship Agreement
 
@@ -109,7 +107,7 @@ Review the [mentorship agreement]({{site.baseurl}}{{page.mentorship-agreement-li
 
 ### Application
 
-Applications are now closed for SIGGRAPH 2022. Please check back in the Fall for next year's application.
+Application is now open for 2023!
 
 <a class="button expand" href="{{page.application-link}}">CAP Application</a>
 

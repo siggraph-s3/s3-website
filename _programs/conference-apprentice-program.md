@@ -107,7 +107,7 @@ Review the [mentorship agreement]({{site.baseurl}}{{page.mentorship-agreement-li
 
 ### Application
 
-Application is now open for 2023!
+Now open for 2023!
 
 <a class="button expand" href="{{page.application-link}}">CAP Application</a>
 

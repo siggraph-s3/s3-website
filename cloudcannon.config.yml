@@ -1,0 +1,223 @@
+collections_config:
+  front-page-callouts:
+    name: Front Page Callouts
+    path: _front-page-callouts
+    schemas:
+      default:
+        path: .cloudcannon/schemas/front-page-callout.md
+        name: Front Page Callout
+        remove_extra_inputs: false
+        hide_extra_inputs: true
+        _enabled_editors:
+          - data
+        _inputs:
+          $.enabled:
+            label: Enable Callout
+  page-sections:
+    name: Page sections
+    path: _page-sections
+    schemas:
+      default:
+        path: .cloudcannon/schemas/page-section.md
+        name: Page section
+        remove_extra_inputs: false
+        hide_extra_inputs: true
+        _enabled_editors:
+          - content
+        _inputs:
+          $.enable-on-page:
+            type: multiselect
+            options:
+              values: _select_data.enable-on-page
+  events:
+    name: Events
+    path: _events
+    schemas:
+      default:
+        path: .cloudcannon/schemas/event.md
+        name: Event
+        remove_extra_inputs: false
+        hide_extra_inputs: true
+        _enabled_editors:
+          - content
+        _inputs:
+          $.layout:
+            hidden: true
+          $.event-type:
+            type: select
+            label: Type of event
+            comment: 'Choose: s3r3, alumni reunion, webinar, portfolio clinic'
+          $.banner-img-url:
+            type: file
+            label: Featured Banner Image
+            comment: Upload an image with dimensions, 1200px * 550px
+          $.card-img-url:
+            type: file
+            label: Card Image
+            comment: 'Upload a square image. 741px * 741px '
+          $.enable-featured-banner:
+            label: Featured Banner
+            comment: >-
+              If this event is set to featured, it will appear in the front page
+              banner.
+          $.enable-featured-card:
+            label: Featured Card
+            comment: >-
+              If this event is set to featured, it will appear on the front
+              page.
+          $.title:
+            label: Event title
+            comment: 'Example: "2020 SV Alumni Reunion"'
+          $.description:
+            type: markdown
+            label: Event Description
+            comment: Put misc. details about the event here.
+          $.event_banner_enabled:
+            comment: Show the event banner on this event page.
+          $.video_link:
+            label: Webinar or Video Link
+            comment: IE - Link to Zoom.
+          $.forms_group:
+            type: array
+            label: Forms
+            options:
+              structures: _structures.forms_group
+  programs:
+    name: Programs
+    path: _programs
+    add_options: []
+    schemas:
+      s3r3-program:
+        path: .cloudcannon/schemas/s3r3-program.md
+        name: s3r3-program
+        remove_extra_inputs: false
+        hide_extra_inputs: true
+        _enabled_editors:
+          - content
+        _inputs:
+          $.close-date:
+            type: text
+          $.onsite-signup-form:
+            comment: Paste the entire iFrame embed code snippet.
+          $.onlinestudent-signup-form:
+            comment: Paste the entire iFrame embed code snippet.
+          $.reviewer-signup-form:
+            comment: Paste the entire iFrame embed code snippet.
+      mentorme-program:
+        path: .cloudcannon/schemas/mentorme-program.md
+        name: mentorme-program
+        remove_extra_inputs: false
+        hide_extra_inputs: true
+        _enabled_editors:
+          - content
+      program:
+        path: .cloudcannon/schemas/program.md
+        name: xsv-program
+        remove_extra_inputs: false
+        hide_extra_inputs: true
+        _enabled_editors:
+          - content
+        _inputs:
+          $.layout:
+            hidden: true
+          $.age-18-by-date:
+            type: text
+          $.siggraph-year:
+            type: number
+          $.arrival-date:
+            type: text
+          $.departure-date:
+            type: text
+          $.application-pairing-date:
+            type: datetime
+      webinar-program:
+        path: .cloudcannon/schemas/webinar-program.md
+        name: webinar-program
+        remove_extra_inputs: false
+        hide_extra_inputs: true
+        _enabled_editors:
+          - data
+        _inputs:
+          $.layout:
+            hidden: true
+  team:
+    name: Team
+    path: _team
+    schemas:
+      team-member:
+        path: .cloudcannon/schemas/team-member.md
+        name: Team member
+        remove_extra_inputs: false
+        hide_extra_inputs: true
+        _enabled_editors:
+          - content
+        _inputs:
+          $.layout:
+            hidden: true
+          $.img:
+            type: file
+            label: Profile picture
+          $.role:
+            comment: IE - "Committee Chair"
+          $.member-order:
+            type: number
+collection_groups:
+  - heading: Content
+    collections:
+      - front-page-callouts
+      - page-sections
+      - events
+      - programs
+      - team
+paths:
+  static: ''
+  uploads: assets/img
+_select_data:
+  enable-on-page:
+    - Education
+    - Industry and Career
+    - SIGGRAPH S3
+    - Team
+_structures:
+  forms_group:
+    values:
+      - value:
+          enable_form: true
+          form_name: ''
+          embed_code: ''
+  Navbar:
+    values:
+      - value:
+          name: ''
+          url_active: true
+          url: ''
+          enable_sublinks: true
+          subfolderitems: []
+        _inputs:
+          url_active:
+            label: Enable link url
+            comment: When disabled, the link becomes inactive.
+          enable_sublinks:
+            comment: Enable to show menu sublinks
+          subfolderitems:
+            type: array
+            label: Sub link
+            comment: This is a sublink for the main menu
+            options:
+              structures: _structures.subfolderitems
+  subfolderitems:
+    values:
+      - value:
+          name: ''
+          url: ''
+        _inputs:
+          name:
+            label: Link Title
+            comment: Entire the name of submenu the link
+          url:
+            comment: >-
+              Absolute url example: "http:www.google.com". Relative url example:
+              "/programs/xsv/"
+_inputs:
+  template:
+    hidden: true

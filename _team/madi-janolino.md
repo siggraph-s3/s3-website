@@ -1,4 +1,5 @@
 ---
+_schema: team-member
 img: assets/img/janolinomadi_proprofile_01.jpg
 layout: 'collection-item'
 name: Madi Janolino

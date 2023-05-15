@@ -1,4 +1,5 @@
 ---
+_schema: team-member
 layout: collection-item
 name: Corinne Price
 member-order: 2

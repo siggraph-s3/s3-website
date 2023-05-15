@@ -1,4 +1,5 @@
 ---
+_schema: program
 layout: collection-item
 title: Conference Apprentice Program
 enable-header: true

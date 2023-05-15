@@ -1,4 +1,5 @@
 ---
+_schema: team-member
 layout: collection-item
 name: Chris Van Noy-March
 member-order: 3

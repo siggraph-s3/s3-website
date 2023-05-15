@@ -1,4 +1,5 @@
 ---
+_schema: team-member
 layout: collection-item
 name: Benny Garcia
 member-order: 4

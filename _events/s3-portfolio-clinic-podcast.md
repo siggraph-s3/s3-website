@@ -1,17 +1,17 @@
 ---
+_schema: default
 layout: collection-item
-event_banner_enabled: true
 event-type: portfolio-clinic
 banner-img-url: ''
 card-img-url: assets/img/portolio_clinic_1.png
 enable-featured-banner: false
-enable-featured-card: true
+enable-featured-card: false
 title: S3 Portfolio Clinic Podcast
 description: ''
-date: 2022-07-30 17:00:00 +0000
+event_banner_enabled: false
+date: 2022-07-30 17:00:00
 video_link: ''
 forms_group: []
-
 ---
 ## S3 Portfolio Clinic Podcast
 

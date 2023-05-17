@@ -5,7 +5,7 @@ event-type: portfolio-clinic
 banner-img-url: /assets/img/s3-portfolioclinicpodcast-mayjunejuly2023.png
 card-img-url: /assets/img/s3-portfolio-clinic-podcast-may-june-july-2023-1.jpg
 enable-featured-banner: false
-enable-featured-card: false
+enable-featured-card: true
 title: 2023 Portfolio Clinic Podcast
 description: ''
 event_banner_enabled: false

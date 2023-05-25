@@ -3,7 +3,7 @@ _schema: program
 layout: collection-item
 title: Conference Apprentice Program
 enable-header: false
-application-link:
+application-link: ''
 age-18-by-date: 01 July 2023
 siggraph-year: 2023
 academic-year: 2022 – 2023
@@ -108,7 +108,7 @@ Review the [mentorship agreement]() and be prepared to discuss with your mentor 
 
 ### Application
 
-Now closed for 2023.
+Closed for 2023.
 
 ### Questions
 

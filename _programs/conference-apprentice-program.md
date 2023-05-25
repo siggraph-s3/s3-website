@@ -2,8 +2,8 @@
 _schema: program
 layout: collection-item
 title: Conference Apprentice Program
-enable-header: true
-application-link: https://forms.gle/8ACdfyZE1FRudzQw8
+enable-header: false
+application-link:
 age-18-by-date: 01 July 2023
 siggraph-year: 2023
 academic-year: 2022 – 2023
@@ -21,9 +21,8 @@ arrival-date: NA
 departure-date: NA
 city: Vancouver
 venue: Los Angeles Convention Center
-application-pairing-date: 2023-05-15 04:00:00 +0000
-mentorship-agreement-link: "/assets/downloads/xsv-mentoring-agreement-2019.docx"
-
+application-pairing-date: 2023-05-15 04:00:00
+mentorship-agreement-link: /assets/downloads/xsv-mentoring-agreement-2019.docx
 ---
 The Conference Apprentice Program (CAP) is a unique opportunity to get a behind-the-scenes perspective on everything involved with an ACM SIGGRAPH Executive Committee or a specific SIGGRAPH Conference program.
 
@@ -32,7 +31,8 @@ As a Conference Apprentice, you will either take on a specific role on an ACM SI
 This experience is available to those who are no longer eligible to serve as a SIGGRAPH Conference Student Volunteer or Team Leader. Applicants must have attended the SIGGRAPH Conference at least once in the last 3 years.
 
 Don’t miss out on the opportunity to expand your knowledge of what goes into putting this awesome conference together each year and get involved with the SIGGRAPH community!
-<hr>
+
+---
 
 ## Eligibility requirements
 
@@ -54,9 +54,9 @@ CAP applications will be considered based on the best fit/match for the availabl
 
 The application must be fully completed and submitted before the deadline to be considered. Be sure your resume highlights your skills and qualifications to be a Conference Apprentice.
 
-#### {{page.app-deadline-1}}: Application Deadline 1
+#### {{page.app-deadline-1}}\: Application Deadline 1
 
-#### {{page.app-deadline-2}}: Application Deadline 2
+#### {{page.app-deadline-2}}\: Application Deadline 2
 
 Please complete the application on the S3 website no later than {{page.application-timezone}} on {{page.app-deadline-2}} for consideration. Application pairings will be completed on a rolling basis, so the earlier you apply then the higher likelihood for a match.
 
@@ -104,13 +104,11 @@ A small stipend will be available for conference apprentices to help defray the 
 
 ### Mentorship Agreement
 
-Review the [mentorship agreement]({{site.baseurl}}{{page.mentorship-agreement-link}}) and be prepared to discuss with your mentor during your first session.
+Review the [mentorship agreement]() and be prepared to discuss with your mentor during your first session.
 
 ### Application
 
-Now open for 2023!
-
-<a class="button expand" href="{{page.application-link}}">CAP Application</a>
+Now closed for 2023.
 
 ### Questions
 

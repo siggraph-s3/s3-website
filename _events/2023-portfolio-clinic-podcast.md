@@ -2,8 +2,8 @@
 _schema: default
 layout: collection-item
 event-type: portfolio-clinic
-banner-img-url: /assets/img/s3-portfolioclinicpodcast-mayjunejuly2023.png
-card-img-url: /assets/img/s3-portfolio-clinic-podcast-may-june-july-2023-1.jpg
+banner-img-url: assets/img/s3-portfolioclinicpodcast-mayjunejuly2023.png
+card-img-url: assets/img/s3-portfolio-clinic-podcast-may-june-july-2023-1.jpg
 enable-featured-banner: false
 enable-featured-card: false
 title: 2023 Portfolio Clinic Podcast

@@ -3,7 +3,7 @@ _schema: program
 layout: collection-item
 title: Conference Apprentice Program
 enable-header: false
-application-link: https://forms.gle/9Trs9dR4ZKWdkVZx6
+application-link:
 age-18-by-date: 01 July 2024
 siggraph-year: 2024
 academic-year: 2023 – 2024
@@ -104,7 +104,7 @@ Review the [mentorship agreement]() and be prepared to discuss with your mentor 
 
 ### Application
 
-Closed for 2023.
+Apply [her](https://forms.gle/9Trs9dR4ZKWdkVZx6){: target="_blank" rel="noopener"}[e](__notset__).
 
 ### Questions
 

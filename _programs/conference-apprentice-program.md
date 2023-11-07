@@ -42,7 +42,7 @@ Applicants must be 18 years of age or older on or before {{page.age-18-by-date}}
 
 ### Status
 
-Applicants must no longer be eligible to serve as a SIGGRAPH Conference Student Volunteer or Team Leader. This means high school, undergraduate, or graduate students enrolled with a minimum of 6 credit hours for at least one semester during the {{page.academic-year}} academic year ({{page.academic-year-not-eligible}}) are NOT eligible.
+Applicants must no longer be eligible to serve as a SIGGRAPH Conference Student Volunteer or Team Leader. This means high school, undergraduate, or graduate students enrolled full-time for at least one semester during the {{page.academic-year}} academic year. ({{page.academic-year-not-eligible}}) are NOT eligible.
 
 ### Experience
 

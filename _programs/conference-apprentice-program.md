@@ -54,11 +54,7 @@ CAP applications will be considered based on the best fit/match for the availabl
 
 The application must be fully completed and submitted before the deadline to be considered. Be sure your resume highlights your skills and qualifications to be a Conference Apprentice.
 
-#### {{page.app-deadline-1}}: Application Deadline 1
-
-#### {{page.app-deadline-2}}: Application Deadline 2
-
-Please complete the application on the S3 website no later than {{page.application-timezone}} on {{page.app-deadline-2}} for consideration. Application pairings will be completed on a rolling basis, so the earlier you apply then the higher likelihood for a match.
+Complete the application on the S3 website no later than {{page.application-timezone}} on {{page.app-deadline-2}} for consideration. Application pairings will be completed on a rolling basis, so the earlier you apply then the higher likelihood for a match.
 
 If matched, you will receive an email notification at the same address you provided in your application. Please adjust your spam filter so that messages from siggraph.org email addresses will not be placed in your junk-mail folder.
 
@@ -92,7 +88,7 @@ Learn more about what goes on in the year-round planning and implementation for 
 
 #### S3 Résumé and Reel Review Sessions
 
-Polish that reel and résumé, and get some professional feedback to land that dream job! Space is limited. This program is made possible by S3.
+Polish that reel and résumé and get some professional feedback to land that dream job! Space is limited. This program is made possible by S3.
 
 #### Networking
 

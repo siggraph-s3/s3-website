@@ -3,7 +3,7 @@ _schema: program
 layout: collection-item
 title: Conference Apprentice Program
 enable-header: false
-application-link: ''
+application-link: https://forms.gle/9Trs9dR4ZKWdkVZx6
 age-18-by-date: 01 July 2024
 siggraph-year: 2024
 academic-year: 2023 – 2024
@@ -54,9 +54,9 @@ CAP applications will be considered based on the best fit/match for the availabl
 
 The application must be fully completed and submitted before the deadline to be considered. Be sure your resume highlights your skills and qualifications to be a Conference Apprentice.
 
-#### {{page.app-deadline-1}}\: Application Deadline 1
+#### {{page.app-deadline-1}}: Application Deadline 1
 
-#### {{page.app-deadline-2}}\: Application Deadline 2
+#### {{page.app-deadline-2}}: Application Deadline 2
 
 Please complete the application on the S3 website no later than {{page.application-timezone}} on {{page.app-deadline-2}} for consideration. Application pairings will be completed on a rolling basis, so the earlier you apply then the higher likelihood for a match.
 
@@ -100,7 +100,7 @@ Meet industry professionals from all over the globe who share your passion for c
 
 ### Expenses
 
-A small stipend will be available for conference apprentices to help defray the expenses with attending the 2023 Conference in Los Angeles.
+A small stipend will be available for conference apprentices to help defray the expenses with attending the 2024 Conference in Denver, Colorado.
 
 ### Mentorship Agreement
 

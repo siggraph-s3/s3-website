@@ -4,24 +4,24 @@ layout: collection-item
 title: Conference Apprentice Program
 enable-header: false
 application-link: ''
-age-18-by-date: 01 July 2023
-siggraph-year: 2023
-academic-year: 2022 – 2023
-academic-year-not-eligible: Summer 2022 – Spring 2023
-application-deadline: 30 April 2023
-app-deadline-1: 04 February 2023
+age-18-by-date: 01 July 2024
+siggraph-year: 2024
+academic-year: 2023 – 2024
+academic-year-not-eligible: Summer 2023 – Spring 2024
+application-deadline: 31 March 2024
+app-deadline-1: 31 March 2024
 app-results-1: NA
-app-deadline-2: 30 April 2023
+app-deadline-2: 31 March 2024
 app-results-2: NA
 app-deadline-3: NA
 app-results-3: NA
 application-timezone: 22:00 UTC/GMT
-siggraph-dates: 6 - 10 August, 2023
+siggraph-dates: 28 July - 01 August, 2024
 arrival-date: NA
 departure-date: NA
-city: Vancouver
-venue: Los Angeles Convention Center
-application-pairing-date: 2023-05-15 04:00:00
+city: Denver
+venue: Colorado Convention Center
+application-pairing-date: 2023-04-09 04:00:00
 mentorship-agreement-link: /assets/downloads/xsv-mentoring-agreement-2019.docx
 ---
 The Conference Apprentice Program (CAP) is a unique opportunity to get a behind-the-scenes perspective on everything involved with an ACM SIGGRAPH Executive Committee or a specific SIGGRAPH Conference program.

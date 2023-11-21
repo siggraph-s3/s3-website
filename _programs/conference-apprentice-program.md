@@ -2,7 +2,7 @@
 _schema: program
 layout: collection-item
 title: Conference Apprentice Program
-enable-header: false
+enable-header: true
 application-link:
 age-18-by-date: 01 July 2024
 siggraph-year: 2024

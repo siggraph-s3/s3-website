@@ -2,7 +2,7 @@
 _schema: team-member
 layout: collection-item
 name: Michael Collins
-img: assets/img/team/michaelcollins.jpg
+img: /assets/img/collins-md-sq-bw.jpg
 role: Chair
 member-order: 1
 ---

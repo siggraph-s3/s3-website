@@ -1,5 +1,5 @@
 ---
-layout: front-page-config
+layout: default
 title: SIGGRAPH S3
 text-heading: ''
 remove-duplicate-logo: false
@@ -12,3 +12,5 @@ twitter-feed: true
 twitter-account: siggraph
 
 ---
+
+Website has moved to [ecdc.siggraph.org](https://ecdc.siggraph.org)
